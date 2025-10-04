@@ -1,0 +1,152 @@
+{
+  "health_condition_categories": [
+    {
+      "category": "Bone and Joint Health",
+      "conditions": [
+        "Osteoporosis",
+        "Osteoarthritis",
+        "Joint Pain",
+        "Fracture Risk",
+        "Bone Health"
+      ]
+    },
+    {
+      "category": "Cardiovascular Health",
+      "conditions": [
+        "Heart Disease",
+        "High Triglycerides",
+        "Hypertension",
+        "High Cholesterol",
+        "Atherosclerosis",
+        "Heart Failure",
+        "Cardiovascular Disease",
+        "Stroke Risk",
+        "Circulation"
+      ]
+    },
+    {
+      "category": "Digestive Health",
+      "conditions": [
+        "Irritable Bowel Syndrome",
+        "Antibiotic-Associated Diarrhea",
+        "Ulcerative Colitis",
+        "Constipation",
+        "Diverticulitis",
+        "Hemorrhoids",
+        "Digestive Issues",
+        "Digestive Upset",
+        "Lactose Intolerance",
+        "Pancreatic Insufficiency",
+        "Liver Disease",
+        "Cirrhosis",
+        "Hepatitis",
+        "Liver Health"
+      ]
+    },
+    {
+      "category": "Immune Support",
+      "conditions": [
+        "Immune Deficiency",
+        "Immune Support",
+        "Common Cold",
+        "Influenza",
+        "Upper Respiratory Infections",
+        "Infections",
+        "Immune Function"
+      ]
+    },
+    {
+      "category": "Mental Health",
+      "conditions": [
+        "Depression",
+        "Anxiety",
+        "Stress",
+        "Cognitive Decline",
+        "Cognitive Function",
+        "Cognitive Performance"
+      ]
+    },
+    {
+      "category": "Metabolic Health",
+      "conditions": [
+        "Type 2 Diabetes",
+        "Metabolic Syndrome",
+        "Obesity",
+        "Weight Loss",
+        "Diabetes"
+      ]
+    },
+    {
+      "category": "Neurological Health",
+      "conditions": [
+        "Migraines",
+        "Neuropathy",
+        "Parkinson's Disease",
+        "Alzheimer's Disease",
+        "Diabetic Neuropathy",
+        "Tinnitus",
+        "Intermittent Claudication",
+        "Wernicke-Korsakoff Syndrome",
+        "Carpal Tunnel Syndrome"
+      ]
+    },
+    {
+      "category": "Reproductive Health",
+      "conditions": [
+        "Erectile Dysfunction",
+        "Menopausal Symptoms",
+        "Premenstrual Syndrome",
+        "Menstrual Pain",
+        "PMS",
+        "Preeclampsia",
+        "Breast Milk Production",
+        "Menstrual Cramps",
+        "Libido",
+        "Testosterone"
+      ]
+    },
+    {
+      "category": "Respiratory Health",
+      "conditions": [
+        "Chronic Bronchitis",
+        "Sore Throat"
+      ]
+    },
+    {
+      "category": "Skin and Hair Health",
+      "conditions": [
+        "Eczema",
+        "Acne",
+        "Skin Health",
+        "Skin Aging",
+        "Brittle Nails",
+        "Hair Loss",
+        "Seborrheic Dermatitis",
+        "Skin Burns",
+        "Skin Conditions",
+        "Skin Hydration"
+      ]
+    },
+    {
+      "category": "Sleep and Stress",
+      "conditions": [
+        "Insomnia",
+        "Jet Lag",
+        "Circadian Rhythm Disorders",
+        "Adrenal Fatigue",
+        "Sleep",
+        "Sleep Quality"
+      ]
+    },
+    {
+      "category": "Vision Health",
+      "conditions": [
+        "Age-Related Macular Degeneration",
+        "Cataracts",
+        "Night Blindness",
+        "Diabetic Retinopathy",
+        "Night Vision"
+      ]
+    }
+  ]
+}

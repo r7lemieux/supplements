@@ -1,0 +1,13 @@
+
+:root {
+  --menu-background-color: #050B2F;
+  --menu-highlight-color: #330;
+  --menu-anchor-color: #DDF;
+  --menu-item-color: #AA9;
+  --menu-selected-color: #EE5;
+  --background-color: #455;
+  --menu-icon-color: var(--menu-item-color);
+}
+body {
+  background-color: var(--background-color);
+}
