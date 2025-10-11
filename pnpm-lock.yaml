@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  svelte-mos: link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos
+
 importers:
 
   .:
@@ -12,8 +15,8 @@ importers:
         specifier: ^34.2.0
         version: 34.2.0
       svelte-mos:
-        specifier: file:../../lib/svelte-mos
-        version: file:../../lib/svelte-mos(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(vite@7.1.7(@types/node@24.6.2))
+        specifier: link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos
+        version: link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos
     devDependencies:
       '@sveltejs/adapter-cloudflare':
         specifier: ^7.0.0
@@ -671,11 +674,6 @@ packages:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
 
-  '@sveltejs/adapter-static@3.0.10':
-    resolution: {integrity: sha512-7D9lYFWJmB7zxZyTE/qxjksvMqzMuYrrsyh1f4AlZqeZeACPRySjbC3aFiY55wb1tWUaKOQG9PVbm74JcN2Iew==}
-    peerDependencies:
-      '@sveltejs/kit': ^2.0.0
-
   '@sveltejs/kit@2.43.5':
     resolution: {integrity: sha512-44Mm5csR4mesKx2Eyhtk8UVrLJ4c04BT2wMTfYGKJMOkUqpHP5KLL2DPV0hXUA4t4+T3ZYe0aBygd42lVYv2cA==}
     engines: {node: '>=18.13'}
@@ -823,10 +821,6 @@ packages:
   exsolve@1.0.7:
     resolution: {integrity: sha512-VO5fQUzZtI6C+vx4w/4BWJpg3s/5l+6pRQEHzFRM8WFi4XffSP1Z+4qi7GbjWbvRQEbdIco5mIMq+zX4rPuLrw==}
 
-  fastest-levenshtein@1.0.16:
-    resolution: {integrity: sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==}
-    engines: {node: '>= 4.9.1'}
-
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
     engines: {node: '>=12.0.0'}
@@ -950,10 +944,6 @@ packages:
     resolution: {integrity: sha512-KXDYZ9dszj6bzvnEMRYvxgeTHU74QBFL54XKtP3nyMuJ81CFYtABZ3bAzL2EdFUaEwJOBOgENyFj3R7oTzDyyw==}
     engines: {node: '>=4', npm: '>=6'}
 
-  string-similarity@4.0.4:
-    resolution: {integrity: sha512-/q/8Q4Bl4ZKAPjj8WerIBJWALKkaPRfrvhfF8k/B23i4nzrlRj2/go1m90In7nG/3XDSbOo0+pu6RvCTM9RGMQ==}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-
   supports-color@10.2.2:
     resolution: {integrity: sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g==}
     engines: {node: '>=18'}
@@ -965,14 +955,6 @@ packages:
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
-
-  svelte-icons-pack@3.1.3:
-    resolution: {integrity: sha512-sJ/ZiFkbim5zfU+T8V/kEendOluEYtJ7rp207Gc2c/NFgaj4CvWScUbuiByZrdf3Xm8n731Fug36IiXuLTkR9A==}
-    peerDependencies:
-      svelte: ^3.44.0 || ^4.0.0 || ^5.0.0-next.1
-
-  svelte-mos@file:../../lib/svelte-mos:
-    resolution: {directory: ../../lib/svelte-mos, type: directory}
 
   svelte@5.39.6:
     resolution: {integrity: sha512-bOJXmuwLNaoqPCTWO8mPu/fwxI5peGE5Efe7oo6Cakpz/G60vsnVF6mxbGODaxMUFUKEnjm6XOwHEqOht6cbvw==}
@@ -1494,10 +1476,6 @@ snapshots:
       worktop: 0.8.0-next.18
       wrangler: 4.40.2(@cloudflare/workers-types@4.20250927.0)
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))':
-    dependencies:
-      '@sveltejs/kit': 2.43.5(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2))
-
   '@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2))':
     dependencies:
       '@standard-schema/spec': 1.0.0
@@ -1671,8 +1649,6 @@ snapshots:
 
   exsolve@1.0.7: {}
 
-  fastest-levenshtein@1.0.16: {}
-
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
       picomatch: 4.0.3
@@ -1820,8 +1796,6 @@ snapshots:
 
   stoppable@1.1.0: {}
 
-  string-similarity@4.0.4: {}
-
   supports-color@10.2.2: {}
 
   svelte-check@4.3.2(picomatch@4.0.3)(svelte@5.39.6)(typescript@5.9.2):
@@ -1835,25 +1809,6 @@ snapshots:
       typescript: 5.9.2
     transitivePeerDependencies:
       - picomatch
-
-  svelte-icons-pack@3.1.3(svelte@5.39.6):
-    dependencies:
-      svelte: 5.39.6
-
-  svelte-mos@file:../../lib/svelte-mos(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(vite@7.1.7(@types/node@24.6.2)):
-    dependencies:
-      '@sveltejs/adapter-static': 3.0.10(@sveltejs/kit@2.43.5(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))
-      '@sveltejs/kit': 2.43.5(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2)))(svelte@5.39.6)(vite@7.1.7(@types/node@24.6.2))
-      ag-grid-community: 34.2.0
-      esm-env: 1.2.2
-      fastest-levenshtein: 1.0.16
-      string-similarity: 4.0.4
-      svelte: 5.39.6
-      svelte-icons-pack: 3.1.3(svelte@5.39.6)
-    transitivePeerDependencies:
-      - '@opentelemetry/api'
-      - '@sveltejs/vite-plugin-svelte'
-      - vite
 
   svelte@5.39.6:
     dependencies:

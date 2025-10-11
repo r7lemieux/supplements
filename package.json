@@ -25,13 +25,14 @@
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"esbuild"
-		]
+		],
+		"overrides": {
+			"svelte-mos": "link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos"
+		}
 	},
-	"peer-dependencies": {
-		"svelte-mos": "file:../../lib/svelte-mos"
-	},
+	"peer-dependencies": {},
 	"dependencies": {
 		"ag-grid-community": "^34.2.0",
-		"svelte-mos": "file:../../lib/svelte-mos"
+		"svelte-mos": "link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos"
 	}
 }

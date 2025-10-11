@@ -1,6 +1,7 @@
 <script>
 	import Header from '../lib/components/layout/Header.svelte'
 	import Footer from '../lib/components/layout/Footer.svelte'
+  import 'svelte-mos' ///svelte-mos.css'
 </script>
 
 <div class="app">
@@ -12,6 +13,18 @@
 </div>
 
 <style>
+  
+  :root {
+    --tree-line-color: #664;
+    --field-value-color: #221;
+    --field-label-color: #001;
+    --field-border-color: #DDE;
+    --field-edit-background-color: #BBF;
+    --field-bottom-line-color: #776;
+    --button-color: #110;
+    --button-background-color: #FB9 ;
+  }
+  
   :global(body) {
     margin: 0;
     padding: 0;

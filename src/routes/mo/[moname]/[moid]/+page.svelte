@@ -1,0 +1,20 @@
+<script lang="ts">
+  import {SmMO, moDefMoDef, MoDefinitionMo, type MoInterface} from 'svelte-mos'
+  import type {PageProps} from './$types'
+  
+  let {data}: PageProps = $props()
+  const moProm: MoInterface = data?.mo as MoInterface
+</script>
+
+<svelte:head>
+  <title>MoDefs</title>
+  <meta name="description" content="metas"/>
+</svelte:head>
+
+<div>
+  {#await moProm then mo}
+    <SmMO {mo}/>
+  {/await}
+</div>
+<style>
+</style>

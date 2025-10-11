@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6d6b036-2fd0-4a5e-9162-2a206e1c9a52" name="Changes" comment="" />
+    <list default="true" id="b6d6b036-2fd0-4a5e-9162-2a206e1c9a52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/model/Contact.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/model/gdrive/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/services/mo/moManagement.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+error.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/[fname]/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/[fname]/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/Contacts.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/app/contacts/Contacts.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/conditionTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/conditionTree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contacts/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contacts/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/+page.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,37 +48,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.linkBuilder.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/home/r7lemieux/ws/pro/supplements/src/routes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.check.executor": "Run",
-    "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/home/r7lemieux/ws/pro/supplements/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.linkBuilder.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/r7lemieux/ws/pro/supplements/src/lib/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/r7lemieux/.nvm/versions/node/v24.7.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.check.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/r7lemieux/ws/pro/supplements/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/model" />
       <recent name="$PROJECT_DIR$/src/routes" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/lib/app" />
       <recent name="$PROJECT_DIR$/src/routes/conditions" />
-      <recent name="$PROJECT_DIR$/src/routes/sources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/services/moManagement" />
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/lib/assets/data" />
       <recent name="$PROJECT_DIR$/src/lib/config" />
@@ -96,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.check" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.check" />
         <item itemvalue="Node.js.linkBuilder.ts" />
       </list>
     </recent_temporary>
@@ -106,7 +136,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-WS-253.24325.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-WS-253.25908.30" />
       </set>
     </attachedChunks>
   </component>
@@ -123,7 +153,15 @@
       <workItem from="1759322766472" duration="43973000" />
       <workItem from="1759421337971" duration="6191000" />
       <workItem from="1759435348486" duration="8228000" />
-      <workItem from="1759510022883" duration="12379000" />
+      <workItem from="1759510022883" duration="17656000" />
+      <workItem from="1759727029257" duration="2287000" />
+      <workItem from="1759729357797" duration="95000" />
+      <workItem from="1759729461488" duration="13749000" />
+      <workItem from="1759797250614" duration="13621000" />
+      <workItem from="1759850769254" duration="36857000" />
+      <workItem from="1760022751578" duration="18191000" />
+      <workItem from="1760050337791" duration="16131000" />
+      <workItem from="1760140655051" duration="5619000" />
     </task>
     <servers />
   </component>
@@ -133,6 +171,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/lib/app/contacts/+page.js" />
         <option value="$PROJECT_DIR$/src/lib/app/contacts/+page.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/model/gdrive/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/model/gdrive/index.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.js" />
+        <option value="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.js.map" />
       </list>
     </option>
   </component>
