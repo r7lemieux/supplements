@@ -1,5 +1,5 @@
-import {contactData, Mo} from 'svelte-mos'
-import {MoDefinition} from 'svelte-mos'
+import {contactData} from '../data/contacts.js'
+import {MoDefinition, Mo} from 'svelte-mos'
 import {MoMeta} from 'svelte-mos'
 import {type MoMetaInterface} from 'svelte-mos'
 
@@ -19,14 +19,13 @@ export class Contact extends Mo {
 
   static moMeta: MoMetaInterface = new MoMeta(MoDefinition.fromProps({
       hasId: false,
-      name: 'contacts',
-      pluralName: 'contects',
+      name: 'contact',
       id: 'contact',
       // moClass: Contact,
       keyFieldnames: ['phone', 'email'],
       gridFieldnames: ['firstName', 'lastName', 'phone'],
     })
-  )
+  ).setName('contacts')
 
   static {
     const moDef = Contact.moMeta.moDef
@@ -37,7 +36,7 @@ export class Contact extends Mo {
 
   constructor() {
     // if (!moMeta) moMeta = new MoMeta(contactMoDef)
-    super(Contact.moMeta = Contact.moMeta)
+    super(Contact.moMeta)
   }
 
   hydrate = (props: Partial<Contact>) => {
@@ -50,11 +49,11 @@ export class Contact extends Mo {
 }
 
 
-contactData.forEach((data: any) => {
-  const contact = new Contact()
-  contact.hydrate(data)
-  contact.moMeta.dataSource.addMo(contact)
-})
+// contactData.forEach((data: any) => {
+//   const contact = new Contact()
+//   contact.hydrate(data)
+//   contact.moMeta.dataSource.addMo(contact)
+// })
 // const contactMoDef = MoDefinition.fromProps({
 //   hasId: false,
 //   name: 'contacts',

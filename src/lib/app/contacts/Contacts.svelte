@@ -2,8 +2,8 @@
   import {SmMosGrid} from 'svelte-mos'
   import {MoListModel} from 'svelte-mos'
   import {onMount} from 'svelte'
-  import {Contact} from '../../model/Contact'
-  import {contactData} from 'svelte-mos'
+  import {Contact} from '../../models/Contact'
+  import {contactData} from '../../data/contacts.js'
   import { ModuleRegistry, AllCommunityModule } from 'ag-grid-community';
   
   ModuleRegistry.registerModules([ AllCommunityModule ]);

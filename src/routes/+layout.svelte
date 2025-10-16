@@ -28,7 +28,7 @@
   :global(body) {
     margin: 0;
     padding: 0;
-    background: #564;
+    background: var(--page-background-color);
   }
 	.app {
 		display: flex;

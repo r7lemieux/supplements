@@ -3,7 +3,10 @@
   import type { PageProps } from './$types'
   
   let { data }: PageProps = $props()
-  const { moMeta, moname, mos } = data
+  const { moMeta, mos, moname } = data
+  console.log(`==>+page.svelte:7 mos.length`, mos.length)
+  console.log(`==>+page.svelte:7 mos[0].moMeta`, !!mos[0])
+  console.log(`==>+page.svelte:7 mos[0].moMeta`, !!mos[0].moMeta)
   const title = moMeta.name
   const topButtons = true
 </script>

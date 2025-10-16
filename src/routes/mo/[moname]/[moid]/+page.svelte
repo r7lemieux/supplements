@@ -3,7 +3,6 @@
   import type {PageProps} from './$types'
   
   let {data}: PageProps = $props()
-  const moProm: MoInterface = data?.mo as MoInterface
 </script>
 
 <svelte:head>
@@ -12,7 +11,7 @@
 </svelte:head>
 
 <div>
-  {#await moProm then mo}
+  {#await data.mo then mo}
     <SmMO {mo}/>
   {/await}
 </div>

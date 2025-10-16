@@ -5,9 +5,29 @@
   --menu-anchor-color: #DDF;
   --menu-item-color: #AA9;
   --menu-selected-color: #EE5;
-  --background-color: #455;
   --menu-icon-color: var(--menu-item-color);
+  
+  --page-background-color: #778;
+  --title-label-color: var(--field-label-color);
+  --tree-branch-indentation: 12px;
+  --tree-detail-margin: 35px;
+  --field-height: 2rem;
+  --field-background-color: transparent;
+  --field-delete-color: #822;
+  --tree-line-color: #88A;
+  --field-value-color: #000;
+  --field-label-color: #002;
+  --field-border-color: #DDE;
+  --field-edit-background-color: #E1E2FF;
+  --field-bottom-line-color: #E1E2FF;
+  --button-color: #110;
+  --button-border-color: #886;
+  --button-border-radius: 10px;
+  --button-background-color: #AA9;
+  --button-margin-left: 0.5rem;
+  --button-padding: 1rem 1.5rem;
+  --button-font-weight: 200;
 }
 body {
-  background-color: var(--background-color);
+  background-color: var(--page-background-color);
 }

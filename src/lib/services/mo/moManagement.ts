@@ -1,27 +1,17 @@
 import { moMetaMoMeta, moDefMoMeta } from 'svelte-mos'
 import { registerMoMeta, registerMoDef } from 'svelte-mos'
-import { gdriveFilesMoDef } from '../../model/gdrive/gdriveFilesMoDef.js'
-import {Contact} from '../../model/Contact'
-
-// import { qqsp1 } from 'svelte-mos'
-// import
-// {getContactMoMeta} from '$lib/models/common/Contact.js'
+import { gdriveFilesMoDef } from '../../models/gdrive/gdriveFilesMoDef.js'
+import {Contact} from '../../models/Contact'
 
 let mosRegistered = false
-export const registerMos = () => {
+export const registerMoMetas = () => {
   if (!mosRegistered) {
+    mosRegistered = true
     registerMoMeta(Contact.moMeta)
     registerMoMeta(moMetaMoMeta)
     registerMoMeta(moDefMoMeta)
     registerMoDef(Contact.moMeta.moDef)
     registerMoDef(moMetaMoMeta.moDef)
     registerMoDef(moDefMoMeta.moDef)
-    mosRegistered = true
-  }
-}
-let mosDefsRegistered = false
-export const registerMoDefs = () => {
-  if (!mosDefsRegistered) {
-    registerMoDef(gdriveFilesMoDef)
   }
 }
