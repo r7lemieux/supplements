@@ -31,10 +31,10 @@ for (let categoryData of conditionsSupplementsData.health_condition_categories) 
   }
 }
 
-writeFileSync('./categories.ts', `export const categories = ${JSON.stringify(categories)}`)
-writeFileSync('./conditionTree.ts', `export const conditionTree = ${JSON.stringify(conditionTree)}`)
-writeFileSync('./conditionSupplementTree.ts', `export const conditionSupplementTree = ${JSON.stringify(conditionSupplementTree)}`)
-writeFileSync('./conditions.ts', `export const conditions = ${JSON.stringify(conditions)}`)
-writeFileSync('./conditionSupplements.ts', `export const conditionSupplements = ${JSON.stringify(conditionSupplements)}`)
-writeFileSync('./supplementConditions.ts', `export const supplementConditions = ${JSON.stringify(supplementConditions)}`)
+writeFileSync('./categories.ts', `export const categoriesData = ${JSON.stringify(categories)}`)
+writeFileSync('./conditionTree.ts', `export const conditionTreeData = ${JSON.stringify(conditionTree)}`)
+writeFileSync('./conditionSupplementTree.ts', `export const conditionSupplementTreeData = ${JSON.stringify(conditionSupplementTree)}`)
+writeFileSync('./conditions.ts', `export const conditionsData = ${JSON.stringify(conditions)}`)
+writeFileSync('./conditionSupplements.ts', `export const conditionSupplementData = ${JSON.stringify(conditionSupplements)}`)
+writeFileSync('./supplementConditions.ts', `export const supplementConditionData = ${JSON.stringify(supplementConditions)}`)
 

@@ -15,5 +15,5 @@
 </svelte:head>
 
 <div>
-  <SmMoCreate {moMeta}/>
+  <h1>Resources</h1>
 </div>

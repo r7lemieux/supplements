@@ -9,13 +9,15 @@ export const csr = true
 export const prerender = false
 export const ssr = true
 
-export const load: PageLoad = ({params, data}: any) => {
-  const moname = data.moname
+export const load: PageLoad = async ({params, data, parent }: any) => {
+  // depends('data:moname')
+  const moname = params.moname
   const mos = data.mos
   console.log(`==>+page.ts:15 mos.length`, mos.length + ' ' + !!mos[0] + ' ' + !!mos[0]?.moMeta)
   // const moMeta = getMoMeta(moname)
   // mos.forEach(mo => mo.moMeta = moMeta)
   console.log(`==>+page.ts:13 moname`, moname)
   const moMeta = getMoMeta(moname)
-  return {moname, moMeta, mos}
+  const parentData = await parent()
+  return {moname, moMeta, mos, parentData}
 }

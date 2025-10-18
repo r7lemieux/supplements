@@ -8,11 +8,14 @@ const iconColor = '#BBB'
   <MenuItem path="/" text={txt.home}>
     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}><!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE --><g fill="none" stroke="var(--menu-item-color)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></g></svg>
   </MenuItem>
-  <MenuItem path="/conditions" text={txt.conditions}>
+  <MenuItem path="/mo/conditionCategories" text={txt.conditionCategories}>
     <svg id="Layer_3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path fill="var(--menu-icon-color)" d="m9 12c3.309 0 6-2.691 6-6s-2.691-6-6-6-6 2.691-6 6 2.691 6 6 6zm0-10c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm15 16v2h-2.465l-2.659 3.988-3-6-1.341 2.012h-3.535v-2h2.465l2.659-3.988 3 6 1.341-2.012zm-11.606-2h-7.394c-1.654 0-3 1.346-3 3v5h-2v-5c0-2.757 2.243-5 5-5h8c.233 0 .457.038.682.069l-1.287 1.931z"/></svg>
   </MenuItem>
-  <MenuItem path="/benefits" text={txt.benefits}>
-    <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"><path fill="var(--menu-icon-color)" d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"/></svg>
+  <MenuItem path="/mo/conditions" text={txt.conditions}>
+    <svg id="Layer_3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path fill="var(--menu-icon-color)" d="m9 12c3.309 0 6-2.691 6-6s-2.691-6-6-6-6 2.691-6 6 2.691 6 6 6zm0-10c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm15 16v2h-2.465l-2.659 3.988-3-6-1.341 2.012h-3.535v-2h2.465l2.659-3.988 3 6 1.341-2.012zm-11.606-2h-7.394c-1.654 0-3 1.346-3 3v5h-2v-5c0-2.757 2.243-5 5-5h8c.233 0 .457.038.682.069l-1.287 1.931z"/></svg>
+  </MenuItem>
+  <MenuItem path="/mo/supplements" text={txt.supplements}>
+    <svg id="Layer_3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path fill="var(--menu-icon-color)" d="m9 12c3.309 0 6-2.691 6-6s-2.691-6-6-6-6 2.691-6 6 2.691 6 6 6zm0-10c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm15 16v2h-2.465l-2.659 3.988-3-6-1.341 2.012h-3.535v-2h2.465l2.659-3.988 3 6 1.341-2.012zm-11.606-2h-7.394c-1.654 0-3 1.346-3 3v5h-2v-5c0-2.757 2.243-5 5-5h8c.233 0 .457.038.682.069l-1.287 1.931z"/></svg>
   </MenuItem>
   <MenuItem path="/sources" text={txt.sources}>
     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}><!-- Icon from Lucide by Lucide Contributors - https://github.com/lucide-icons/lucide/blob/main/LICENSE --><path fill="none" stroke="var(--menu-item-color)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 7v14m-9-3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4a4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3a3 3 0 0 0-3-3z"/>

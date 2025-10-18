@@ -5,35 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d6b036-2fd0-4a5e-9162-2a206e1c9a52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks.client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/config/dataload/contacts.dataload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/data/contacts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/app/conditionCategories/ConditionCategories.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/app/contacts/+page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/conditionSupplementTree/ConditionSupplementTree.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/config/dataload/mo.dataload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/config/dataload/supplements.dataload.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/Condition.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/ConditionCategory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/models/Supplement.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/Contacts.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/app/contacts/Contacts.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/Contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/Contact.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/gdriveFilesMoDef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/gdriveFilesMoDef.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/gdriveFilesMoDef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/gdriveFilesMoDef.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/model/gdrive/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/gdrive/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/+page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/app/contacts/+page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/+page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/app/contacts/+page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/app/conditionCategories/+page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/app/contacts/Contacts.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/app/contacts/Contacts.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/layout/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/layout/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/config/dataload/contacts.dataload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/config/dataload/contacts.dataload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/config/text/us-en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/config/text/us-en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/categories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/categories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/conditionSupplementTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/conditionSupplementTree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/conditionSupplements.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/conditionSupplements.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/conditionTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/conditionTree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/conditions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/conditions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/linkBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/linkBuilder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data/supplementConditions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/supplementConditions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/models/Contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/models/Contact.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/services/mo/moManagement.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/services/mo/moManagement.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/mo/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/+page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit/+page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/create/+page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/sources/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sources/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,45 +54,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.linkBuilder.ts.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/r7lemieux/ws/pro/supplements/src/routes/mo/[moname]&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/r7lemieux/.nvm/versions/node/v24.7.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.check.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.prepare.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/r7lemieux/ws/pro/supplements/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.linkBuilder.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/home/r7lemieux/ws/pro/supplements/src/lib/components/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/r7lemieux/.nvm/versions/node/v24.7.0/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "npm.build.executor": "Run",
+    "npm.check.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.prepare.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.runtime",
+    "ts.external.directory.path": "/home/r7lemieux/ws/pro/supplements/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/components/app" />
+      <recent name="$PROJECT_DIR$/src/lib/config/dataload" />
       <recent name="$PROJECT_DIR$/src/routes/mo/[moname]" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/routes/mo/[moname]/create" />
-      <recent name="$PROJECT_DIR$/src/routes/mo/[moname]/[moid]/edit" />
-      <recent name="$PROJECT_DIR$/src/lib/model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/components" />
       <recent name="$PROJECT_DIR$/src/lib/services/moManagement" />
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/lib/assets/data" />
       <recent name="$PROJECT_DIR$/src/lib/config" />
-      <recent name="$PROJECT_DIR$/src/lib/config/text" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.linkBuilder.ts">
@@ -141,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.check" />
-        <item itemvalue="npm.prepare" />
         <item itemvalue="Node.js.linkBuilder.ts" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.prepare" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +184,8 @@
       <workItem from="1760383448155" duration="43935000" />
       <workItem from="1760518899419" duration="16114000" />
       <workItem from="1760570918414" duration="5740000" />
-      <workItem from="1760585799183" duration="16278000" />
+      <workItem from="1760585799183" duration="64241000" />
+      <workItem from="1760740449301" duration="19230000" />
     </task>
     <servers />
   </component>
@@ -189,8 +193,8 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/lib/app/contacts/+page.js" />
-        <option value="$PROJECT_DIR$/src/lib/app/contacts/+page.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/components/app/conditionCategories/+page.js" />
+        <option value="$PROJECT_DIR$/src/lib/components/app/conditionCategories/+page.js.map" />
       </list>
     </option>
   </component>
