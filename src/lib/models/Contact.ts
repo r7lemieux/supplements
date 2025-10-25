@@ -23,6 +23,7 @@ export class Contact extends Mo {
 
   hydrate = (props: Partial<Contact>) => {
     Object.assign(this, props)
+    this.displayName = this.displayName || `${this.firstName || ''}  ${this.lastName || ''}`
     return this
   }
 

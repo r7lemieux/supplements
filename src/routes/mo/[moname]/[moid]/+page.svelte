@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {SmMO, moDefMoDef, MoDefinitionMo, type MoInterface} from 'svelte-mos'
+  import {SmMO} from 'svelte-mos'
   import type {PageProps} from './$types'
   
   let {data}: PageProps = $props()

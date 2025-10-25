@@ -1,9 +1,10 @@
-import {MoDefinition, Mo, MoMeta, type MoMetaInterface} from 'svelte-mos'
+import type {Moid} from 'svelte-mos'
+import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 
 export class Condition extends Mo {
   name: string = ''
-  categoryId: number = 0
-  supplementIds: number[] = []
+  category?:  Moid
+  supplements: MoidInterface[] = []
 
   constructor() {
     super(Condition.moMeta)
@@ -11,6 +12,7 @@ export class Condition extends Mo {
 
   hydrate = (props: Partial<Condition>) => {
     Object.assign(this, props)
+    this.displayName = this.displayName || this.name
     return this
   }
 

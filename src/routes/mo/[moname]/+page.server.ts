@@ -1,13 +1,12 @@
 import type {Actions} from './$types'
-import {getMoMeta, Rezult, ErrorName} from 'svelte-mos'
+import {ErrorName, getMoMeta, type MoInterface} from 'svelte-mos'
 import {error} from '@sveltejs/kit'
 
 export async function load({params}: any) {
   const moname = params.moname
   try {
     const moMeta = getMoMeta(moname)
-    const mos = await moMeta?.dataSource.getMos()
-    console.log(`==>+page.server.ts:10 mos[0]`, !!mos[0], !!mos[0]?.moMeta)
+    const mos: MoInterface[] = await moMeta?.dataSource.getMos()
     return {moname, mos}
   } catch (ex: any) {
     if (ex.name === ErrorName.resource_not_found) {

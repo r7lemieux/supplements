@@ -26,9 +26,7 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		],
-		"overrides": {
-			"svelte-mos": "link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos"
-		}
+		"overrides": {}
 	},
 	"peer-dependencies": {},
 	"dependencies": {

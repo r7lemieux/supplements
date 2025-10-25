@@ -1,8 +1,6 @@
-import type { Actions } from './$types';
-import {type MoMeta, getMoMeta, Rezult, ErrorName} from 'svelte-mos'
-import { error } from '@sveltejs/kit';
-import {fail} from '@sveltejs/kit'
-import {redirect} from '@sveltejs/kit'
+import type {Actions} from './$types'
+import {ErrorName, getMoMeta, type MoMeta, Rezult} from 'svelte-mos'
+import {error, redirect} from '@sveltejs/kit'
 
 export async function load({ params }: any) {
   const moname = params.moname
@@ -13,8 +11,7 @@ export async function load({ params }: any) {
   if (!mo) {
     const rezult = new Rezult(ErrorName.db_notFound, {moname: params.moname, id: params.moid})
     const message = rezult.toDetailString()
-    const err = error(404, message)
-    throw err
+    throw error(404, message)
   }
   return {mo, moname}
 }
@@ -23,7 +20,7 @@ export const actions = {
   remove: async (event) => {
     const id = event.params.moid
     const moname = event.params.moname
-    const action = event.url.pathname.split('/').slice(-1)[0]
+    // const action = event.url.pathname.split('/').slice(-1)[0]
     const moMeta: MoMeta = getMoMeta(moname)
     moMeta.dataSource.deleteMo(id)
     redirect(303, '..')

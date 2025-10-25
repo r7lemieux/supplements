@@ -1,8 +1,9 @@
-import {MoDefinition, Mo, MoMeta, type MoMetaInterface} from 'svelte-mos'
+import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 import {Supplement} from './Supplement.js'
+
 export class ConditionCategory extends Mo {
   name: string = ''
-  conditionIds: number[] = []
+  conditions: MoidInterface[] = []
 
   constructor() {
     super(ConditionCategory.moMeta)
@@ -10,6 +11,7 @@ export class ConditionCategory extends Mo {
 
   hydrate = (props: Partial<Supplement>) => {
     Object.assign(this, props)
+    this.displayName = this.displayName || this.name
     return this
   }
 
@@ -25,6 +27,7 @@ export class ConditionCategory extends Mo {
   static {
     const moDef = ConditionCategory.moMeta.moDef
     moDef.moClass = ConditionCategory
+    // moDef.fieldDefs.set('conditions', buildFieldDef('moArray'))
     moDef.initFieldDefs()
   }
 }

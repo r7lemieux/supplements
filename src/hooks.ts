@@ -1,6 +1,5 @@
-import { Mo, getMoMeta } from 'svelte-mos';
-import { MoDefinition } from 'svelte-mos';
-import type { Transport } from '@sveltejs/kit';
+import {getMoMeta, Mo} from 'svelte-mos'
+import type {Transport} from '@sveltejs/kit'
 import {registerMoMetas} from './lib/services/mo/moManagement.js'
 
 export const transport: Transport = {
@@ -32,16 +31,16 @@ export const transport: Transport = {
 }
 
 const encodeMo = (value: any) => {
-  const displayName = value?.getDisplayName? value.getDisplayName() : ''
   const mo: Mo = value as Mo
   const obj: any = mo.moMeta.moDef.moToObj(mo)
-  obj.moname = mo.moMeta.name
+  delete obj.moMeta
+  obj._moname = mo.moMeta.name
   return obj //JSON.stringify(obj)
 }
 const decodeMo = (obj: any) => {
-    const moname = obj.moname
+    const moname = obj._moname
     const moMeta = getMoMeta(moname)
-    const mo: Mo = moMeta.objToMo(obj)
+    const mo = moMeta.objToMoid(obj)
     mo.moMeta = moMeta
     return mo
 }

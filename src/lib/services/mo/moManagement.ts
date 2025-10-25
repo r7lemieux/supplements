@@ -1,6 +1,6 @@
-import { moMetaMoMeta, moDefMoMeta } from 'svelte-mos'
-import { registerMoMeta, registerMoDef } from 'svelte-mos'
-import { gdriveFilesMoDef } from '../../models/gdrive/gdriveFilesMoDef.js'
+// import { moMetaMoMeta, moDefMoMeta } from 'svelte-mos'
+import {registerMoMeta} from 'svelte-mos'
+// import { gdriveFilesMoDef } from '../../models/gdrive/gdriveFilesMoDef.js'
 import {Contact} from '../../models/Contact'
 import {ConditionCategory} from '../../models/ConditionCategory'
 import {Condition} from '../../models/Condition'
@@ -14,11 +14,11 @@ export const registerMoMetas = () => {
     registerMoMeta(ConditionCategory.moMeta)
     registerMoMeta(Condition.moMeta)
     registerMoMeta(Supplement.moMeta)
-    registerMoMeta(moMetaMoMeta)
-    registerMoMeta(moDefMoMeta)
+    // registerMoMeta(moMetaMoMeta)
+    // registerMoMeta(moDefMoMeta)
 
-    registerMoDef(Contact.moMeta.moDef)
-    registerMoDef(moMetaMoMeta.moDef)
-    registerMoDef(moDefMoMeta.moDef)
+  //   registerMoDef(Contact.moMeta.moDef)
+  //   registerMoDef(moMetaMoMeta.moDef)
+  //   registerMoDef(moDefMoMeta.moDef)
   }
 }
