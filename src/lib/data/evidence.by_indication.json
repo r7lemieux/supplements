@@ -1,0 +1,2310 @@
+{
+  "generated_at": "2025-09-23 12:09:12",
+  "source_file": "evidence.with_categories.json",
+  "model": "gpt-4o-mini",
+  "indications": [
+    {
+      "indication": "academic achievement",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Taurine",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "35882814",
+              "year": 2022,
+              "title": "Effects of Dietary Taurine-Containing Jelly Supplementation on Academic-Related Characteristics and Academic Achievement in Korean College Entrance Examinees: A Pilot Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "3",
+                  "unit": "g",
+                  "frequency": "1 packet per day",
+                  "duration": "2 weeks",
+                  "formulation": "jelly"
+                }
+              ],
+              "notes": "The study suggests a positive effect of taurine supplementation on academic-related characteristics, indicating a benefit.",
+              "source_conditions": [
+                "academic achievement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "academic-related characteristics",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Taurine",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "35882814",
+              "year": 2022,
+              "title": "Effects of Dietary Taurine-Containing Jelly Supplementation on Academic-Related Characteristics and Academic Achievement in Korean College Entrance Examinees: A Pilot Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "3",
+                  "unit": "g",
+                  "frequency": "1 packet per day",
+                  "duration": "2 weeks",
+                  "formulation": "jelly"
+                }
+              ],
+              "notes": "The study suggests a positive effect of taurine supplementation on academic-related characteristics, indicating a benefit.",
+              "source_conditions": [
+                "academic-related characteristics"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "active systemic lupus erythematosus",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "N-Acetylcysteine (NAC)",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "36810107",
+              "year": 2023,
+              "title": "Effects of N-acetylcysteine on systemic lupus erythematosus disease activity and its associated complications: a randomized double-blind clinical trial study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1800",
+                  "unit": "mg",
+                  "frequency": "3 times per day",
+                  "duration": "3 months",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows a significant decrease in disease activity scores, indicating a beneficial effect of NAC.",
+              "source_conditions": [
+                "systemic lupus erythematosus"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "acute brain injury",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Magnesium",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "40035733",
+              "year": 2025,
+              "title": "Effect of perioperative magnesium sulfate on neurological outcome in neurosurgical patients: a randomized double-blind controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "4",
+                  "unit": "g",
+                  "frequency": "bolus",
+                  "duration": "20 min",
+                  "formulation": "intravenous magnesium sulfate"
+                },
+                {
+                  "amount": "20",
+                  "unit": "g",
+                  "frequency": "24 h",
+                  "duration": null,
+                  "formulation": "intravenous magnesium sulfate in saline"
+                }
+              ],
+              "notes": "The study showed macroscopic improvement in MRI parameters and better neuropsychological test scores in the magnesium group, indicating a benefit.",
+              "source_conditions": [
+                "acute brain injury"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "acute ischemic stroke",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "N-Acetylcysteine (NAC)",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38212360",
+              "year": 2024,
+              "title": "Safety and efficacy of N-acetylcysteine (NAC) as an adjunct to standard treatment in patients with acute ischemic stroke: a randomized controlled pilot trial (NACTLYS).",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "intravenous"
+                }
+              ],
+              "notes": "The study showed a slightly improved early neurological outcome with NAC, indicating a potential benefit despite no significant differences in safety profiles.",
+              "source_conditions": [
+                "acute ischemic stroke"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "acute subarachnoid hemorrhage",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Selenium",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37270916",
+              "year": 2023,
+              "title": "Efficacy of Acetylcysteine and Selenium in Aneurysmal Subarachnoid Hemorrhage Patients: A Prospective, Multicenter, Single Blind Randomized Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "1600",
+                  "unit": "µg",
+                  "frequency": "daily",
+                  "duration": "14 days",
+                  "formulation": "intravenous"
+                }
+              ],
+              "notes": "The study showed a significant reduction in ICU stay but no beneficial effects on radiological outcomes, indicating mixed results.",
+              "source_conditions": [
+                "acute aneurysmal subarachnoid hemorrhage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "attention problems",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "L-Theanine",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "20079786",
+              "year": 2010,
+              "title": "L-theanine and caffeine improve task switching but not intersensory attention or subjective alertness.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "97",
+                  "unit": "mg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows a significant improvement in attention on a switch task, indicating a benefit from the combination of L-Theanine and caffeine.",
+              "source_conditions": [
+                "attention"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "brain function",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Lutein",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30680611",
+              "year": 2020,
+              "title": "The effects of lutein and zeaxanthin on resting state functional connectivity in older Caucasian adults: a randomized controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "10",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "1 year",
+                  "formulation": "supplement"
+                }
+              ],
+              "notes": "The study showed increased inter-network connectivity, contrary to expectations, indicating mixed outcomes regarding the effects of lutein on brain function.",
+              "source_conditions": [
+                "brain function"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "brain functioning",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Panax ginseng",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30080229",
+              "year": 2018,
+              "title": "A Combination of Essential Fatty Acids, Panax Ginseng Extract, and Green Tea Catechins Modifies Brain fMRI Signals in Healthy Older Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": "daily",
+                  "duration": "one month",
+                  "formulation": "emulsified liquid combination"
+                }
+              ],
+              "notes": "The study suggests cognitive improvements and brain activation changes, but lacks significant differences compared to placebo, leading to a mixed outcome classification.",
+              "source_conditions": [
+                "brain functioning"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognition",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "L-Tyrosine",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38975711",
+              "year": 2024,
+              "title": "Impact of L-theanine and L-tyrosine on markers of stress and cognitive performance in response to a virtual reality based active shooter training drill.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "2000",
+                  "unit": "mg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "The study found no impact on stress markers but indicated a potential benefit in cognitive performance, leading to a mixed outcome classification.",
+              "source_conditions": [
+                "cognition"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Panax ginseng",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30080229",
+              "year": 2018,
+              "title": "A Combination of Essential Fatty Acids, Panax Ginseng Extract, and Green Tea Catechins Modifies Brain fMRI Signals in Healthy Older Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": "daily",
+                  "duration": "one month",
+                  "formulation": "emulsified liquid combination"
+                }
+              ],
+              "notes": "The study suggests cognitive improvements and brain activation changes, but lacks significant differences compared to placebo, leading to a mixed outcome classification.",
+              "source_conditions": [
+                "cognition"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognitive benefits",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Lutein",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30680611",
+              "year": 2020,
+              "title": "The effects of lutein and zeaxanthin on resting state functional connectivity in older Caucasian adults: a randomized controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "10",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "1 year",
+                  "formulation": "supplement"
+                }
+              ],
+              "notes": "The study showed increased inter-network connectivity, contrary to expectations, indicating mixed outcomes regarding the effects of lutein on brain function.",
+              "source_conditions": [
+                "cognitive benefits"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Zeaxanthin",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30680611",
+              "year": 2020,
+              "title": "The effects of lutein and zeaxanthin on resting state functional connectivity in older Caucasian adults: a randomized controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "2",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "1 year",
+                  "formulation": "supplement"
+                }
+              ],
+              "notes": "The study showed increased inter-network connectivity, contrary to expectations, indicating mixed outcomes regarding the effects of zeaxanthin on brain function.",
+              "source_conditions": [
+                "cognitive benefits"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognitive decline",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Choline",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38875437",
+              "year": 2024,
+              "title": "Comparative study of choline alfoscerate as a combination therapy with donepezil: A mixed double-blind randomized controlled and open-label observation trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "12 weeks and 24 weeks",
+                  "formulation": "choline alfoscerate"
+                }
+              ],
+              "notes": "The study shows cognitive improvement with choline alfoscerate in patients with cognitive decline, indicating a benefit.",
+              "source_conditions": [
+                "alzheimer disease"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Docosahexaenoic acid (DHA)",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "34759112",
+              "year": 2021,
+              "title": "Intake of Docosahexaenoic Acid-Enriched Milk Beverage Prevents Age-Related Cognitive Decline and Decreases Serum Bone Resorption Marker Levels.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "297",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "milk beverage"
+                }
+              ],
+              "notes": "The study shows that DHA intake prevents cognitive decline and may benefit bone health, indicating a positive outcome.",
+              "source_conditions": [
+                "bone health"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognitive enhancement in healthy adults",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Alpha-GPC",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "39683633",
+              "year": 2024,
+              "title": "Acute Alpha-Glycerylphosphorylcholine Supplementation Enhances Cognitive Performance in Healthy Men.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "630",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "acute",
+                  "formulation": "GeniusPure®"
+                },
+                {
+                  "amount": "315",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "acute",
+                  "formulation": "GeniusPure®"
+                }
+              ],
+              "notes": "The study found significant improvements in cognitive performance, indicating a benefit from Alpha-GPC supplementation.",
+              "source_conditions": [
+                "cognition enhancement"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Beetroot (Nitrate)",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "34639501",
+              "year": 2021,
+              "title": "Effects of Beetroot Juice Supplementation on Cognitive Function, Aerobic and Anaerobic Performances of Trained Male Taekwondo Athletes: A Pilot Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "400",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "acute",
+                  "formulation": "juice"
+                },
+                {
+                  "amount": "800",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "acute",
+                  "formulation": "juice"
+                }
+              ],
+              "notes": "Cognitive function improved with BJ-400, but no significant differences in performance outcomes were observed.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Inositol",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "34959823",
+              "year": 2021,
+              "title": "Acute Inositol-Stabilized Arginine Silicate Improves Cognitive Outcomes in Healthy Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1.5",
+                  "unit": "g",
+                  "frequency": "single dose",
+                  "duration": "acute",
+                  "formulation": "Inositol-stabilized arginine silicate"
+                }
+              ],
+              "notes": "The study demonstrated significant improvements in cognitive outcomes, indicating a beneficial effect of the supplement.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            },
+            {
+              "pmid": "34836014",
+              "year": 2021,
+              "title": "Effects of Inositol-Enhanced Bonded Arginine Silicate Ingestion on Cognitive and Executive Function in Gamers.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1600",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Inositol-enhanced bonded arginine silicate"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive tasks after ingestion of ASI + I, indicating a benefit.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "L-Theanine",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "24372613",
+              "year": 2014,
+              "title": "Effect of L-theanine on sensorimotor gating in healthy human subjects.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "200",
+                  "unit": "mg",
+                  "frequency": "oral",
+                  "duration": "single dose",
+                  "formulation": null
+                },
+                {
+                  "amount": "400",
+                  "unit": "mg",
+                  "frequency": "oral",
+                  "duration": "single dose",
+                  "formulation": null
+                },
+                {
+                  "amount": "600",
+                  "unit": "mg",
+                  "frequency": "oral",
+                  "duration": "single dose",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study found that 200 mg and 400 mg of L-theanine significantly increased sensorimotor gating, indicating a benefit in this context.",
+              "source_conditions": [
+                "cognition"
+              ]
+            },
+            {
+              "pmid": "37815006",
+              "year": 2023,
+              "title": "Effect of single or combined caffeine and L-Theanine supplementation on shooting and cognitive performance in elite curling athletes: a double-blind, placebo-controlled study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "6",
+                  "unit": "mg/kg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "L-Theanine"
+                },
+                {
+                  "amount": "6",
+                  "unit": "mg/kg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Caffeine"
+                },
+                {
+                  "amount": "400",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "placebo (maltodextrin)"
+                }
+              ],
+              "notes": "The study demonstrated significant improvements in both shooting and cognitive performance with the combined intake of L-Theanine and caffeine compared to placebo and single supplement use.",
+              "source_conditions": [
+                "cognitive performance"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lion's Mane",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38140277",
+              "year": 2023,
+              "title": "Acute Effects of Naturally Occurring Guayusa Tea and Nordic Lion's Mane Extracts on Cognitive Performance.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1",
+                  "unit": "g",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Nordic-grown Lion's Mane"
+                }
+              ],
+              "notes": "The study demonstrated significant improvements in cognitive performance and subjective cognitive indices with Lion's Mane, indicating a beneficial outcome.",
+              "source_conditions": [
+                "cognitive performance"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lutein",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "29135938",
+              "year": 2017,
+              "title": "Effects of a Lutein and Zeaxanthin Intervention on Cognitive Function: A Randomized, Double-Masked, Placebo-Controlled Trial of Younger Healthy Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": "daily",
+                  "duration": "one year",
+                  "formulation": "Lutein and Zeaxanthin"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive function metrics, indicating a beneficial effect of lutein supplementation.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Panax ginseng",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "12404705",
+              "year": 2002,
+              "title": "Acute, dose-dependent cognitive effects of Ginkgo biloba, Panax ginseng and their combination in healthy young volunteers: differential interactions with cognitive demand.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "320",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Ginkgo-Ginseng combination"
+                },
+                {
+                  "amount": "640",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Ginseng"
+                },
+                {
+                  "amount": "960",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "Ginseng"
+                }
+              ],
+              "notes": "The study shows a dose-dependent improvement in cognitive performance, indicating a benefit from Panax ginseng.",
+              "source_conditions": [
+                "cognition"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Zeaxanthin",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "29135938",
+              "year": 2017,
+              "title": "Effects of a Lutein and Zeaxanthin Intervention on Cognitive Function: A Randomized, Double-Masked, Placebo-Controlled Trial of Younger Healthy Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": "daily",
+                  "duration": "one year",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive function metrics, indicating a beneficial effect of zeaxanthin supplementation.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognitive function",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Creatine",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "39569437",
+              "year": 2025,
+              "title": "Creatine with guanidinoacetic acid improves prefrontal brain oxygenation before, during, and after a cognitive task: A randomized controlled pilot trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "7 days",
+                  "formulation": "mixture with guanidinoacetic acid"
+                }
+              ],
+              "notes": "The study shows significant improvement in oxygen saturation, indicating a beneficial effect of creatine supplementation.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lion's Mane",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38004235",
+              "year": 2023,
+              "title": "The Acute and Chronic Effects of Lion's Mane Mushroom Supplementation on Cognitive Function, Stress and Mood in Young Adults: A Double-Blind, Parallel Groups, Pilot Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "1.8",
+                  "unit": "g",
+                  "frequency": "single dose",
+                  "duration": "28 days",
+                  "formulation": "Hericium erinaceus"
+                }
+              ],
+              "notes": "The study suggests potential benefits in cognitive performance and stress reduction, but also notes limited negative findings and a small sample size, leading to a mixed outcome classification.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "indication": "cognitive impairment / memory problems",
+      "category": "Cognitive & Neurological Function",
+      "supplements": [
+        {
+          "supplement": "Ashwagandha",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38931168",
+              "year": 2024,
+              "title": "Acute and Repeated Ashwagandha Supplementation Improves Markers of Cognitive Function and Mood.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "225",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "30 days",
+                  "formulation": "liposomal ashwagandha root and leaf extract"
+                }
+              ],
+              "notes": "The study shows that ashwagandha supplementation improves cognitive function and mood, indicating a beneficial outcome.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Astaxanthin",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "33375429",
+              "year": 2020,
+              "title": "Improvement of Executive Function after Short-Term Administration of an Antioxidants Mix Containing Bacopa, Lycopene, Astaxanthin and Vitamin B12: The BLAtwelve Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1",
+                  "unit": "dose",
+                  "frequency": "once a day",
+                  "duration": "8 weeks",
+                  "formulation": "oral"
+                }
+              ],
+              "notes": "The study shows significant improvement in cognitive function, indicating a benefit from the antioxidant mix including astaxanthin.",
+              "source_conditions": [
+                "cognitive changes associated with brain aging"
+              ]
+            },
+            {
+              "pmid": "29614679",
+              "year": 2018,
+              "title": "Effects of Composite Supplement Containing Astaxanthin and Sesamin on Cognitive Functions in People with Mild Cognitive Impairment: A Randomized, Double-Blind, Placebo-Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "12 weeks",
+                  "formulation": "capsules"
+                }
+              ],
+              "notes": "The study showed significant improvements in cognitive functions, indicating a benefit from astaxanthin supplementation.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Bacopa Monnieri",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "23281132",
+              "year": 2013,
+              "title": "An acute, double-blind, placebo-controlled crossover study of 320 mg and 640 mg doses of a special extract of Bacopa monnieri (CDRI 08) on sustained cognitive performance.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "320",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "extract"
+                },
+                {
+                  "amount": "640",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "extract"
+                }
+              ],
+              "notes": "The study showed that the 320 mg dose improved cognitive performance, indicating a benefit in cognitive function.",
+              "source_conditions": [
+                "anxiety"
+              ]
+            },
+            {
+              "pmid": "38538390",
+              "year": 2024,
+              "title": "Evaluating the effects of Bacopa monnieri on cognitive performance and sleep quality of patients with mild cognitive impairment: A triple-blinded, randomized, placebo-controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "160",
+                  "unit": "mg",
+                  "frequency": "1 pill",
+                  "duration": "2 months",
+                  "formulation": "Bacopa monnieri extract"
+                }
+              ],
+              "notes": "The study showed some improvement in cognitive performance parameters but no significant effect on overall cognitive performance score or sleep quality, indicating mixed outcomes.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Beetroot (Nitrate)",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37875637",
+              "year": 2024,
+              "title": "Acute effects of a chewable beetroot-based supplement on cognitive performance: a double-blind randomized placebo-controlled crossover clinical trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "3",
+                  "unit": "g",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "chewable tablets"
+                }
+              ],
+              "notes": "The study found significant improvements in cognitive functions, indicating a beneficial effect of the beetroot supplement.",
+              "source_conditions": [
+                "cognitive flexibility"
+              ]
+            },
+            {
+              "pmid": "36839248",
+              "year": 2023,
+              "title": "Caloric Restriction (CR) Plus High-Nitrate Beetroot Juice Does Not Amplify CR-Induced Metabolic Adaptation and Improves Vascular and Cognitive Functions in Overweight Adults: A 14-Day Pilot Randomised Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "14 days",
+                  "formulation": "beetroot juice"
+                }
+              ],
+              "notes": "The study shows that combining caloric restriction with beetroot juice improves vascular and cognitive functions, indicating a benefit.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Beta-alanine",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "36839281",
+              "year": 2023,
+              "title": "Role of β-Alanine Supplementation on Cognitive Function, Mood, and Physical Function in Older Adults; Double-Blind Randomized Controlled Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2.4",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "10 weeks",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study showed significant improvements in cognitive function and a decrease in depression scores for participants with baseline cognitive impairment, indicating a benefit from β-alanine supplementation.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            },
+            {
+              "pmid": "38971131",
+              "year": 2024,
+              "title": "β-Alanine supplementation improves fractional anisotropy scores in the hippocampus and amygdala in 60-80-year-old men and women.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2.4",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "10 weeks",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows a benefit in cognitive function as indicated by improved fractional anisotropy scores in brain regions associated with cognition.",
+              "source_conditions": [
+                "decreased cognitive function"
+              ]
+            },
+            {
+              "pmid": "29996843",
+              "year": 2018,
+              "title": "β-Alanine supplementation increased physical performance and improved executive function following endurance exercise in middle aged individuals.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2.4",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "28 days",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows that beta-alanine supplementation improved exercise capacity and executive function, indicating a benefit.",
+              "source_conditions": [
+                "executive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Boswellia",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "24088189",
+              "year": 2013,
+              "title": "The effect of Boswellia Serrata on neurorecovery following diffuse axonal injury.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "6 weeks",
+                  "formulation": "capsules"
+                }
+              ],
+              "notes": "The study suggests no significant effect on general outcomes but indicates potential cognitive improvement, leading to a mixed outcome classification.",
+              "source_conditions": [
+                "diffuse axonal injury"
+              ]
+            },
+            {
+              "pmid": "35385330",
+              "year": 2022,
+              "title": "Boswellia serrata extract shows cognitive benefits in a double-blind, randomized, placebo-controlled pilot clinical trial in individuals who suffered traumatic brain injury.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "3 months",
+                  "formulation": "K-Vie™"
+                }
+              ],
+              "notes": "The study demonstrated significant improvement in cognitive function in patients with TBI who received K-Vie™ compared to placebo.",
+              "source_conditions": [
+                "traumatic brain injury"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Choline",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38929542",
+              "year": 2024,
+              "title": "Effect of Treatment of the Cholinergic Precursor Choline Alphoscerate in Mild Cognitive Dysfunction: A Randomized Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1200",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "choline alphoscerate"
+                }
+              ],
+              "notes": "The study aims to assess the efficacy of choline alphoscerate in stabilizing or slowing cognitive decline, indicating a potential benefit.",
+              "source_conditions": [
+                "cognitive dysfunction"
+              ]
+            },
+            {
+              "pmid": "37340479",
+              "year": 2023,
+              "title": "Effects of egg yolk choline intake on cognitive functions and plasma choline levels in healthy middle-aged and older Japanese: a randomized double-blinded placebo-controlled parallel-group study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "300",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 weeks",
+                  "formulation": "egg yolk choline"
+                }
+              ],
+              "notes": "The study showed improvement in verbal memory but also lower scores in some cognitive tests, indicating mixed outcomes.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            },
+            {
+              "pmid": "38696157",
+              "year": 2024,
+              "title": "[Efficacy and safety of choline alfoscerate in the preventive therapy of dementia in elderly patients with Mild Cognitive Impairment: a three-year prospective comparative study].",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1000",
+                  "unit": "mg",
+                  "frequency": "once a year",
+                  "duration": "3 years",
+                  "formulation": "intravenous infusions in saline solution"
+                }
+              ],
+              "notes": "The study shows a significant reduction in cognitive deficits and dementia conversion rates in the therapeutic group, indicating a benefit from the treatment.",
+              "source_conditions": [
+                "dementia"
+              ]
+            },
+            {
+              "pmid": "39703111",
+              "year": 2025,
+              "title": "Effects of choline alfoscerate on cognitive function and quality of life in type 2 diabetes: A double-blind, randomized, placebo-controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1200",
+                  "unit": "mg",
+                  "frequency": "once daily",
+                  "duration": "6 months",
+                  "formulation": "choline alfoscerate"
+                }
+              ],
+              "notes": "The study showed a significant improvement in cognitive function and quality of life at 12 months, indicating a benefit from choline alfoscerate treatment.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            },
+            {
+              "pmid": "39300341",
+              "year": 2024,
+              "title": "Efficacy and safety of choline alphoscerate for amnestic mild cognitive impairment: a randomized double-blind placebo-controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "600",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 weeks",
+                  "formulation": "soft capsule"
+                }
+              ],
+              "notes": "The study demonstrated a significant improvement in cognitive function with αGPC treatment, indicating a beneficial outcome.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Creatine",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "38542677",
+              "year": 2024,
+              "title": "The Effect of Creatine Nitrate and Caffeine Individually or Combined on Exercise Performance and Cognitive Function: A Randomized, Crossover, Double-Blind, Placebo-Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "5",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "7 days",
+                  "formulation": "nitrate"
+                }
+              ],
+              "notes": "Cognitive function improved with co-ingestion, but no significant enhancements in exercise performance were observed.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Docosahexaenoic acid (DHA)",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37874103",
+              "year": 2023,
+              "title": "Baseline Findings of PreventE4: A Double-Blind Placebo Controlled Clinical Trial Testing High Dose DHA in APOE4 Carriers before the Onset of Dementia.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "2",
+                  "unit": "grams",
+                  "frequency": "per day",
+                  "duration": "2 years",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study aims to assess the effects of DHA on cognitive function and brain imaging biomarkers, but the outcomes are not definitively beneficial or harmful based on the abstract.",
+              "source_conditions": [
+                "alzheimer disease"
+              ]
+            },
+            {
+              "pmid": "40044083",
+              "year": 2025,
+              "title": "Supplementation of medium-chain triglycerides combined with docosahexaenoic acid improves cognitive function in Chinese older adults with mild cognitive impairment: A randomized double-blind, placebo-controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "14",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "octanoic acid and capric acid"
+                },
+                {
+                  "amount": "800",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "DHA"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive function for MCI patients, indicating a benefit from the supplementation.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            },
+            {
+              "pmid": "38952108",
+              "year": 2024,
+              "title": "Cognitive Benefits of Folic Acid, Docosahexaenoic Acid, and a Combination of Both Nutrients in Mild Cognitive Impairment: Possible Alterations through Mitochondrial Function and DNA Damage.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "800",
+                  "unit": "μg",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "oral"
+                },
+                {
+                  "amount": "800",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 months",
+                  "formulation": "oral"
+                }
+              ],
+              "notes": "The study demonstrated significant cognitive improvements in participants with mild cognitive impairment, indicating a beneficial effect of DHA supplementation.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            },
+            {
+              "pmid": "33749643",
+              "year": 2021,
+              "title": "Effects of Folic Acid Combined with DHA Supplementation on Cognitive Function and Amyloid-β-Related Biomarkers in Older Adults with Mild Cognitive Impairment by a Randomized, Double Blind, Placebo-Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "800",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "6 months",
+                  "formulation": null
+                }
+              ],
+              "notes": "DHA improved cognitive function and reduced amyloid-β levels, indicating a beneficial effect.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Glycine",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "29499855",
+              "year": 2018,
+              "title": "Dose-Related Target Occupancy and Effects on Circuitry, Behavior, and Neuroplasticity of the Glycine Transporter-1 Inhibitor PF-03463275 in Healthy and Schizophrenia Subjects.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "10",
+                  "unit": "mg",
+                  "frequency": "twice a day",
+                  "duration": null,
+                  "formulation": null
+                },
+                {
+                  "amount": "20",
+                  "unit": "mg",
+                  "frequency": "twice a day",
+                  "duration": null,
+                  "formulation": null
+                },
+                {
+                  "amount": "40",
+                  "unit": "mg",
+                  "frequency": "twice a day",
+                  "duration": null,
+                  "formulation": null
+                },
+                {
+                  "amount": "60",
+                  "unit": "mg",
+                  "frequency": "twice a day",
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows improvement in working memory accuracy, indicating a benefit from the intervention.",
+              "source_conditions": [
+                "cognitive impairments associated with schizophrenia"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "L-Carnitine",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "36043711",
+              "year": 2022,
+              "title": "Acetyl-L-carnitine Slows the Progression from Prefrailty to Frailty in Older Subjects: A Randomized Interventional Clinical Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1.5",
+                  "unit": "g",
+                  "frequency": "bis in die",
+                  "duration": "3 months",
+                  "formulation": "oral"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive function and physical performance in the treated group, indicating a beneficial effect of ALCAR.",
+              "source_conditions": [
+                "cognitive decline"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "L-Theanine",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "33751906",
+              "year": 2021,
+              "title": "Effects of l-Theanine on Cognitive Function in Middle-Aged and Older Subjects: A Randomized Placebo-Controlled Study.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "null",
+                  "unit": "null",
+                  "frequency": "null",
+                  "duration": "12 weeks",
+                  "formulation": "null"
+                }
+              ],
+              "notes": "The study demonstrated a positive effect of L-Theanine on cognitive functions, specifically attention and working memory, indicating a benefit.",
+              "source_conditions": [
+                "attention"
+              ]
+            },
+            {
+              "pmid": "18641209",
+              "year": 2008,
+              "title": "L-theanine and caffeine in combination affect human cognition as evidenced by oscillatory alpha-band activity and attention task performance.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "100",
+                  "unit": "mg",
+                  "frequency": null,
+                  "duration": "4 days",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study found increased hit rate and target discriminability with the combined treatment, indicating a benefit in cognitive performance.",
+              "source_conditions": [
+                "attention"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "L-Tyrosine",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "32133585",
+              "year": 2020,
+              "title": "Baseline-dependent effect of dopamine's precursor L-tyrosine on working memory gating but not updating.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "2.0",
+                  "unit": "g",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows mixed outcomes where low-performing subjects improved while high-performing subjects were impaired, indicating a complex relationship between L-tyrosine and working memory performance.",
+              "source_conditions": [
+                "dopaminergic pathophysiology"
+              ]
+            },
+            {
+              "pmid": "27403851",
+              "year": 2016,
+              "title": "Effects of l-Tyrosine on working memory and inhibitory control are determined by DRD2 genotypes: A randomized controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows that L-Tyrosine supplementation has beneficial effects on cognitive functions, specifically working memory and inhibitory control, particularly in individuals with certain DRD2 genotypes.",
+              "source_conditions": [
+                "inhibitory control"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lavender",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "35126747",
+              "year": 2021,
+              "title": "The effect of aromatherapy with lavender essential oil on the working memory of women with multiple sclerosis.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "essential oil"
+                }
+              ],
+              "notes": "The study shows a significant improvement in working memory in the intervention group compared to the placebo group.",
+              "source_conditions": [
+                "multiple sclerosis"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lemon Balm",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "12062586",
+              "year": 2002,
+              "title": "Modulation of mood and cognitive performance following acute administration of Melissa officinalis (lemon balm).",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "300",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "null",
+                  "formulation": "standardised extract"
+                },
+                {
+                  "amount": "600",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "null",
+                  "formulation": "standardised extract"
+                },
+                {
+                  "amount": "900",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "null",
+                  "formulation": "standardised extract"
+                }
+              ],
+              "notes": "The study showed sustained improvement in cognitive performance and mood, indicating a benefit from lemon balm administration.",
+              "source_conditions": [
+                "cognitive deficits"
+              ]
+            },
+            {
+              "pmid": "12888775",
+              "year": 2003,
+              "title": "Modulation of mood and cognitive performance following acute administration of single doses of Melissa officinalis (Lemon balm) with human CNS nicotinic and muscarinic receptor-binding properties.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "600",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "encapsulated dried leaf"
+                },
+                {
+                  "amount": "1000",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "encapsulated dried leaf"
+                },
+                {
+                  "amount": "1600",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "encapsulated dried leaf"
+                }
+              ],
+              "notes": "The study showed improved cognitive performance and mood with the highest dose of Lemon Balm, indicating a beneficial effect.",
+              "source_conditions": [
+                "cognitive performance"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Lutein",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37447152",
+              "year": 2023,
+              "title": "Effects of Long-Chain Polyunsaturated Fatty Acids in Combination with Lutein and Zeaxanthin on Episodic Memory in Healthy Older Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "24",
+                  "unit": "weeks",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "supplements containing ARA, DHA, EPA, L, and Z"
+                },
+                {
+                  "amount": "12",
+                  "unit": "weeks",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "supplements containing ARA, DHA, EPA, L, and Z"
+                }
+              ],
+              "notes": "The study showed no significant effect on memory function in healthy older individuals with memory complaints, but improvement was noted in those with cognitive decline, indicating mixed outcomes.",
+              "source_conditions": [
+                "cognitive decline"
+              ]
+            },
+            {
+              "pmid": "28695791",
+              "year": 2018,
+              "title": "Lutein and Zeaxanthin Influence Brain Function in Older Adults: A Randomized Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "12",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "1 year",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows that lutein supplementation benefits cognitive performance, indicating a positive outcome direction.",
+              "source_conditions": [
+                "cognitive dysfunction"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Melatonin",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "39729834",
+              "year": 2025,
+              "title": "Effect of melatonin on postoperative cognitive function in elderly patients submitted to transurethral resection of the prostate under spinal anesthesia.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "10",
+                  "unit": "mg",
+                  "frequency": "once before surgery and for 3 days postoperatively",
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "Melatonin showed no statistical effect on POCD but had selective benefits in cognitive areas, indicating mixed outcomes.",
+              "source_conditions": [
+                "cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "N-Acetylcysteine (NAC)",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "40163249",
+              "year": 2025,
+              "title": "N-Acetylcysteine for Hereditary Cystatin C Amyloid Angiopathy: A Nonrandomized Clinical Trial.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2400",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "9 months",
+                  "formulation": null
+                }
+              ],
+              "notes": "NAC was safe and well tolerated, with significant reductions in disease-associated biomarkers, indicating a potential benefit.",
+              "source_conditions": [
+                "hereditary cystatin c amyloid angiopathy"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Nicotinamide Riboside",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "40479886",
+              "year": 2025,
+              "title": "Effects of NAD+ supplementation with oral nicotinamide riboside on vascular health and cognitive function in older adults with peripheral artery disease: Results from a pilot 4-week open-label clinical trial.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "4 weeks",
+                  "formulation": "oral"
+                }
+              ],
+              "notes": "The study indicates a positive trend in vascular and cognitive outcomes, suggesting benefit from NR supplementation.",
+              "source_conditions": [
+                "cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Panax ginseng",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "18580589",
+              "year": 2008,
+              "title": "Panax ginseng enhances cognitive performance in Alzheimer disease.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "4.5",
+                  "unit": "g",
+                  "frequency": "daily",
+                  "duration": "12 weeks",
+                  "formulation": "powder"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive performance after treatment with Panax ginseng, indicating a benefit.",
+              "source_conditions": [
+                "alzheimer disease"
+              ]
+            },
+            {
+              "pmid": "12895688",
+              "year": 2003,
+              "title": "Electroencephalograph effects of single doses of Ginkgo biloba and Panax ginseng in healthy young volunteers.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "200",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "G115"
+                }
+              ],
+              "notes": "The study shows that Panax ginseng significantly modulates cerebroelectrical activity, indicating a benefit in cognitive performance.",
+              "source_conditions": [
+                "cerebroelectrical activity"
+              ]
+            },
+            {
+              "pmid": "15582012",
+              "year": 2004,
+              "title": "Improved cognitive performance in human volunteers following administration of guarana (Paullinia cupana) extract: comparison and interaction with Panax ginseng.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "200",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": null,
+                  "formulation": "dried ethanolic extract"
+                }
+              ],
+              "notes": "The study shows improved cognitive performance with Panax ginseng, indicating a benefit.",
+              "source_conditions": [
+                "cognitive performance"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Phosphatidylserine",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "17457961",
+              "year": 2007,
+              "title": "Acute cognitive effects of standardised Ginkgo biloba extract complexed with phosphatidylserine.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "120",
+                  "unit": "mg",
+                  "frequency": "single dose",
+                  "duration": "7 days apart",
+                  "formulation": "complexed with Ginkgo biloba extract"
+                }
+              ],
+              "notes": "The study found that GBE complexed with phosphatidylserine improved cognitive performance, indicating a beneficial effect.",
+              "source_conditions": [
+                "cognitive performance"
+              ]
+            },
+            {
+              "pmid": "39317299",
+              "year": 2025,
+              "title": "Effects of a food supplement containing phosphatidylserine on cognitive function in Chinese older adults with mild cognitive impairment: A randomized double-blind, placebo-controlled trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "31.5",
+                  "unit": "mg",
+                  "frequency": "2 capsules daily",
+                  "duration": "12 months",
+                  "formulation": "capsule"
+                }
+              ],
+              "notes": "The study shows significant improvements in cognitive functions, indicating a benefit from the supplement.",
+              "source_conditions": [
+                "mild cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Red Yeast Rice",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "30921099",
+              "year": 2019,
+              "title": "Effect of Red Yeast Rice on Cognitive Functioning in Schizophrenia: Data From a Pilot Study.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "200",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "12 weeks",
+                  "formulation": "Red Yeast Rice"
+                }
+              ],
+              "notes": "The study showed significant improvements in cognitive functioning, indicating a beneficial effect of Red Yeast Rice on cognitive deficits in schizophrenia.",
+              "source_conditions": [
+                "cognitive deficits in schizophrenia"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Resveratrol",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "40507855",
+              "year": 2025,
+              "title": "Resveratrol Attenuates CSF Markers of Neurodegeneration and Neuroinflammation in Individuals with Alzheimer's Disease.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "52 weeks",
+                  "formulation": "resveratrol"
+                }
+              ],
+              "notes": "The study shows that resveratrol reduced markers of neurodegeneration and inflammation in Alzheimer's disease, indicating a beneficial effect.",
+              "source_conditions": [
+                "alzheimer's disease"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Rhodiola Rosea",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "17901042",
+              "year": 2007,
+              "title": "Efficacy and tolerability of a Rhodiola rosea extract in adults with physical and cognitive deficiencies.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "2",
+                  "unit": "capsules",
+                  "frequency": "once daily",
+                  "duration": "12 weeks",
+                  "formulation": "oral"
+                },
+                {
+                  "amount": "1",
+                  "unit": "capsule",
+                  "frequency": "twice daily",
+                  "duration": "12 weeks",
+                  "formulation": "oral"
+                }
+              ],
+              "notes": "The study showed significant improvements in physical and cognitive deficiencies, indicating a benefit from the treatment.",
+              "source_conditions": [
+                "cognitive deficiencies"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Selenium",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37917350",
+              "year": 2024,
+              "title": "The effect of crocin-selenium nanoparticles on the cognition and oxidative stress markers of multiple sclerosis patients: a randomized triple-blinded placebo-controlled clinical trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "55",
+                  "unit": "mcg",
+                  "frequency": null,
+                  "duration": "12 weeks",
+                  "formulation": "capsules"
+                }
+              ],
+              "notes": "The study showed significant improvements in cognitive function and oxidative stress markers, indicating a benefit from the intervention.",
+              "source_conditions": [
+                "cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Taurine",
+          "evidence_tier": "Tier 1",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "39948152",
+              "year": 2025,
+              "title": "Effects of taurine combined with caffeine on repetitive sprint exercise performance and cognition in a hypoxic environment.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "50",
+                  "unit": "mg/kg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "taurine"
+                },
+                {
+                  "amount": "5",
+                  "unit": "mg/kg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "caffeine"
+                },
+                {
+                  "amount": "50",
+                  "unit": "mg/kg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "taurine + caffeine"
+                },
+                {
+                  "amount": "5",
+                  "unit": "mg/kg",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "placebo"
+                }
+              ],
+              "notes": "The study showed that taurine combined with caffeine improved time to exhaustion and cognitive performance, indicating a benefit for exercise performance in hypoxic conditions.",
+              "source_conditions": [
+                "cognition"
+              ]
+            },
+            {
+              "pmid": "31468412",
+              "year": 2019,
+              "title": "The Development of Taurine Supplementary Menus for the Prevention of Dementia and Their Positive Effect on the Cognitive Function in the Elderly with Dementia.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": "4 weeks",
+                  "formulation": "tea and scorched glutinous rice water supplemented with taurine"
+                }
+              ],
+              "notes": "The study shows a significant improvement in cognitive function scores after taurine supplementation, indicating a beneficial effect.",
+              "source_conditions": [
+                "cognitive function"
+              ]
+            },
+            {
+              "pmid": "29474803",
+              "year": 2018,
+              "title": "Exercise and taurine in inflammation, cognition, and peripheral markers of blood-brain barrier integrity in older women.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "1.5",
+                  "unit": "g",
+                  "frequency": "once a day",
+                  "duration": "14 weeks",
+                  "formulation": null
+                }
+              ],
+              "notes": "Taurine supplementation showed a decrease in inflammation markers and improvement in cognitive outcomes, indicating a benefit.",
+              "source_conditions": [
+                "cognitive impairment"
+              ]
+            },
+            {
+              "pmid": "31468402",
+              "year": 2019,
+              "title": "Effects of Dietary Taurine Supplementation on Blood and Urine Taurine Concentrations in the Elderly Women with Dementia.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "3",
+                  "unit": "g",
+                  "frequency": "once daily",
+                  "duration": "4 weeks",
+                  "formulation": "scorched rice water containing taurine"
+                }
+              ],
+              "notes": "The study shows significant increases in taurine concentrations and positive changes in language and executive performance, indicating a beneficial effect.",
+              "source_conditions": [
+                "dementia"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Vitamin B1 (Thiamine)",
+          "evidence_tier": "Low evidence",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "36853612",
+              "year": 2023,
+              "title": "Association of Vitamin C, Thiamine, and Hydrocortisone Infusion With Long-term Cognitive, Psychological, and Functional Outcomes in Sepsis Survivors: A Secondary Analysis of the Vitamin C, Thiamine, and Steroids in Sepsis Randomized Clinical Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "100",
+                  "unit": "mg",
+                  "frequency": "every 6 hours",
+                  "duration": "96 hours",
+                  "formulation": "intravenous"
+                }
+              ],
+              "notes": "The study found no improvement in cognitive, psychological, and functional outcomes, indicating mixed results regarding the efficacy of the treatment.",
+              "source_conditions": [
+                "cognitive impairment"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Vitamin B12 (Cobalamin)",
+          "evidence_tier": "Tier 2",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "34101780",
+              "year": 2021,
+              "title": "Effects of Folic Acid and Vitamin B12 Supplementation on Cognitive Impairment and Inflammation in Patients with Alzheimer's Disease: A Randomized, Single-Blinded, Placebo-Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "50",
+                  "unit": "μg",
+                  "frequency": "daily",
+                  "duration": "6 months",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study found beneficial effects on cognitive performance in Alzheimer's patients receiving Vitamin B12 supplementation.",
+              "source_conditions": [
+                "alzheimer's disease"
+              ]
+            },
+            {
+              "pmid": "11723153",
+              "year": 2001,
+              "title": "Cobalamin supplementation improves cognitive and cerebral function in older, cobalamin-deficient persons.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "5",
+                  "unit": "months",
+                  "frequency": "intramuscular injections",
+                  "duration": "1 month placebo followed by 5 months treatment",
+                  "formulation": "hydroxocobalamin"
+                }
+              ],
+              "notes": "The study shows improvements in cognitive and cerebral function after supplementation, indicating a beneficial effect.",
+              "source_conditions": [
+                "cerebral function abnormalities"
+              ]
+            },
+            {
+              "pmid": "11424170",
+              "year": 2001,
+              "title": "Improvement of cognitive functions after cobalamin/folate supplementation in elderly patients with dementia and elevated plasma homocysteine.",
+              "study_design": "clinical_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": null,
+                  "unit": null,
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": null
+                }
+              ],
+              "notes": "Patients with mild-moderate dementia showed improvement in cognitive function after supplementation, indicating a beneficial outcome.",
+              "source_conditions": [
+                "cognitive dysfunction"
+              ]
+            },
+            {
+              "pmid": "37334792",
+              "year": 2023,
+              "title": "Vitamin B12 supplementation improves cognitive function in middle aged and elderly patients with cognitive impairment.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "500",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "seven days",
+                  "formulation": "intramuscular"
+                }
+              ],
+              "notes": "The study shows significant improvement in cognitive function with Vitamin B12 supplementation, indicating a beneficial outcome.",
+              "source_conditions": [
+                "cognitive dysfunction"
+              ]
+            }
+          ]
+        },
+        {
+          "supplement": "Zeaxanthin",
+          "evidence_tier": "Tier 3",
+          "category_source": "manual_pair",
+          "studies": [
+            {
+              "pmid": "37447152",
+              "year": 2023,
+              "title": "Effects of Long-Chain Polyunsaturated Fatty Acids in Combination with Lutein and Zeaxanthin on Episodic Memory in Healthy Older Adults.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "mixed_unclear",
+              "doses": [
+                {
+                  "amount": "24",
+                  "unit": "weeks",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "supplements containing ARA, DHA, EPA, L, and Z"
+                },
+                {
+                  "amount": "12",
+                  "unit": "weeks",
+                  "frequency": null,
+                  "duration": null,
+                  "formulation": "supplements containing ARA, DHA, EPA, L, and Z"
+                }
+              ],
+              "notes": "The study showed no significant effect on memory function in healthy older individuals with memory complaints, but improvement was noted in those with cognitive decline, indicating mixed outcomes.",
+              "source_conditions": [
+                "cognitive decline"
+              ]
+            },
+            {
+              "pmid": "28695791",
+              "year": 2018,
+              "title": "Lutein and Zeaxanthin Influence Brain Function in Older Adults: A Randomized Controlled Trial.",
+              "study_design": "randomized_controlled_trial",
+              "outcome_direction": "benefit",
+              "doses": [
+                {
+                  "amount": "12",
+                  "unit": "mg",
+                  "frequency": "daily",
+                  "duration": "1 year",
+                  "formulation": null
+                }
+              ],
+              "notes": "The study shows that zeaxanthin supplementation benefits neurocognitive function, indicating a positive outcome direction.",
+              "source_conditions": [
+                "cognitive dysfunction"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

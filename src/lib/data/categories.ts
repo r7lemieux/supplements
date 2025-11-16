@@ -1,0 +1,1 @@
+export const categoriesData = ["Bone and Joint Health","Cardiovascular Health","Digestive Health","Immune Support","Mental Health","Metabolic Health","Neurological Health","Reproductive Health","Respiratory Health","Skin and Hair Health","Sleep and Stress","Vision Health"]

@@ -1,0 +1,416 @@
+{
+  "health_condition_categories": [
+    {
+      "category": "Bone and Joint Health",
+      "conditions": [
+        {
+          "condition": "Osteoporosis",
+          "supplements": ["Vitamin D", "Magnesium", "Calcium", "Vitamin K", "Horsetail"]
+        },
+        {
+          "condition": "Osteoarthritis",
+          "supplements": ["Turmeric/Curcumin", "Collagen", "Glucosamine", "MSM", "Chondroitin", "Cat's Claw", "SAM-e"]
+        },
+        {
+          "condition": "Joint Pain",
+          "supplements": ["Collagen", "MSM"]
+        },
+        {
+          "condition": "Fracture Risk",
+          "supplements": ["Calcium"]
+        },
+        {
+          "condition": "Bone Health",
+          "supplements": ["Collagen"]
+        }
+      ]
+    },
+    {
+      "category": "Cardiovascular Health",
+      "conditions": [
+        {
+          "condition": "Heart Disease",
+          "supplements": ["Omega-3 Fish Oil", "CoQ10", "L-Carnitine"]
+        },
+        {
+          "condition": "High Triglycerides",
+          "supplements": ["Omega-3 Fish Oil"]
+        },
+        {
+          "condition": "Hypertension",
+          "supplements": ["Magnesium", "Garlic", "CoQ10", "Potassium", "Grape Seed Extract"]
+        },
+        {
+          "condition": "High Cholesterol",
+          "supplements": ["Probiotics", "Fiber (Psyllium)", "Garlic", "Green Tea Extract", "Vitamin B3 (Niacin)", "Red Yeast Rice", "Spirulina"]
+        },
+        {
+          "condition": "Atherosclerosis",
+          "supplements": ["Garlic"]
+        },
+        {
+          "condition": "Heart Failure",
+          "supplements": ["CoQ10", "Taurine", "Hawthorne"]
+        },
+        {
+          "condition": "Cardiovascular Disease",
+          "supplements": ["Folic Acid", "Green Tea Extract", "Resveratrol"]
+        },
+        {
+          "condition": "Stroke Risk",
+          "supplements": ["Omega-3 Fish Oil"]
+        },
+        {
+          "condition": "Circulation",
+          "supplements": ["Cayenne", "Grape Seed Extract"]
+        }
+      ]
+    },
+    {
+      "category": "Digestive Health",
+      "conditions": [
+        {
+          "condition": "Irritable Bowel Syndrome",
+          "supplements": ["Probiotics", "Aloe Vera", "Peppermint Oil"]
+        },
+        {
+          "condition": "Antibiotic-Associated Diarrhea",
+          "supplements": ["Probiotics"]
+        },
+        {
+          "condition": "Ulcerative Colitis",
+          "supplements": ["Probiotics"]
+        },
+        {
+          "condition": "Constipation",
+          "supplements": ["Fiber (Psyllium)", "Aloe Vera", "Cascara Sagrada", "Flaxseed"]
+        },
+        {
+          "condition": "Diverticulitis",
+          "supplements": ["Fiber (Psyllium)"]
+        },
+        {
+          "condition": "Hemorrhoids",
+          "supplements": ["Fiber (Psyllium)"]
+        },
+        {
+          "condition": "Digestive Issues",
+          "supplements": ["Goldenseal", "Licorice Root"]
+        },
+        {
+          "condition": "Digestive Upset",
+          "supplements": ["Chamomile"]
+        },
+        {
+          "condition": "Lactose Intolerance",
+          "supplements": ["Digestive Enzymes"]
+        },
+        {
+          "condition": "Pancreatic Insufficiency",
+          "supplements": ["Digestive Enzymes"]
+        },
+        {
+          "condition": "Liver Disease",
+          "supplements": ["Milk Thistle"]
+        },
+        {
+          "condition": "Cirrhosis",
+          "supplements": ["Milk Thistle"]
+        },
+        {
+          "condition": "Hepatitis",
+          "supplements": ["Milk Thistle"]
+        },
+        {
+          "condition": "Liver Health",
+          "supplements": ["Dandelion"]
+        }
+      ]
+    },
+    {
+      "category": "Immune Support",
+      "conditions": [
+        {
+          "condition": "Immune Deficiency",
+          "supplements": ["Vitamin D", "Zinc"]
+        },
+        {
+          "condition": "Immune Support",
+          "supplements": ["Vitamin C", "Astragalus", "Spirulina"]
+        },
+        {
+          "condition": "Common Cold",
+          "supplements": ["Vitamin C", "Zinc", "Echinacea", "Elderberry"]
+        },
+        {
+          "condition": "Influenza",
+          "supplements": ["Elderberry"]
+        },
+        {
+          "condition": "Upper Respiratory Infections",
+          "supplements": ["Echinacea"]
+        },
+        {
+          "condition": "Infections",
+          "supplements": ["Goldenseal"]
+        },
+        {
+          "condition": "Immune Function",
+          "supplements": ["Ginseng", "Vitamin A"]
+        }
+      ]
+    },
+    {
+      "category": "Mental Health",
+      "conditions": [
+        {
+          "condition": "Depression",
+          "supplements": ["Vitamin D", "Turmeric/Curcumin", "Folic Acid", "St. John's Wort", "5-HTP", "SAM-e", "DHEA"]
+        },
+        {
+          "condition": "Anxiety",
+          "supplements": ["Magnesium", "Ashwagandha", "Chamomile", "Valerian Root", "Hemp CBD", "St. John's Wort", "Kava"]
+        },
+        {
+          "condition": "Stress",
+          "supplements": ["Ashwagandha", "L-Theanine", "Rhodiola", "Vitamin B5 (Pantothenic Acid)"]
+        },
+        {
+          "condition": "Cognitive Decline",
+          "supplements": ["Vitamin B12", "Ginkgo Biloba"]
+        },
+        {
+          "condition": "Cognitive Function",
+          "supplements": ["Creatine", "Alpha-Lipoic Acid"]
+        },
+        {
+          "condition": "Cognitive Performance",
+          "supplements": ["Ginseng"]
+        }
+      ]
+    },
+    {
+      "category": "Metabolic Health",
+      "conditions": [
+        {
+          "condition": "Type 2 Diabetes",
+          "supplements": ["Magnesium", "Fiber (Psyllium)", "Green Tea Extract", "Chromium", "Fenugreek", "Bitter Melon", "Gymnema Sylvestre"]
+        },
+        {
+          "condition": "Metabolic Syndrome",
+          "supplements": ["Turmeric/Curcumin"]
+        },
+        {
+          "condition": "Obesity",
+          "supplements": ["Fiber (Psyllium)"]
+        },
+        {
+          "condition": "Weight Loss",
+          "supplements": ["Green Tea Extract", "Alpha-Lipoic Acid", "Chromium", "Whey Protein", "Acai", "Yerba Mate"]
+        },
+        {
+          "condition": "Diabetes",
+          "supplements": ["Fenugreek"]
+        }
+      ]
+    },
+    {
+      "category": "Neurological Health",
+      "conditions": [
+        {
+          "condition": "Migraines",
+          "supplements": ["Magnesium", "CoQ10", "Turmeric/Curcumin", "Ginger", "5-HTP", "Vitamin B2 (Riboflavin)", "Feverfew"]
+        },
+        {
+          "condition": "Neuropathy",
+          "supplements": ["Vitamin B12"]
+        },
+        {
+          "condition": "Parkinson's Disease",
+          "supplements": ["CoQ10", "Creatine"]
+        },
+        {
+          "condition": "Alzheimer's Disease",
+          "supplements": ["Vitamin E"]
+        },
+        {
+          "condition": "Diabetic Neuropathy",
+          "supplements": ["Alpha-Lipoic Acid"]
+        },
+        {
+          "condition": "Tinnitus",
+          "supplements": ["Ginkgo Biloba"]
+        },
+        {
+          "condition": "Intermittent Claudication",
+          "supplements": ["Ginkgo Biloba"]
+        },
+        {
+          "condition": "Wernicke-Korsakoff Syndrome",
+          "supplements": ["Vitamin B1 (Thiamine)"]
+        },
+        {
+          "condition": "Carpal Tunnel Syndrome",
+          "supplements": ["Vitamin B6"]
+        }
+      ]
+    },
+    {
+      "category": "Reproductive Health",
+      "conditions": [
+        {
+          "condition": "Erectile Dysfunction",
+          "supplements": ["Ginseng", "DHEA", "Yohimbe"]
+        },
+        {
+          "condition": "Menopausal Symptoms",
+          "supplements": ["Evening Primrose Oil", "Black Cohosh"]
+        },
+        {
+          "condition": "Premenstrual Syndrome",
+          "supplements": ["Evening Primrose Oil"]
+        },
+        {
+          "condition": "Menstrual Pain",
+          "supplements": ["Ginger"]
+        },
+        {
+          "condition": "PMS",
+          "supplements": ["Vitamin B6"]
+        },
+        {
+          "condition": "Preeclampsia",
+          "supplements": ["Calcium"]
+        },
+        {
+          "condition": "Breast Milk Production",
+          "supplements": ["Fenugreek"]
+        },
+        {
+          "condition": "Menstrual Cramps",
+          "supplements": ["Fenugreek"]
+        },
+        {
+          "condition": "Libido",
+          "supplements": ["Maca", "Tribulus Terrestris"]
+        },
+        {
+          "condition": "Testosterone",
+          "supplements": ["Tribulus Terrestris", "ZMA"]
+        }
+      ]
+    },
+    {
+      "category": "Respiratory Health",
+      "conditions": [
+        {
+          "condition": "Chronic Bronchitis",
+          "supplements": ["NAC"]
+        },
+        {
+          "condition": "Sore Throat",
+          "supplements": ["Licorice Root"]
+        }
+      ]
+    },
+    {
+      "category": "Skin and Hair Health",
+      "conditions": [
+        {
+          "condition": "Eczema",
+          "supplements": ["Probiotics", "Evening Primrose Oil"]
+        },
+        {
+          "condition": "Acne",
+          "supplements": ["Zinc"]
+        },
+        {
+          "condition": "Skin Health",
+          "supplements": ["Vitamin E", "Beta-Carotene"]
+        },
+        {
+          "condition": "Skin Aging",
+          "supplements": ["Collagen"]
+        },
+        {
+          "condition": "Brittle Nails",
+          "supplements": ["Biotin"]
+        },
+        {
+          "condition": "Hair Loss",
+          "supplements": ["Biotin", "Saw Palmetto"]
+        },
+        {
+          "condition": "Seborrheic Dermatitis",
+          "supplements": ["Biotin"]
+        },
+        {
+          "condition": "Skin Burns",
+          "supplements": ["Aloe Vera"]
+        },
+        {
+          "condition": "Skin Conditions",
+          "supplements": ["Aloe"]
+        },
+        {
+          "condition": "Skin Hydration",
+          "supplements": ["Hyaluronic Acid"]
+        }
+      ]
+    },
+    {
+      "category": "Sleep and Stress",
+      "conditions": [
+        {
+          "condition": "Insomnia",
+          "supplements": ["Magnesium", "Ashwagandha", "Melatonin", "Valerian Root", "Hemp CBD", "5-HTP", "Chamomile", "ZMA"]
+        },
+        {
+          "condition": "Jet Lag",
+          "supplements": ["Melatonin"]
+        },
+        {
+          "condition": "Circadian Rhythm Disorders",
+          "supplements": ["Melatonin"]
+        },
+        {
+          "condition": "Adrenal Fatigue",
+          "supplements": ["Ashwagandha"]
+        },
+        {
+          "condition": "Sleep",
+          "supplements": ["ZMA"]
+        },
+        {
+          "condition": "Sleep Quality",
+          "supplements": ["L-Theanine"]
+        }
+      ]
+    },
+    {
+      "category": "Vision Health",
+      "conditions": [
+        {
+          "condition": "Age-Related Macular Degeneration",
+          "supplements": ["Zinc", "Vitamin E", "Lutein"]
+        },
+        {
+          "condition": "Cataracts",
+          "supplements": ["Lutein"]
+        },
+        {
+          "condition": "Night Blindness",
+          "supplements": ["Vitamin A"]
+        },
+        {
+          "condition": "Diabetic Retinopathy",
+          "supplements": ["Bilberry"]
+        },
+        {
+          "condition": "Night Vision",
+          "supplements": ["Bilberry"]
+        }
+      ]
+    }
+  ]
+}
