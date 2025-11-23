@@ -22,12 +22,15 @@ export class Indication extends Mo {
   static moMeta: MoMetaInterface = new MoMeta(MoDefinition.fromProps({
       hasId: false,
       name: 'indications',
-      gridFieldnames: ['name', 'category'],
+      gridFieldnames: ['name', 'category']
     })
   ).setName()
   static {
+    Indication.moMeta.moDef.addMoFieldDefFromName('category')
+    Indication.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements')
+
     const moDef = Indication.moMeta.moDef
     moDef.moClass = Indication
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

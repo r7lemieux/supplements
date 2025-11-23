@@ -1,4 +1,4 @@
-import type {Moid} from 'svelte-mos'
+import { CommonFieldDefs, MoFieldDefinition, type Moid } from 'svelte-mos'
 import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 import { EvidenceTier, type EvidenceTierEnum, SourceType, type SourceTypeEnum } from './enums.ts'
 
@@ -28,11 +28,19 @@ export class IndicationSupplement extends Mo {
       hasId: false,
       name: 'indicationSupplements',
       gridFieldnames: ['indication', 'supplement', 'evidenceTier', 'sourceEntryType'],
+      aa1: true
     })
   ).setName()
   static {
+    // const indicationFieldDef = CommonFieldDefs.mo.clone() as MoFieldDefinition
+    // indicationFieldDef.moName = 'indications'
+    // indicationFieldDef.name = 'indication'
+    // IndicationSupplement.moMeta.moDef.fieldDefs.set('indication', indicationFieldDef)
+    IndicationSupplement.moMeta.moDef.addMoFieldDefFromName('indication')
+    IndicationSupplement.moMeta.moDef.addMoFieldDefFromName('supplement')
+    IndicationSupplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
     const moDef = IndicationSupplement.moMeta.moDef
     moDef.moClass = IndicationSupplement
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

@@ -29,6 +29,6 @@ export class Condition extends Mo {
   static {
     const moDef = Condition.moMeta.moDef
     moDef.moClass = Condition
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

@@ -13,10 +13,10 @@ export const load: PageLoad = async ({params, data, parent }: any) => {
   // depends('data:moname')
   const moname = params.moname
   const mos = data.mos
-  console.log(`==>+page.ts:15 mos.length`, mos.length + ' ' + !!mos[0] + ' ' + !!mos[0]?.moMeta)
+  // console.log(`==>+page.ts:15 mos.length`, mos.length + ' ' + !!mos[0] + ' ' + !!mos[0]?.moMeta)
   // const moMeta = getMoMeta(moname)
   // mos.forEach(mo => mo.moMeta = moMeta)
-  console.log(`==>+page.ts:13 moname`, moname)
+  // console.log(`==>+page.ts:13 moname`, moname)
   const moMeta = getMoMeta(moname)
   const parentData = await parent()
   return {moname, moMeta, mos, parentData}

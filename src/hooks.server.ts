@@ -18,7 +18,7 @@ export async function handle({ event, resolve }) {
   if (dev && event.url.pathname === '/.well-known/appspecific/com.chrome.devtools.json') {
     return new Response(undefined, {status: 404});
   } else if (event.url.pathname.endsWith('favicon.ico')) {
-    console.log(`==> hooks.server.ts:22 event.url `, event.url)
+    //console.log(`==> hooks.server.ts:22 event.url `, event.url)
     return new Response('')
   } else {
     return await resolve(event);

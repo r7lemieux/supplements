@@ -7,6 +7,9 @@ export async function load({params}: any) {
   try {
     const moMeta = getMoMeta(moname)
     const mos: MoInterface[] = await moMeta?.dataSource.getMos()
+    if (!mos) {
+      throw error(500, `no ${moname} found`)
+    }
     return {moname, mos}
   } catch (ex: any) {
     if (ex.name === ErrorName.resource_not_found) {

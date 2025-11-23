@@ -1,7 +1,7 @@
 
 :root {
   --menu-background-color: #050B2F;
-  --menu-highlight-color: #330;
+  --menu-highlight-color: #550;
   --menu-anchor-color: #DDF;
   --menu-item-color: #AA9;
   --menu-selected-color: #EE5;
@@ -15,8 +15,8 @@
   --field-background-color: transparent;
   --field-delete-color: #822;
   --tree-line-color: #88A;
-  --field-value-color: #000;
-  --field-label-color: #002;
+  --field-value-color: #222;
+  --field-label-color: #235;
   --field-border-color: #DDE;
   --field-edit-background-color: #E1E2FF;
   --field-bottom-line-color: #E1E2FF;
@@ -30,4 +30,6 @@
 }
 body {
   background-color: var(--page-background-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
 }

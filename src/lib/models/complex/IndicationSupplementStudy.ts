@@ -7,7 +7,7 @@ export class IndicationSupplementStudy extends Mo {
   // supplement: MoidInterface
   indicationSupplement: MoidInterface
   study: MoidInterface
-  dose: MoidInterface[] = []
+  doses: MoidInterface[] = []
   outcomeDirection: OutcomeDirectionEnum = OutcomeDirection.unknown
 
   constructor(indicationSupplement: Moid, study: Moid) {
@@ -30,12 +30,16 @@ export class IndicationSupplementStudy extends Mo {
   static moMeta: MoMetaInterface = new MoMeta(MoDefinition.fromProps({
       hasId: false,
       name: 'indicationSupplementStudies',
-      gridFieldnames: ['indication', 'supplement', 'study', 'outcomeDirection', 'sourceEntryType'],
+      gridFieldnames: ['indicationSupplement', 'study', 'outcomeDirection', 'sourceEntryType'],
     })
   ).setName()
   static {
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement')
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('studies')
+    IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
+
     const moDef = IndicationSupplementStudy.moMeta.moDef
     moDef.moClass = IndicationSupplementStudy
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

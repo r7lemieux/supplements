@@ -36,8 +36,11 @@ export class Dose extends Mo {
     })
   ).setName()
   static {
+    Dose.moMeta.moDef.addMoFieldDefFromName('indication')
+    Dose.moMeta.moDef.addMoFieldDefFromName('supplement')
+    Dose.moMeta.moDef.addMoFieldDefFromName('study')
     const moDef = Dose.moMeta.moDef
     moDef.moClass = Dose
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

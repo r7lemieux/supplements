@@ -1,5 +1,12 @@
-import type {Moid} from 'svelte-mos'
-import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
+import {
+  CommonFieldDefs,
+  Mo,
+  MoDefinition,
+  MoFieldDefinition,
+  type MoidInterface,
+  MoMeta,
+  type MoMetaInterface
+} from 'svelte-mos'
 
 export class Supplement extends Mo {
   name: string = ''
@@ -15,6 +22,8 @@ export class Supplement extends Mo {
     return this
   }
 
+  getDisplayName = () => this.displayName || this.name
+
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id
 
@@ -26,8 +35,14 @@ export class Supplement extends Mo {
   ).setName()
 
   static {
+    // const indicationSupplementFieldDef = CommonFieldDefs.moArray.clone() as MoFieldDefinition
+    // indicationSupplementFieldDef.type = 'moArray'
+    // indicationSupplementFieldDef.moName = 'indicationSupplements'
+    // indicationSupplementFieldDef.name = 'indicationSupplements'
+    // Supplement.moMeta.moDef.fieldDefs.set('indicationSupplements', indicationSupplementFieldDef)
+    Supplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements')
     const moDef = Supplement.moMeta.moDef
     moDef.moClass = Supplement
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

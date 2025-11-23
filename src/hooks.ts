@@ -9,14 +9,16 @@ export const transport: Transport = {
       // if (!appState.initialized) return false
       registerMoMetas()
 
-      //console.log(`==> hooks.ts:12 value `, typeof value, value instanceof Mo, (typeof value === 'object')?value.constructor.name: '');
+      // console.log(`==> hooks.ts:12 value `, typeof value, value instanceof Mo, (typeof value === 'object')?value.constructor.name: '');
       if (value?.moMeta) return encodeMo(value)
-      // if (value instanceof Mo) return encodeMo(value)
       // if (value instanceof Array) {
-      //   if (!value.length) return false
-      //   if (!value[0] as any instanceof Mo) return false
-      //   return value.map(encodeMo)
+      //   if (!value.length) return []
+      //   if (value[0].moMeta) {
+      //     console.log(`==> hooks.ts:18 typeof value `, typeof value, value);
+      //     return value.map(encodeMo)
+      //   }
       // }
+      return false
     },
     decode: (obj: any) => {
       registerMoMetas()

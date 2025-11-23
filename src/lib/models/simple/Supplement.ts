@@ -26,7 +26,7 @@ export class Supplement extends Mo {
   static {
     const moDef = Supplement.moMeta.moDef
     moDef.moClass = Supplement
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 
 }

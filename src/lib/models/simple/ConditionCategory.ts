@@ -28,6 +28,6 @@ export class ConditionCategory extends Mo {
     const moDef = ConditionCategory.moMeta.moDef
     moDef.moClass = ConditionCategory
     // moDef.fieldDefs.set('conditions', buildFieldDef('moArray'))
-    moDef.initFieldDefs()
+    moDef.createFieldDefs()
   }
 }

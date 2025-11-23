@@ -1,5 +1,5 @@
 import * as data from '../../data/evidence.by_indication.json'
-import { getMoMeta, Moid, MoMeta } from 'svelte-mos'
+import { getMoMeta, HeapDataSource, Moid, MoMeta } from 'svelte-mos'
 import { Supplement } from '../../models/complex/Supplement.ts'
 import { Indication } from '../../models/complex/Indication.ts'
 import { Study } from '../../models/complex/Study.ts'
@@ -24,11 +24,13 @@ export const loadEvidenceData = async () => {
   for (let indicationRaw of data.indications) {
     const indication0 = new Indication()
     indication0.name = indicationRaw.indication
+    indication0.displayName = indicationRaw.indication
     const categoryName = indicationRaw.category
     let category = categoriesByName[categoryName]
     if (!category) {
       const category0 = new Category()
       category0.name = categoryName
+      category0.displayName = categoryName
       category = await Category.moMeta.dataSource.addMo(category0) as Category
       categoriesByName[categoryName] = category
     }
@@ -42,13 +44,16 @@ export const loadEvidenceData = async () => {
         if (!supplement) {
           const supplement0 = new Supplement()
           supplement0.name = supplementName
+          supplement0.displayName = supplementName
           supplement = await Supplement.moMeta.dataSource.addMo(supplement0) as Supplement
+          supplementsByName[supplementName] = supplement
         }
         const indicationSupplement0 = new IndicationSupplement(indication, supplement)
         indicationSupplement0.evidenceTier = parseEvidenceTier(supplementRaw.evidence_tier)
         indicationSupplement0.sourceEntryType = parseSourceEntryType(supplementRaw.category_source)
-        const indicationSupplement = await IndicationSupplement.moMeta.dataSource.addMo(indicationSupplement0) as IndicationSupplement
-        supplement.indicationSupplements.push(new Moid(IndicationSupplement.moMeta, indicationSupplement.id, indication.getDisplayName()))
+        indicationSupplement0.displayName = `${indication.name} - ${supplement.name}`
+        const indicationSupplement = (await IndicationSupplement.moMeta.dataSource.addMo(indicationSupplement0)) as IndicationSupplement
+        supplement.indicationSupplements.push(new Moid(IndicationSupplement.moMeta, indicationSupplement.id, indication.name))
         if (supplementRaw.studies) {
           for (let studyRaw of supplementRaw.studies) {
             const pmid = Number.parseInt(studyRaw.pmid)
@@ -71,9 +76,11 @@ export const loadEvidenceData = async () => {
               study0.title = studyRaw.title
               study0.studyDesign = studyDesign
               study = await Study.moMeta.dataSource.addMo(study0) as Study
+              studiesByPmid[pmid] = study
             }
             const indicationSupplementStudy0 = new IndicationSupplementStudy(indicationSupplement, study)
             indicationSupplementStudy0.outcomeDirection = lookupOutcomeDirection(studyRaw.outcome_direction)
+            indicationSupplementStudy0.displayName = `${indication.name} - ${supplementName} - ${study.title}`
             if (studyRaw.doses) {
               for (let doseRaw of studyRaw.doses) {
                 const dose0 = new Dose(indication, supplement, study)
@@ -83,23 +90,26 @@ export const loadEvidenceData = async () => {
                 dose0.unit = lookupUnit(doseRaw.unit || 'unknown')
                 dose0.durationInDays = Number.parseInt(doseRaw.duration || '0')
                 const dose = await Dose.moMeta.dataSource.addMo(dose0)
-                indicationSupplementStudy0.dose.push(dose)
+                indicationSupplementStudy0.doses.push(dose)
               }
             }
-            const indicationSupplementStudy = await IndicationSupplementStudy.moMeta.dataSource.saveMo(indicationSupplementStudy0) as IndicationSupplementStudy
+            const indicationSupplementStudy = await IndicationSupplementStudy.moMeta.dataSource.addMo(indicationSupplementStudy0) as IndicationSupplementStudy
             indicationSupplement.indicationSupplementStudies.push(new Moid(Study.moMeta, indicationSupplementStudy.id, study.title))
             study.indicationSupplementStudies.push(new Moid(IndicationSupplementStudy.moMeta, indicationSupplementStudy.id, indicationSupplement.getDisplayName()))
           }
         }
-        IndicationSupplement.moMeta.dataSource.saveMo(indicationSupplement)
+        await IndicationSupplement.moMeta.dataSource.saveMo(indicationSupplement)
         indication.indicationSupplements.push(indicationSupplement)
       }
     }
     await Indication.moMeta.dataSource.saveMo(indication)
   }
   for (let mo of Object.values(categoriesByName)) await Category.moMeta.dataSource.saveMo(mo)
+  // console.log(`==> evidence.dataload.ts:103 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
   for (let mo of Object.values(supplementsByName)) await Supplement.moMeta.dataSource.saveMo(mo)
+  // console.log(`==> evidence.dataload.ts:105 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
   for (let mo of Object.values(studiesByPmid)) await Study.moMeta.dataSource.saveMo(mo)
+
 }
 // const category0 = new ConditionCategory()
 // category0.name = category0.displayName = catName
