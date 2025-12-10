@@ -8,12 +8,15 @@ export class ConditionCategory extends Mo {
   constructor() {
     super(ConditionCategory.moMeta)
   }
-
-  hydrate = (props: Partial<Supplement>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || this.name
     return this
   }
+  // hydrate = (props: Partial<Supplement>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || this.name
+  //   return this
+  // }
 
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id

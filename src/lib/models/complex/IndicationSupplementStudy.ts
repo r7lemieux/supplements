@@ -17,12 +17,15 @@ export class IndicationSupplementStudy extends Mo {
     this.indicationSupplement = indicationSupplement
     this.study = study
   }
-
-  hydrate = (props: Partial<IndicationSupplementStudy>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || `${this.indicationSupplement.getDisplayName()}-${this.study.getDisplayName()}`
     return this
   }
+  // hydrate = (props: Partial<Mo>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || `${this.indicationSupplement.getDisplayName()}-${this.study.getDisplayName()}`
+  //   return this
+  // }
 
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id
@@ -35,7 +38,7 @@ export class IndicationSupplementStudy extends Mo {
   ).setName()
   static {
     IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement')
-    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('studies')
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', 'studies')
     IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
 
     const moDef = IndicationSupplementStudy.moMeta.moDef

@@ -15,11 +15,15 @@ export class IndicationSupplement extends Mo {
     this.supplement = supplement
   }
 
-  hydrate = (props: Partial<IndicationSupplement>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || `${this.indication.displayName}-${this.supplement.displayName}`
     return this
   }
+  // hydrate = (props: Partial<Mo>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || `${this.indication.displayName}-${this.supplement.displayName}`
+  //   return this
+  // }
 
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id

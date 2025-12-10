@@ -1,0 +1,240 @@
+condition,category,supplements,pmids,demographics
+Tension Headache,Musculoskeletal & Pain,5-hydroxytrytophan,10849040,
+Depression,"Energy & Mood; Energy, Mood, & Mental Health",5-hydroxytrytophan; Coenzyme Q10; Creatine; Curcumin; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Fenugreek; L-Theanine; Maca; Magnesium; Melatonin; Probiotics (Lactobacillus); Rhodiola Rosea; Saffron; Selenium; Vitamin B6 (Pyridoxine); Vitamin B7 (Biotin); Vitamin K2,17990195; 23380314; 24722617; 24931003; 25163030; 25837277; 28787372; 31387429; 31669837; 32067288; 33025616; 33171595; 33556410; 33960081; 34664527; 35109763; 35373862; 35883082; 36635595; 37084960; 37264347; 37427624; 37801956; 38658619; 38684047; 39125295; 39242786; 39271063; 39488067; 39754520; 39846976; 40105433; 40281561; 40414301; 40796838,Diabetes Type 2; Fibromyalgia; IBS; Long COVID; Menopause; Multiple Sclerosis; Obese; Older Adults; PCOS; Parkinson's Disease; Women
+Improved Social Cognition,Cognitive & Neurological Function,5-hydroxytrytophan,34737364,
+Weight Loss,Weight & Body Composition,5-hydroxytrytophan; Ashwagandha; Astaxanthin; Beta-Glucans; Betaine; Chromium; Creatine; Curcumin; Garlic; Grape seed extract; L-Carnitine; Lutein; Probiotic (Akkermansia); Probiotics (Bifidobacterium); Probiotics (Lactobacillus); Vitamin B6 (Pyridoxine); Vitamin K2,17685090; 21480416; 22142813; 22776850; 22822451; 26764322; 27055824; 28952607; 29140808; 30064450; 30977089; 31132422; 31263284; 31713941; 32804855; 33298201; 33974725; 34919104; 35583055; 36678157; 37929031; 38542727; 38931207; 39275173; 39456659; 39461199; 39599737; 39879980; 39964702; 40218949; 40451504; 40527924; 40573153,Diabetes Type 2; Fatty Liver Disease; IBS; Metabolic Syndrome; Obese; Overweight; PCOS; Women
+Cognitive Performance,"Cognitive & Neurological Function; Energy, Mood, & Mental Health",5-hydroxytrytophan; Alpha-GPC; Ashwagandha; Astaxanthin; Bacopa Monnieri; Beetroot (Nitrate); Beta-alanine; Choline; Creatine; Docosahexaenoic acid (DHA); Inositol; L-Theanine; L-Tyrosine; Lemon Balm; Lion's Mane; Lutein; Nicotinamide Riboside; Panax ginseng; Rhodiola Rosea; Selenium; Taurine; Zeaxanthin,11140327; 11842916; 12062586; 12404705; 12888775; 12895688; 15582012; 17901042; 18006208; 18580589; 18641209; 18681988; 20737519; 23281132; 23609610; 29135938; 29474803; 29614679; 29996843; 30080229; 31468402; 31468412; 33375429; 33751906; 34639501; 34759112; 34836014; 34959823; 36839248; 36839281; 37340479; 37875637; 37917350; 37968687; 38004235; 38140277; 38538390; 38542677; 38696157; 38875437; 38929542; 38931168; 38931306; 38971131; 38975711; 39300341; 39683633; 39703111; 39948152; 40289951; 40479886,Alzheimer's Disease; Dementia; Diabetes Type 2; Men; Multiple Sclerosis; Older Adults; Overweight; Sprinting; Women
+Obsessive-Compulsive Disorder,"Energy, Mood, & Mental Health",5-hydroxytrytophan; Ashwagandha; L-Theanine; N-Acetylcysteine (NAC),26374743; 27515872; 32541380; 37169515,
+Panic Attacks,"Energy, Mood, & Mental Health",5-hydroxytrytophan; Vitamin B3 (Niacin),12559480; 15260907; 31170623,
+Sleep Quality,Sleep,5-hydroxytrytophan; Ashwagandha; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Inositol; L-Theanine; Lavender; Lemon Balm; Nicotinamide mononucleotide; Probiotics (Bifidobacterium); Saffron; Vitamin E,24199972; 32056539; 32540634; 32736046; 32818573; 32933356; 33467135; 33905827; 33925432; 34403081; 34438361; 35277011; 36235788; 36904186; 37495431; 37960353; 38309227; 38355674; 38789831; 38892634; 39954269; 40169760; 40762630,Menopause; Older Adults; Parkinson's Disease; Pregnant; Women; Young Adults
+Stress,"Energy, Mood, & Mental Health",5-hydroxytrytophan; Ashwagandha; Bacopa Monnieri; Curcumin; Fenugreek; Ginger; L-Theanine; L-Tyrosine; Lavender; Lemon Balm; Lion's Mane; Maca; Melatonin; N-Acetylcysteine (NAC); Peppermint oil; Phosphatidylserine; Rhodiola Rosea; Saffron; Vitamin B1 (Thiamine); Vitamin B2 (Riboflavin); Vitamin B6 (Pyridoxine); Vitamin C; Vitamin E,15272110; 15378679; 15512856; 15546807; 16930802; 18307390; 18611150; 18616866; 18784609; 21178946; 21208586; 22228617; 22575036; 23107346; 23788517; 25081826; 25360512; 26218236; 26502953; 26797633; 27396868; 29995356; 30562392; 31046033; 31517876; 31623400; 32441668; 33626029; 33640257; 33864354; 34222473; 35027302; 35085018; 35170885; 35212648; 35565828; 35851507; 35984870; 35987997; 36476355; 36596553; 36646611; 37386885; 37447245; 37832082; 38004235; 38010274; 38072763; 38408971; 38490827; 38975711; 39400653; 40077679; 40127529; 40145478; 40226680; 40263045; 40375569; 40507089; 40653563; 40795547; 40888191,Burn Patients; CKD; Cancer; Depression; Hemodialysis; Men; Menopause; Multiple Sclerosis; Obese; Older Adults; Overweight; Postoperative; Schizophrenia; Women
+Cardiac Recovery,Performance & Recovery,Alpha-GPC; Beetroot (Nitrate); Beta-alanine; Saffron; Selenium,32729923; 35813851; 36235623; 36501148; 37073742; 37120928; 37513551; 38092272; 39853480,Hypertension; Men; Menopause; Obese; Overweight; Running; Women
+Athletic Performance,Performance & Recovery,Alpha-GPC; Beetroot (Nitrate); Beta-alanine; Creatine; Probiotics (Bifidobacterium),27930743; 30307991; 32605284; 33187518; 33430250; 33801665; 35010917; 35512758; 35603411; 35726852; 35889796; 37229544; 37244392; 37960207; 38535518; 38953606; 39308082; 39571342; 39579758; 39796497; 39972259; 40145446; 40369047; 40431460,Athletes; CrossFit Athletes; Cycling; Handball Players; Men; Older Adults; Rowers; Running; Soccer Players; Sprinting; Triathletes; Water Polo Players; Women
+Increase Motivation,"Energy, Mood, & Mental Health",Alpha-GPC,34207484,
+Skin Aging Prevention,"Skin, Hair, & Nails",Apigenin; Astaxanthin; Glucosamine; Glycine; Grape seed extract; Lutein; Panax ginseng; Vitamin C; Zeaxanthin,17446716; 25402429; 25867599; 27279007; 27662341; 28214837; 29941810; 32581313; 38372022; 38931263; 40464749,
+Menopause Symptoms,Women's Health,Ashwagandha; Chaste Tree (vitex agnus-castus); Fenugreek,27406028; 30129806; 34553463,Menopause; Women
+Fatigue,"Energy, Mood, & Mental Health",Ashwagandha; Coenzyme Q10; Fenugreek; Lavender; Magnesium; Panax ginseng; Rhodiola Rosea; Saffron; Vitamin B1 (Thiamine),11081987; 19016404; 23613825; 24503750; 25268730; 27043120; 28219059; 30854916; 32716906; 33210299; 34444817; 35803088; 37740662; 37880581; 38842713; 39775962; 40005009; 40151031,Cancer; Chemotherapy; Chronic Fatigue Syndrome; Fibromyalgia; IBD; IBS; Multiple Sclerosis; Older Adults; Overweight
+Increase Satiety,Weight & Body Composition,Ashwagandha; Fenugreek; Hibiscus; L-Arginine; Peppermint oil,19353539; 19809809; 20020282; 23489975; 29862395; 30816148; 31535460; 34370964; 34591168; 35984871,College Students; Men; Obese; Overweight
+Immune System Fortification,"Immune, Inflammation, & Infection",Ashwagandha; Garlic; Probiotics (Bifidobacterium); Probiotics (Lactobacillus); Vitamin B2 (Riboflavin),19388865; 20415736; 26764332; 38201872; 39889684,
+Joint Pain,Musculoskeletal & Pain,Ashwagandha; Astaxanthin; Boswellia; Chondroitin; Eicosapentaenoic acid (EPA); Garlic; Ginger; Glucosamine; Lavender; Undenatured type II collagen,12622457; 12837047; 19847319; 24002213; 25306673; 25589511; 25857501; 26178634; 26604721; 26684635; 26822714; 26937646; 27050908; 27809891; 28349271; 28533290; 28657529; 28790224; 29176264; 29451036; 29701488; 29790635; 30195882; 30498336; 30648524; 30657100; 30838706; 31257264; 31470599; 32118508; 32520991; 32549135; 33213125; 33468249; 34212917; 34602400; 35512759; 35512781; 36453014; 37686801; 37686880; 38785054; 38829812; 39212491; 39476307; 39700461; 39875757; 40192256; 40237733; 40501230; 40732990,Chondropathy; Knee Pain; Obese; Osteoarthritis; Overweight; Rheumatoid Arthritis; Women
+Strength,Musculoskeletal & Pain; Performance & Recovery,Ashwagandha; Beetroot (Nitrate); Betaine; Choline; Creatine; L-Arginine; Melatonin; Probiotic (Akkermansia); Probiotics (Lactobacillus); Rhodiola Rosea,22080324; 32516959; 33600918; 34209617; 34477469; 34663363; 36432445; 36519333; 36812477; 37206869; 37409757; 37630756; 37764658; 38140393; 38646853; 38732571; 38747788; 38931275; 38988644; 39545789; 39683431; 39849681; 40010353; 40104233; 40553891,Basketball Players; CrossFit Athletes; Firefighters; Men; Menopause; Menustration; Multiple Sclerosis; Older Adults; Soccer Players; Sprinting; Women
+Hypothyroidism,Metabolic Health,Ashwagandha,28829155,
+Improve Memory,Cognitive & Neurological Function,Ashwagandha; Boswellia; L-Carnitine; L-Theanine; L-Tyrosine; Lavender; Lutein; Phosphatidylserine; Zeaxanthin,20523044; 21103402; 21303262; 21711517; 24577097; 25414047; 27403851; 28471731; 28695791; 29306113; 30950580; 32133585; 34736874; 35126747; 36043711; 37447152; 40099725,CKD; Hemodialysis; Multiple Sclerosis; Older Adults; Women
+COVID-19,"Immune, Inflammation, & Infection",Ashwagandha; Boron; Curcumin; Ginger; L-Arginine; L-Carnitine; N-Acetylcysteine (NAC); Resveratrol; Vitamin A,35183882; 35768453; 35997951; 36205206; 36804278; 37405379; 37482107; 38215974; 38915116; 40301181; 40841392,
+Improve Sexual Function,Women's Health,Ashwagandha; L-Arginine; Lavender; Maca; Panax ginseng; Saffron,18801111; 26504795; 33216632; 36603110; 38408971; 38745327; 39214150,Depression
+Wrinkles,"Skin, Hair, & Nails",Astaxanthin; Lemon Balm,22428137; 39888701,
+Exercise-Induced Inflammation,Performance & Recovery,Astaxanthin,39568140,
+Dementia Prevention,Healthy Aging & Prevention,Astaxanthin; Docosahexaenoic acid (DHA),21276280; 37874103; 38952108; 40044083,Older Adults
+Arterial Stiffness,Heart & Vascular Health,Astaxanthin; Creatine; L-Citrulline; Panax ginseng; Taurine; Vitamin K2,19091127; 20134405; 21067832; 27163699; 28756183; 39047868,Kidney Transplant; Men; Older Adults
+Hypertension,Heart & Vascular Health,Astaxanthin; Beetroot (Nitrate); Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Grape seed extract; L-Arginine; L-Citrulline; Magnesium; Nicotinamide Riboside; Panax ginseng; Taurine; Vitamin B2 (Riboflavin); Vitamin C,11978148; 19608210; 19851298; 21154265; 22277556; 23467207; 23608654; 24997863; 25636814; 26023227; 26568249; 26781281; 26863234; 27160957; 29599478; 29683391; 30735073; 31987113; 32147072; 33132345; 33498220; 33513929; 33671310; 33905304; 34004448; 34371972; 34990772; 35903950; 36297080; 36615732; 37664994; 37938096; 38931289; 39209360; 39380547; 40341867,Diabetes Type 2; Heart Failure; Men; Menopause; Obese; Older Adults; Overweight; Women
+Diabetes Type 2,"Immune, Inflammation, & Infection",Astaxanthin,33445213,
+Overweight,Heart & Vascular Health,Astaxanthin,21964877,
+Low HDL,Heart & Vascular Health,Astaxanthin; Choline; Docosahexaenoic acid (DHA); Grape seed extract; Hibiscus; Vitamin B3 (Niacin),19678781; 19892350; 19962289; 25528430; 27191247; 27891663; 35334836; 36522805; 36982461,
+Low LDL,Heart & Vascular Health,Astaxanthin,37874168; 38916710; 39482765,PCOS; Poor Ovarian Response
+PCOS ; Women,Women's Health,Astaxanthin,37020589,
+Infertility,"Immune, Inflammation, & Infection; Men's Health; Women's Health",Astaxanthin; Coenzyme Q10; Inositol; L-Carnitine; Maca; Melatonin; N-Acetylcysteine (NAC); Resveratrol; Vitamin E; Zinc,16110353; 31657275; 32572802; 32654242; 35237893; 35856361; 38103848; 38597704; 38957201; 38987824; 39415242; 39780224; 39891146; 40248985,PCOS; Poor Ovarian Reserve; Women
+Muscle Endurance,Performance & Recovery,Astaxanthin; Beetroot (Nitrate); Beta-alanine; Betaine; Creatine; Eicosapentaenoic acid (EPA); L-Citrulline; Phosphatidylserine; Taurine,19585317; 20499249; 21747291; 21984399; 23746562; 26097441; 26900386; 28349262; 28513179; 29549523; 30260740; 30847640; 31860534; 32660833; 34110707; 36432445; 36501070; 37125500; 37229544; 37686724; 39401344; 39972259; 40010353; 40218864; 40469872; 40470618,Basketball Players; Cycling; Men; Older Adults; Soccer Players; Sprinting
+Mental Fatigue,"Energy, Mood, & Mental Health",Astaxanthin; Rhodiola Rosea,10839209; 12725561; 29495607; 40289957,
+Exercise Induced Inflammation,"Immune, Inflammation, & Infection; Performance & Recovery",Astaxanthin; Beta-alanine; Betaine; Boswellia; Choline; Curcumin; Hibiscus; Rhodiola Rosea; Saffron,19478343; 22331521; 22828460; 23192897; 27736246; 27879642; 29746388; 34769925; 34959789; 35001410; 36501070; 40781899,Athletes; Diabetes Type 2; Football Players; Men; Military Training; Obese; Rowers; Soccer Players
+Older Adults,"Immune, Inflammation, & Infection",Astaxanthin,21897013; 23192897; 30379308; 34611051,Soccer Players
+Smokers,"Immune, Inflammation, & Infection",Astaxanthin,21883001,
+Oxidative Stress,"Immune, Inflammation, & Infection",Astaxanthin; Coenzyme Q10; Grape seed extract; L-Arginine; Melatonin; Resveratrol; Rhodiola Rosea; Taurine; Vitamin B1 (Thiamine); Vitamin C; Vitamin D; Vitamin E,14564675; 19478343; 27481232; 28074795; 28580833; 35700594; 36571754; 36624951; 36854788; 37108584; 38419408; 39036884; 39519608; 39993913; 39999976; 40290059; 40389645; 40871671,Diabetes Type 2; Fatty Liver Disease; Heart Failure; Menopause; Night Shift Workers; Older Adults; PCOS; Rowers; Smokers; Women
+Hand-Eye Coordination,Performance & Recovery,Astaxanthin; Lutein; Zeaxanthin,36986186,
+Skin Elasticity,"Skin, Hair, & Nails",Astaxanthin; Hibiscus,24955642; 40806423,
+Insomnia,Sleep,Astaxanthin; Lavender; Magnesium; Melatonin,28019085; 36270928; 38745424; 38764237; 39279257; 39304187; 39437460; 39534260; 39630381,Cancer; Parkinson's Disease; Postoperative
+Gastric Reflux,Gut Health,Astaxanthin; Chondroitin; Probiotics (Bifidobacterium); Probiotics (Lactobacillus),18467083; 28116754; 38337627; 38674920; 38892690,
+Rheumatoid Arthritis,"Immune, Inflammation, & Infection; Musculoskeletal & Pain",Astaxanthin; Chromium; Coenzyme Q10; Curcumin; Garlic; Saffron; Selenium,31392559; 32048365; 32159257; 37306592; 37477848; 38699839; 39030450; 40569081,Women
+Improve Emotional Function,Cognitive & Neurological Function,Bacopa Monnieri,36800346,Parkinson's Disease
+Memory,Cognitive & Neurological Function,Bacopa Monnieri; Fenugreek,12093601; 20590480; 36199177,Alzheimer's Disease; Older Adults
+Cold Extremities,"Skin, Hair, & Nails",Beetroot (Nitrate); Ginger,34814768; 36305974,
+Inflammation,"Heart & Vascular Health; Immune, Inflammation, & Infection",Beetroot (Nitrate); Boswellia; Choline; Chondroitin; Coenzyme Q10; Curcumin; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Garlic; Glucosamine; Glycine; Hibiscus; L-Carnitine; Lutein; Nicotinamide Riboside; Panax ginseng; Resveratrol; Saffron; Taurine; Vitamin C; Vitamin D,19765963; 21699953; 25719429; 27412799; 29576354; 30683061; 31412242; 31797473; 32544011; 32798261; 33066009; 33303222; 33316626; 34255136; 35975308; 36342289; 36421994; 36624951; 36752775; 37121179; 37986526; 38747270; 39343544; 39546036; 39565038; 40187667; 40290059; 40389645; 40400479; 40508019; 40871671,Coronary Artery Disease; Diabetes Type 2; Fatty Liver Disease; Multiple Sclerosis; Obese; Older Adults; Overweight; Sickle Cell Disease; Systemic Lupus Erythematosus; Women
+Long COVID,"Immune, Inflammation, & Infection",Beetroot (Nitrate); Creatine; L-Arginine,36501014; 36982151; 38099612; 38684388; 39940991,COVID
+High Insulin,Metabolic Health,Beetroot (Nitrate); Docosahexaenoic acid (DHA); Hibiscus; Inositol; L-Carnitine; Magnesium; Nicotinamide mononucleotide; Panax ginseng; Vitamin B3 (Niacin); Vitamin D; Vitamin E,15330492; 16860976; 17315307; 18685605; 20018807; 25446600; 26234931; 26289514; 26600645; 29311704; 30482933; 30764582; 32018040; 32563863; 33810049; 33888596; 33892722; 33928619; 34047916; 34727201; 35291435; 38257142; 38931296; 39202546; 39511203; 39718613; 39947040; 40019528; 40497345,Diabetes Type 2; Obese; Older Adults; Overweight; PCOS; Poor Ovarian Response; Prediabetes; Women
+Muscle Soreness,Performance & Recovery,Beetroot (Nitrate),37686795; 40323707,Climbers; Volleyball Players; Women
+Endothelial Function,Heart & Vascular Health,Beetroot (Nitrate); Creatine; Garlic; Glucosamine; L-Citrulline; Panax ginseng; Probiotics (Bifidobacterium); Resveratrol; Taurine; Vitamin B12 (Cobalamin); Vitamin B3 (Niacin),12204509; 24758417; 24768191; 26133666; 27648629; 28554988; 29151484; 30280751; 31468418; 32866396; 35276764; 35505122; 35652829; 36476159; 37447275; 37561087; 37686723; 37843843; 37849220; 38892688; 39001718; 39796490; 40089052; 40457872,Alzheimer's Disease; CAD; CKD; Diabetes; HIV; Older Adults
+Aerobic Capacity,Performance & Recovery,Beta-alanine; L-Arginine; L-Citrulline; Nicotinamide mononucleotide; Phosphatidylserine; Taurine; Vitamin K2,16394955; 25894892; 26110349; 26255281; 26308179; 26652037; 27434084; 27601217; 28118062; 28121265; 28157726; 28646812; 29246277; 29394491; 29651862; 29713250; 29905904; 30277420; 30307991; 30565426; 30847640; 31144977; 31438535; 31622158; 33092320; 33260139; 33805883; 33815657; 34238308; 34444703; 35215405; 35512767; 35805647; 36294288; 36482258; 39039103; 39064783; 39226288; 39714103; 40010353,Athletes; Basketball Players; Cycling; Endurance Athletes; Heart Failure; Judo; Jumping; Men; Military; Older Adults; Overweight; Sprinting; Taekwondo; Track & Field; Volleyball Players; Water Polo Players; Women
+Improve Mood,"Energy, Mood, & Mental Health",Beta-alanine; Lavender; Probiotics (Bifidobacterium); Vitamin C,32138563; 37513541; 38073290; 38128887; 38241803; 38459484,
+Increase Pain Perception,Musculoskeletal & Pain,Beta-alanine,34360425,
+High LDL,Heart & Vascular Health,Beta-Glucans; Betaine; Chromium; Coenzyme Q10; Fenugreek; Garlic; Grape seed extract; Lemon Balm; Manganese; Panax ginseng; Probiotics (Lactobacillus); Red Yeast Rice; Saffron; Taurine; Vitamin B3 (Niacin); Vitamin B5 (Pantothenic Acid); Vitamin B7 (Biotin); Vitamin E,12967598; 16015250; 17616006; 17684468; 19528562; 19699071; 19786378; 20102918; 20636227; 20980654; 22113535; 22348456; 22531006; 23187951; 23352857; 23437789; 23816039; 23860021; 23866314; 23890351; 23946347; 24488919; 24600231; 25001663; 25432415; 25750540; 25879228; 26374297; 26515419; 26681752; 27055107; 27143594; 27261994; 27405296; 28673363; 28704936; 29154060; 29604599; 30045422; 30150192; 30795775; 30871361; 31226435; 31583253; 31987238; 32696178; 33044768; 33051044; 34496450; 34587702; 35473348; 35606250; 35700592; 37202063; 37375586; 37513556; 38015360; 39203947; 39275232; 40087044,Diabetes Type 2; Myasthenia Gravis; Obese; Older Adults; Overweight; Pregnant; Women
+Gastritis,Gut Health,Beta-Glucans; Chondroitin; Probiotics (Bifidobacterium),29796851; 34444949; 38036761,
+Increase Flu Vaccine Efficacy,"Immune, Inflammation, & Infection",Beta-Glucans; L-Theanine; Melatonin,19149835; 30770758; 34959898; 39539030,Older Adults
+High Blood Glucose,Metabolic Health; Women's Health,Beta-Glucans; Betaine; Blueberry anthocyanins; Chromium; Creatine; Curcumin; Fenugreek; Garlic; Ginger; Grape seed extract; Inositol; L-Arginine; L-Citrulline; Lemon Balm; N-Acetylcysteine (NAC); Panax ginseng; Probiotic (Akkermansia); Probiotics (Bifidobacterium); Resveratrol; Saffron; Selenium; Taurine; Vitamin B3 (Niacin); Vitamin B6 (Pyridoxine); Vitamin B7 (Biotin); Vitamin E; Vitamin K2; Zinc,11868855; 14624282; 14684758; 15982990; 16401645; 17010221; 17109595; 17426742; 17506119; 19646193; 19839001; 19857068; 21619921; 21868771; 24401089; 26063948; 26098483; 26100928; 26358163; 26654154; 27036394; 28304350; 28956671; 29518003; 29860335; 30219475; 30377712; 30548118; 31148988; 31243685; 31447131; 31593637; 31677703; 32147060; 32306991; 32349742; 32408117; 32472292; 32507439; 32579549; 32861603; 32971450; 33053078; 33876875; 34836211; 34883305; 36053717; 36124913; 36169918; 36297065; 37817641; 38024820; 38313181; 38720217; 38747270; 38874882; 38896121; 38972164; 39004031; 39064648; 39085864; 39125340; 39796490; 40326558; 40647269; 40770379,Coronary Slow Flow Phenomenon; Diabetes Type 2; Fatty Liver Disease; Gestational Diabetes; Men; Menopause; Obese; Older Adults; Overweight; PCOS; Prediabetes; Pregnant; Women
+High Triglycerides,Heart & Vascular Health; Weight & Body Composition,Beta-Glucans; Chromium; Creatine; Curcumin; Eicosapentaenoic acid (EPA); Hibiscus; Probiotics (Bifidobacterium); Vitamin B3 (Niacin); Vitamin B7 (Biotin),16677798; 22185846; 23529988; 25651367; 25932792; 26679079; 26681758; 26982618; 28391875; 28960312; 30900815; 31277790; 32178279; 33045675; 35871058; 36202740; 36522805; 39051504; 39165011; 39796490,Diabetes Type 2; Obese; Older Adults; Women
+Increase COVID Vaccine Efficacy,"Immune, Inflammation, & Infection",Beta-Glucans,34959898,
+Exercise Recovery,Performance & Recovery,Betaine; Creatine; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Fenugreek; Iron; L-Carnitine; Panax ginseng; Taurine,21598413; 22976217; 25833543; 30987668; 33044367; 34684429; 38051142; 38542807; 40030077; 40032294; 40507040,Men; Women
+Breast Fibroadenoma,Women's Health,Betaine; Boswellia,27212181,Women
+Burn Wounds,"Skin, Hair, & Nails",Betaine; Coenzyme Q10,28682677; 38431600,
+Hepatitis C,"Immune, Inflammation, & Infection",Betaine,21079746,
+Dry Mouth,Oral Health,Betaine; Ginger; Hibiscus; Vitamin E,21950587; 32614361; 34162822; 35950355,Cancer; Diabetes Type 2
+Fatty Liver Disease,Gut Health,Betaine; Coenzyme Q10; Curcumin; Eicosapentaenoic acid (EPA); Grape seed extract; Hibiscus; L-Carnitine; Vitamin B12 (Cobalamin),24549255; 24972476; 30217048; 35982162; 36314323; 38755622; 38795741; 38987784; 39948699,Cancer; Fatty Liver Disease; Short Bowel Syndrome
+High Homocysteine,Heart & Vascular Health,Betaine; Vitamin B12 (Cobalamin); Vitamin B6 (Pyridoxine),15271145; 15931623; 17272965; 19346114; 26771632; 32918135; 36376887; 36717385; 36889645; 38876040,CKD; Older Adults; Schizophrenia
+Muscle Growth,Musculoskeletal & Pain; Performance & Recovery,Betaine; Creatine; Glycine; L-Carnitine; L-Citrulline,29945625; 32516959; 34519439; 34836240; 36960692; 37078370; 37675500; 38474743; 40292479; 40537085; 40743209,CKD; CrossFit Athletes; Hemodialysis; Pemphigus Vulgaris
+Diabetic Foot Ulcers,"Skin, Hair, & Nails",Boron,37421808,Diabetes
+Onychomycosis,"Immune, Inflammation, & Infection",Boron,25226015,
+Menstrual Pain,Women's Health,Boron,25906949,Dysmenorrhea; Women
+Bloating,Gut Health,Boswellia; Glucosamine; Probiotics (Lactobacillus),34202877; 35276778; 38304947,IBS
+Crohn's Disease,Gut Health,Boswellia; Probiotics (Bifidobacterium); Probiotics (Lactobacillus); Vitamin B2 (Riboflavin),11215357; 31873717; 38159563,
+Diarrhea,Gut Health,Boswellia; Probiotics (Bifidobacterium); Probiotics (Lactobacillus),35565826; 38519563; 38630015; 38999739,Antibiotic Use; IBS
+Acute Musculoskeletal Pain,Musculoskeletal & Pain,Boswellia,36107505,Exercise Induced Pain
+Asthma,Respiratory Health,Boswellia; L-Citrulline,26502867; 31714895,Asthma
+Colitis,Gut Health,Boswellia,11488449; 17764013,
+Chronic Low Back Pain,Musculoskeletal & Pain,Boswellia; Manganese,33568038; 39700654; 39973246,
+Traumatic Brain Injury,Cognitive & Neurological Function,Boswellia,24088189; 35385330,
+Heavy Menstrual Bleeding,Women's Health,Boswellia,30670277,Women
+Pain,Musculoskeletal & Pain,Boswellia; Coenzyme Q10; Curcumin; Magnesium,25298573; 40151031; 40220411,Fibromyalgia
+UTI,Kidney & Bladder Health,Boswellia; Chondroitin; Hibiscus; Probiotics (Lactobacillus); Vitamin C,27838537; 29974725; 30362679; 38721680; 39791583; 40162673,
+Wound Healing,"Skin, Hair, & Nails",Boswellia; Eicosapentaenoic acid (EPA); Garlic; Grape seed extract,25948437; 29735019; 31490311; 31518044; 32971163; 33590955,
+Stress Urinary Incontinence,Women's Health,Boswellia,25225151,Women
+Vulvovaginal Candidiasis,Women's Health,Boswellia; Probiotics (Lactobacillus),35751891; 38350486,Women
+Improve Bone Density,Musculoskeletal & Pain,Calcium; Inositol; Melatonin; Resveratrol; Vitamin B1 (Thiamine); Vitamin K1; Vitamin K2,10750566; 10874601; 11180916; 11682046; 12003435; 12686368; 14506950; 15616893; 16594930; 17012108; 17243866; 17287908; 18260178; 19352059; 20024591; 20177349; 23702931; 23828145; 23846118; 24136015; 27625301; 32060566; 33835939; 37569440; 39197463; 39804018; 39861392; 40042722; 40329508; 40371216,Anorexia Nervosa; CKD; Cirrhosis; Heart Transplant; Hemodialysis; Lung Transplant; Menopause; Older Adults; Osteoporosis; Rheumatoid Arthritis; Steroid Use; Thalassemia; Women
+Tooth Decay,Oral Health,Calcium; Probiotics (Lactobacillus); Resveratrol,39557280; 40147282; 40335196,
+Premenstrual Syndrome,Women's Health,Chaste Tree (vitex agnus-castus); Phosphatidylserine; Probiotics (Lactobacillus); Vitamin B1 (Thiamine); Vitamin B6 (Pyridoxine),11129515; 18476391; 19757982; 24604699; 25363099; 29576358; 31928364; 38068843,Menopause; Women
+Migraine Headache,Musculoskeletal & Pain,Chaste Tree (vitex agnus-castus); Eicosapentaenoic acid (EPA); L-Carnitine; Melatonin; Vitamin B12 (Cobalamin); Vitamin B2 (Riboflavin); Vitamin B6 (Pyridoxine); Vitamin D,22791378; 25916335; 28526386; 35112219; 38499208; 38751874; 39221580; 40082970; 40360751,
+Cardiac Risk,Heart & Vascular Health; Metabolic Health,Choline; Curcumin; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Iron; Selenium; Vitamin B3 (Niacin),27407053; 29034644; 29588138; 32722424; 34293124; 34982486; 37179031; 38589346; 39354480; 40393927; 40481568; 40573083; 40759997; 40806137,CKD; Diabetes Type 2; Fatty Liver Disease; Hemodialysis; Obese; Older Adults; Women
+Schizophrenia,"Energy, Mood, & Mental Health",Choline; Glycine; L-Theanine; N-Acetylcysteine (NAC); Red Yeast Rice,25896423; 27629871; 27789188; 28602646; 29126981; 29499855; 30921099; 32851421; 33630646; 36927273; 37697164,
+Elbow Pain,Musculoskeletal & Pain,Chondroitin,26133944,Lateral Epicondylitis
+Temporomandibular Joint Syndrome,Musculoskeletal & Pain; Oral Health,Chondroitin; Glucosamine; Lavender,25662545; 28862770; 29864430; 32893748,
+Osteoarthritis,Musculoskeletal & Pain,Chondroitin; Curcumin; Glucosamine,24395557; 25085275; 26178634; 27716158; 28245911; 28657529; 29701488; 30498336; 30648524; 30657100; 39586746,Osteoarthritis
+BPH,Kidney & Bladder Health,Coenzyme Q10; L-Carnitine,38105612,
+Musculoskeletal Pain,Musculoskeletal & Pain,Coenzyme Q10; Red Yeast Rice; Vitamin C,28521773; 31695332; 39044241; 39739762,Injury; Rotator Cuff Tears; Statin Use
+Neuropathic Pain,Musculoskeletal & Pain,Coenzyme Q10; Lavender; Vitamin B2 (Riboflavin),34217127; 35680173; 36273066,Diabetes
+Cardiac Function,Heart & Vascular Health,Coenzyme Q10; L-Citrulline; Resveratrol; Taurine,23224924; 31666833; 35381849; 36854725; 38281937,Diabetes Type 2; Heart Failure; Myocardial Infarction
+Improve Visual Acuity,Vision & Eye Health,Coenzyme Q10; Garlic; Lutein,28429904; 31781880; 35875346,Alzheimer's Disease; Diabetes; Diabetic Retinopathy
+Brain Oxygenation,Cognitive & Neurological Performance,Creatine,39569437,
+Increase Brain Oxygenation,Cognitive & Neurological Function,Creatine,39569437,
+Sleep Duration,Sleep,Creatine,39203908,
+Ulcerative Colitis,Gut Health,Curcumin; Eicosapentaenoic acid (EPA); Resveratrol; Saffron; Selenium,29391271; 33015869; 37525068; 38794742,
+Bacterial Vaginosis,Women's Health,Curcumin,40032905,Women
+Chronic Kidney Disease,Kidney & Bladder Health,Curcumin; Manganese; Taurine; Vitamin B6 (Pyridoxine),23392542; 24491880; 35598122; 36640725; 38809154; 39620369,Cancer; Chemotherapy; Diabetes Type 2; Fatty Liver Disease
+Dry Eyes,Vision & Eye Health,Curcumin; Lutein; Selenium; Taurine; Vitamin B1 (Thiamine); Zeaxanthin,29687335; 36145126; 39613259; 39770987; 39894407; 40244565,Glaucoma
+Burping,Gut Health,Curcumin,40647170,Obese; Women
+Improve Hearing,Quality of Life & Function,Curcumin,39079962,CKD
+Atherosclerosis,Heart & Vascular Health,Curcumin; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Garlic; Lutein; Maca; Vitamin B7 (Biotin); Vitamin K1; Vitamin K2; Zeaxanthin,17496732; 18054420; 22169620; 23719555; 24285427; 24285428; 28863874; 30271161; 31334703; 32759543; 34637494; 36721177; 37681568; 38885922; 38890092; 39125322; 39680321,CKD; Diabetes Type 2; Hemodialysis; Obese
+Increase Muscle Mass,Weight & Body Composition,Curcumin,39934549,IBD
+Peridontitis,Oral Health,Curcumin; Docosahexaenoic acid (DHA); Eicosapentaenoic acid (EPA); Grape seed extract; Iodine; Melatonin; Resveratrol,29349878; 32867199; 35758374; 36973728; 38764161; 38953482; 39948592; 40258261; 40523816; 40884630,Diabetes; Smokers
+Systemic Lupus Erythematosus,"Cognitive & Neurological Function; Immune, Inflammation, & Infection",Docosahexaenoic acid (DHA); N-Acetylcysteine (NAC),33303222; 36810107; 38091778,
+Eye Health,Vision & Eye Health,Docosahexaenoic acid (DHA); Lutein; Zeaxanthin,17084803; 18551295; 25468896; 27273910; 29185931; 30044439; 32544914; 32581313; 32998324; 34684356; 34684614; 36961139; 38794653,Menopause; Mypoia; Women
+Increased Breast Milk Supply,Women's Health,Docosahexaenoic acid (DHA),33339438,Lactating; Women
+Power,Performance & Recovery,Docosahexaenoic acid (DHA); Taurine,28338362; 28945675; 30776254; 32466231; 33087145; 35213817; 36297081; 37024995; 38406865,Boxers; Cycling; Men; Rugby Players; Sprinting; Women
+Low Testosterone,Men's Health,Docosahexaenoic acid (DHA); Fenugreek; Panax ginseng,30543483; 33221700; 39288153,
+High Resting Heart Rate,Heart & Vascular Health,Docosahexaenoic acid (DHA),35953431,Pregnant; Women
+Keratoconus,Vision & Eye Health,Docosahexaenoic acid (DHA),36904299,
+Epilepsy,Cognitive & Neurological Function,Eicosapentaenoic acid (EPA),30170260,
+Low Insulin,Metabolic Health,Eicosapentaenoic acid (EPA),28378851,Diabetes Type 1
+Joint Flexibility,Musculoskeletal & Pain,Eicosapentaenoic acid (EPA); Undenatured type II collagen,33648546; 35377244,
+Oral Precancerous Lesions,Oral Health,Fenugreek; Vitamin D; Zinc,39873252; 40457259,Leukoplakia; Lichen Planus; Submucous Fibrosis
+Atrophic Vaginitis,Women's Health,Fenugreek,32640956,Menopause; Women
+Dyspepsia,Gut Health,Garlic; Peppermint oil; Probiotics (Bifidobacterium),11121917; 30238636; 38172093,
+Erectile Dysfunction,Men's Health,Garlic; L-Arginine; L-Citrulline; Maca; Panax ginseng; Tongkat Ali,19234482; 19260845; 21195829; 31267684; 31326304; 32441833; 33541567; 34973154; 34983126; 39250620,
+Elevated Liver Enzymes,Gut Health,Garlic; Inositol; Nicotinamide Riboside,27743130; 32312333; 36082508; 36963888,Fatty Liver Disease
+Nausea,Gut Health,Ginger; Lavender; Peppermint oil; Vitamin B6 (Pyridoxine),19509551; 31745695; 31834519; 32705833; 33197662; 33788482; 35304019; 37699474; 37774171; 37891539; 38461442; 39020488; 39447066; 39729294; 40154579,Cancer; Chemotherapy; Multiple Sclerosis; Postoperative
+Allergic Rhinitis,"Immune, Inflammation, & Infection",Ginger,32312261,
+Multiple Sclerosis,Cognitive & Neurological Function,Ginger; Saffron; Vitamin B7 (Biotin),25787192; 27589059; 32615663; 36974730,
+Eye Fatigue,Vision & Eye Health,Ginger,39203851,
+Atopic Dermatitis,"Skin, Hair, & Nails",Ginger,39193679,
+Oral Mucositis,Oral Health,Ginger; L-Arginine,40134126; 40603739,Cancer
+Joint Protection,Healthy Aging & Prevention,Glucosamine,26806185; 30132529,Overweight; Women
+Neck Pain,Musculoskeletal & Pain,Glucosamine,30203748,Cervical Spondylosis
+Cystic Fibrosis,Respiratory Health,Glycine,29246256,
+Parkinson's Disease Neuropsychiatric Symptoms,"Energy, Mood, & Mental Health",Glycine,24612097,Parkinson's Disease
+Excessive Hair Growth,"Skin, Hair, & Nails",Glycine,33934471,
+High Uric Acid,Heart & Vascular Health,Glycine; Resveratrol,30845731; 31652875; 36771199,
+Psychosis,"Energy, Mood, & Mental Health",Glycine; Taurine,27835719; 31279534,
+Vaginal Dryness,Women's Health,Glycine,24856055,Menopause; Women
+Leg Swelling,Musculoskeletal & Pain,Grape seed extract,22752876,Women
+Exercise Performance,Performance & Recovery,Grape seed extract; L-Citrulline; Magnesium; Panax ginseng; Vitamin D,16355078; 24525046; 25665208; 28940638; 32379240; 36361103; 38785940; 40077784; 40618056,Basketball Players; Eisenmenger Syndrome; Older Adults; Pulmonary Hypertension; Running
+Venous Leg Ulcers,"Skin, Hair, & Nails",Hibiscus,31298659,
+Infertiliy,Women's Health,Inositol,36754158,Women
+Gestational Diabetes Prevention,Women's Health,Inositol,35277398; 35686634; 39141124,Overweight; Pregnant; Women
+Dysmenorrhea,Women's Health,Inositol; Lavender; Vitamin B1 (Thiamine),25363189; 31298405; 34624138; 37931721; 39847053,PCOS; Women
+Acne,"Skin, Hair, & Nails",L-Arginine; Panax ginseng; Vitamin K1,29360920; 30307464; 30506753; 31347768,
+Anal Fissures,Gut Health,L-Arginine,36449096,
+Heart Failure,Heart & Vascular Health,L-Arginine,33610421,
+COPD,Respiratory Health,L-Arginine; N-Acetylcysteine (NAC); Nicotinamide Riboside; Panax ginseng; Vitamin C,21718484; 27117852; 39548320; 40316462,Men
+Kidney Stones,Kidney & Bladder Health,L-Arginine; Magnesium,39206631; 39913253; 40498114,
+Sciatic Pain,Musculoskeletal & Pain,L-Carnitine; Resveratrol; Vitamin B1 (Thiamine),38138300; 39683579,
+Fibromyalgia,Musculoskeletal & Pain,L-Carnitine,37378482,
+Carpal Tunnel Syndrome,Musculoskeletal & Pain,L-Carnitine; Phosphatidylserine,37366197,
+Graves' Disease,Metabolic Health,L-Carnitine; Selenium,40871722,Diabetes Type 2; Women
+Stroke Recovery,Cognitive & Neurological Function,L-Carnitine; N-Acetylcysteine (NAC); Saffron; Vitamin B12 (Cobalamin),29071932; 33151132; 35936217; 38212360,
+Gut Injury During Exercise,Performance & Recovery,L-Citrulline,24621960,
+Becker Muscular Dystrophy,Musculoskeletal & Pain,L-Citrulline,30003335; 34579009,Older Adults
+Focus,Cognitive & Neurological Function,L-Theanine; Lutein,18296328; 18681988; 20079786; 21040626; 29420994; 32777998; 36263942; 37364683; 39052627,Multiple Sclerosis
+Sensorimotor Gating,Cognitive & Neurological Function,L-Theanine,24372613; 37815006,Curlers
+Thermoregulation,Performance & Recovery,L-Tyrosine; Taurine,28477375; 31609301; 38582816,Older Adults
+Fear of Heights,Cognitive & Neurological Function,Lavender,33305625,Multiple Sclerosis
+Postherpetic Neuralgia,Musculoskeletal & Pain,Lavender; Vitamin B12 (Cobalamin),24196971; 38267936,Herpes
+Restless Legs Syndrome,Musculoskeletal & Pain,Lavender; Vitamin B6 (Pyridoxine),33838094; 34779137; 36587225,CKD; Hemodialysis
+Macular Degeneration,Vision & Eye Health,Lutein; Vitamin B6 (Pyridoxine); Zeaxanthin,19237716; 22027699; 22743321; 23695657; 24310343; 32249850; 35653117; 39025435,
+General Cognitive Health,Healthy Aging & Prevention,Lutein; Zeaxanthin,30680611,
+Visual Processing Speed,Cognitive & Neurological Function; Performance & Recovery,Lutein; Zeaxanthin,25251377; 25483230; 30950580,
+Increase Ocular Blood Flow,Vision & Eye Health,Lutein,30932775,
+Improved Breast Milk Quality,Women's Health,Lutein,33339438,Pregnant; Women
+High Total Cholesterol,Heart & Vascular Health,Magnesium,39410716,Diabetes Type 2
+Pelvic Pain,Women's Health,Melatonin,40238733,Endometriosis
+Delirium Prevention,Cognitive & Neurological Function,Melatonin,39800236,Critically Ill Patients
+Gait Problems,Cognitive & Neurological Function,Melatonin,39122092,Multiple Sclerosis
+Amyloid Angiopathy,Heart & Vascular Health,N-Acetylcysteine (NAC),40163249,
+HIV,"Immune, Inflammation, & Infection",N-Acetylcysteine (NAC),29392418,
+Addiction,"Energy, Mood, & Mental Health",N-Acetylcysteine (NAC),40352229,
+Immune Preservation,"Healthy Aging & Prevention; Immune, Inflammation, & Infection",N-Acetylcysteine (NAC); Vitamin D,40421021,Older Adults
+Healthy Aging,Healthy Aging & Prevention,Nicotinamide Riboside; Nicotinamide mononucleotide; Selenium; Vitamin D,29211728; 31685720; 37443807; 38960007; 40409468; 40459998,Older Adults; Werner Syndrome
+Neurodegenerative Disease Prevention,Healthy Aging & Prevention,Nicotinamide Riboside,36515353,
+Neuroprotection,Cognitive & Neurological Function,Nicotinamide Riboside,35235774,Parkinson's Disease
+Parkinson's Disease,Cognitive & Neurological Function,Nicotinamide Riboside; Vitamin B3 (Niacin); Vitamin D,29759143; 38016950; 40646117,
+Peripheral Artery Disease,Heart & Vascular Health,Nicotinamide Riboside,38871717,
+ADHD,"Energy, Mood, & Mental Health",Panax ginseng; Phosphatidylserine,22435351; 23495677,
+Calmness,"Energy, Mood, & Mental Health",Panax ginseng; Phosphatidylserine,17457961; 20737519; 39317299,
+Fibromyalgia Pain,Musculoskeletal & Pain,Panax ginseng,23567596,Fibromyalgia
+Improve Social Functioning,"Energy, Mood, & Mental Health",Panax ginseng,11895046,
+Working Memory Performance,Cognitive & Neurological Function,Panax ginseng,20737519,
+Genitourinary Syndrome,Women's Health,Panax ginseng,33730722,Menopause; Women
+Gastric Motility,Gut Health,Peppermint oil,10641042; 12562459; 12601675; 17653649,
+IBS,Gut Health,Peppermint oil; Probiotics (Bifidobacterium); Vitamin D,17420159; 19507027; 23416804; 26319955; 31470006; 34468079; 36717369; 40431448,IBS
+Cough,Respiratory Health,Probiotic (Akkermansia),39683507,
+Metabolic Syndrome,Metabolic Health,Probiotic (Akkermansia); Probiotics (Bifidobacterium); Resveratrol,33477821; 36125447; 37086927; 39792908,
+Constipation,Gut Health,Probiotics (Bifidobacterium); Probiotics (Lactobacillus),38794748; 39244201; 40033155,Postoperative
+Mental Wellness,"Energy, Mood, & Mental Health",Probiotics (Bifidobacterium),38869657; 40499217,
+Dandruff,"Skin, Hair, & Nails",Probiotics (Bifidobacterium),36862071,
+General Gut Health,Gut Health,Probiotics (Bifidobacterium); Probiotics (Lactobacillus),39519413; 40383259,Obese; Overweight
+Bacterial Vaginosus,Women's Health,Probiotics (Lactobacillus),38336815; 38733973,Menopause; Women
+Common Cold,"Immune, Inflammation, & Infection",Probiotics (Lactobacillus),37892533; 39796535,
+H. Pylori Infection,Gut Health,Probiotics (Lactobacillus),38022520; 39023173,
+Abdominal Discomfort,Gut Health,Probiotics (Lactobacillus),39339788,
+Gingivitis,Oral Health,Probiotics (Lactobacillus),37974136,
+Vaginal HPV,"Immune, Inflammation, & Infection",Probiotics (Lactobacillus),39058300,
+Liver Dysfunction,Gut Health,Probiotics (Lactobacillus); Zinc,38617455; 39205654; 39789197,HBV; HCV
+Canker Sores,Oral Health,Probiotics (Lactobacillus),38114936,
+Fatty LIver Disease,Gut Health,Probiotics (Lactobacillus); Vitamin E,39046973; 39970876; 40202706; 40383220; 40480879; 40564891,Diabetes Type 2
+Vaginal Health,Women's Health,Probiotics (Lactobacillus),40772934,Women
+Alzheimer's Disease,Cognitive & Neurological Function,Resveratrol; Vitamin B12 (Cobalamin); Vitamin E,11424170; 11723153; 34101780; 36093704; 37334792; 40507855,Cobalamin Deficiency; Older Adults
+Vascular Health,Heart & Vascular Health,Resveratrol,39317438,Marfan Syndrome
+General Oral Health,Oral Health,Resveratrol; Zinc,38367826; 40057571; 40691696,
+Rosacea,"Skin, Hair, & Nails",Resveratrol,35765796,
+Anaerobic Capacity,Performance & Recovery,Rhodiola Rosea,15256690; 20308973; 23443221; 30371146,
+HIgh Total Cholesterol,Heart & Vascular Health,Saffron,33496985; 35235859,Men; Older Adults
+Graves' Orbitopathy,Vision & Eye Health,Selenium,38200401; 38374579,
+Hair Loss,"Skin, Hair, & Nails",Selenium; Vitamin B7 (Biotin),35791704; 37357646,Alopecia
+Seborrheic Dermatitis,"Skin, Hair, & Nails",Selenium,37098774,
+Academic Performance,Cognitive & Neurological Function,Taurine,35882814,
+Muscle Cramps,Musculoskeletal & Pain,Taurine; Vitamin B7 (Biotin); Vitamin K2,22791079; 30136291; 33381931; 35203045; 39466236,CKD; Chronic Liver Disease; Cirrhosis; Hemodialysis
+Tics,"Energy, Mood, & Mental Health",Taurine,31618495,
+Muscloskeletal Pain,Musculoskeletal & Pain,Vitamin B1 (Thiamine); Vitamin B6 (Pyridoxine),38842764,Cervical Sprain
+Vaginal Bleeding,Women's Health,Vitamin B1 (Thiamine),24738933,IUD Use; Women
+Postherpetic Itching,"Skin, Hair, & Nails",Vitamin B12 (Cobalamin),23887347,Herpes
+High Lpa,Heart & Vascular Health,Vitamin B3 (Niacin),25936305; 26289089,
+Glaucoma,Vision & Eye Health,Vitamin B3 (Niacin),32721104,
+Cataracts,Vision & Eye Health,Vitamin B6 (Pyridoxine),26786311,
+Dream Recall,Sleep,Vitamin B6 (Pyridoxine),29665762,
+Nausea & Vomiting During Pregnancy,Women's Health,Vitamin B6 (Pyridoxine),17621727; 20843504; 25052410; 25884778; 27881103; 28052111; 28375108; 28629250; 28631509; 29342163; 37335994,Pregnant; Women
+Hand-Foot Syndrome,Musculoskeletal & Pain,Vitamin B6 (Pyridoxine),33227569,Chemotherapy
+Tardive Dyskinesia,Cognitive & Neurological Function,Vitamin B6 (Pyridoxine),18052557,
+Brittle Nails,"Skin, Hair, & Nails",Vitamin B7 (Biotin),31344296,
+Mania,"Energy, Mood, & Mental Health",Vitamin B9 (Folate),40200764,Bipolar Disorder I
+Folate Deficiency,Women's Health,Vitamin B9 (Folate),37649241,Pregnant; Women
+Periorbital Hyperpigmentation,"Skin, Hair, & Nails",Vitamin C,39279329,
+Improved Color Vision,Vision & Eye Health,Zeaxanthin,16460314,
+Skin Hydration,"Skin, Hair, & Nails",Zeaxanthin,27312122,
+Liver Protection,Gut Health,Zinc,39610253,
+Alcoholic Hepatitis,Gut Health,Zinc,38342441,
+Tooth Sensitivity,Oral Health,Zinc,39572408; 40517062,

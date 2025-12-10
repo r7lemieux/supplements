@@ -20,12 +20,15 @@ export class Contact extends Mo {
     // if (!moMeta) moMeta = new MoMeta(contactMoDef)
     super(Contact.moMeta)
   }
-
-  hydrate = (props: Partial<Contact>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || `${this.firstName || ''}  ${this.lastName || ''}`
     return this
   }
+  // hydrate = (props: Partial<Contact>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || `${this.firstName || ''}  ${this.lastName || ''}`
+  //   return this
+  // }
 
   getDisplayName = () => `${this.firstName} ${this.lastName}`
 

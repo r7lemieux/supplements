@@ -8,9 +8,11 @@ import {
   ColumnAutoSizeModule,
   ModuleRegistry
 } from 'ag-grid-community' // does it work here? I had to put that in the app
+import {initMoTransport} from 'svelte-mos'
 
 export const init: ClientInit = async () => {
   console.log('Initializing client ...')
+  initMoTransport()
   registerMoMetas()
   // ModuleRegistry.registerModules([AllCommunityModule])
   ModuleRegistry.registerModules([

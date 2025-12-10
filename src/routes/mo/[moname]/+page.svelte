@@ -5,7 +5,7 @@
   import {toDisplayString} from 'svelte-mos'
   import { page } from '$app/stores';
   
-  let { data, params } = $props()
+  let { data } = $props()
   const { moMeta, mos, moname } = $derived(data)
   // const mos = $derived(data.mos)
   // const moMeta = $derived(data.moMeta)

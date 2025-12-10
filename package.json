@@ -27,11 +27,11 @@
 			"esbuild"
 		],
 		"overrides": {
-			"svelte-mos": "link:../svelte-mos1"
+			"svelte-mos": "link:../../lib/svelte-mos"
 		}
 	},
 	"dependencies": {
 		"ag-grid-community": "^34.3.1",
-		"svelte-mos": "file:../svelte-mos1"
+		"svelte-mos": "file:../../lib/svelte-mos"
 	}
 }

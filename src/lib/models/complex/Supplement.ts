@@ -16,12 +16,15 @@ export class Supplement extends Mo {
     super(Supplement.moMeta)
   }
 
-  hydrate = (props: Partial<Supplement>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || this.name
     return this
   }
-
+  // hydrate = (props: Partial<Supplement>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || this.name
+  //   return this
+  // }
   getDisplayName = () => this.displayName || this.name
 
   getId: () => number = () => this.id as number

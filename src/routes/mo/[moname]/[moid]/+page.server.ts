@@ -1,8 +1,16 @@
 import type {Actions} from './$types'
-import {ErrorName, getMoMeta, type MoMeta, Rezult} from 'svelte-mos'
-import {error, redirect} from '@sveltejs/kit'
+import {ErrorName, getMoMeta, Rezult} from 'svelte-mos'
+import {error, redirect, type RequestEvent} from '@sveltejs/kit'
+import {
+  processRequestCreate,
+  processRequestDelete,
+  processRequestPatch,
+  processRequestReplace,
+  processRequestRetrieve,
+  processRequestUpsert
+} from '$lib/services/mo/requestHandler.ts'
 
-export async function load({ params }: any) {
+export async function load({params}: any) {
   const moname = params.moname
   const moMeta = getMoMeta(moname)
   const id = params.moid
@@ -16,14 +24,25 @@ export async function load({ params }: any) {
   return {mo, moname}
 }
 
-export const actions = {
-  remove: async (event) => {
-    const id = event.params.moid
-    const moname = event.params.moname
-    // const action = event.url.pathname.split('/').slice(-1)[0]
-    const moMeta: MoMeta = getMoMeta(moname)
-    moMeta.dataSource.deleteMo(id)
-    redirect(303, '..')
+export const actions: Actions = {
+  retrieve: async (event: RequestEvent) => {
+    return await processRequestRetrieve(event.params)
+  },
+  create: async (event: RequestEvent) => {
+    return await processRequestCreate(event.params, event.request)
+    //throw redirect(303, `/${event.params.moname}/${event.params.moid');
+  },
+  replace: async (event: RequestEvent) => {
+    return await processRequestReplace(event.params, event.request)
+  },
+  patch: async (event: RequestEvent) => {
+    return await processRequestPatch(event.params, event.request)
+  },
+  upsert: async (event: RequestEvent) => {
+    return await processRequestUpsert(event.params, event.request)
+  },
+  delete: async (event: RequestEvent) => {
+    await processRequestDelete(event.params)
+    throw redirect(303, `/mo/${event.params.moname}`);
   }
-} satisfies Actions;
-
+} satisfies Actions

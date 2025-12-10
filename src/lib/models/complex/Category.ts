@@ -9,11 +9,15 @@ export class Category extends Mo {
     super(Category.moMeta)
   }
 
-  hydrate = (props: Partial<Category>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || this.name
     return this
   }
+  // hydrate = (props: Partial<Mo>) => {
+  //   this.moMeta.moDef.objToMo(props)
+  //   this.displayName = this.displayName || this.name
+  //   return this
+  // }
 
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id

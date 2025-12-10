@@ -3,10 +3,12 @@ import {loadData} from './lib/config/dataload/mo.dataload.js'
 import {appState} from './hooks.js'
 import type { ServerInit } from '@sveltejs/kit';
 import { dev } from '$app/environment';
+import {initMoTransport} from 'svelte-mos'
 
 export const init: ServerInit = async () => {
   console.log('Initializing server ...');
   // await connectToDatabase(); // Example: connect to your database
+  initMoTransport()
   registerMoMetas()
   loadData()
   appState.initialized = true

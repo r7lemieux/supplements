@@ -75,6 +75,7 @@ export const loadEvidenceData = async () => {
               study0.year = studyRaw.year
               study0.title = studyRaw.title
               study0.studyDesign = studyDesign
+              study0.setDisplayName()
               study = await Study.moMeta.dataSource.addMo(study0) as Study
               studiesByPmid[pmid] = study
             }

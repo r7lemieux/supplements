@@ -12,13 +12,20 @@ export class Study extends Mo {
   constructor() {
     super(Study.moMeta)
   }
-
-  hydrate = (props: Partial<Study>) => {
-    Object.assign(this, props)
-    this.displayName = this.displayName || this.title || `pmid ${this.pmid}`
+  init = () => {
+      this.displayName = this.displayName || this.title || `pmid ${this.pmid}`
     return this
   }
+  // hydrate = (props: Partial<Study>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || this.title || `pmid ${this.pmid}`
+  //   return this
+  // }
 
+  getDisplayName = () => this.displayName || this.title || `pmid ${this.pmid}`
+  setDisplayName = (displayName?: string) => {
+    this.displayName = displayName || this.title || `pmid ${this.pmid}`
+  }
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id
 

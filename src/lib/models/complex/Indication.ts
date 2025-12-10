@@ -10,11 +10,16 @@ export class Indication extends Mo {
     super(Indication.moMeta)
   }
 
-  hydrate = (props: Partial<Indication>) => {
-    Object.assign(this, props)
+  init = () => {
     this.displayName = this.displayName || this.name
     return this
   }
+
+  // hydrate = (props: Partial<Mo>) => {
+  //   Object.assign(this, props)
+  //   this.displayName = this.displayName || this.name
+  //   return this
+  // }
 
   getId: () => number = () => this.id as number
   setId = (id: number) => this.id = id

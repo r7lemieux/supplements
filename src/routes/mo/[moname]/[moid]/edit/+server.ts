@@ -31,7 +31,7 @@ export const POST: RequestHandler = async ({params, request}) => {
 
 export const PUT: RequestHandler = async ({params, request}) => {
   try {
-    console.log(`==>+server.ts:PUT params`, params)
+    console.log(`==>/edit/+server.ts:PUT params`, params)
     const mo = await processRequestUpsert(params, request)
     return json(mo, {status: 200}) // Return the created item with 201 status
   } catch (ex) {

@@ -1,4 +1,4 @@
-import { registerMoMeta } from '../../../../../svelte-mos1'
+import { registerMoMeta } from 'svelte-mos'
 import { Indication } from '$lib/models/complex/Indication.ts'
 
 // IndicationSupplement
