@@ -27,11 +27,11 @@
 			"esbuild"
 		],
 		"overrides": {
-			"svelte-mos": "link:../../lib/svelte-mos"
+			"svelte-mos": "link:../../../.local/share/pnpm/global/5/node_modules/svelte-mos"
 		}
 	},
 	"dependencies": {
 		"ag-grid-community": "^34.3.1",
-		"svelte-mos": "file:../../lib/svelte-mos"
+		"svelte-mos": "file:../../lib/svelte-mos1"
 	}
 }
