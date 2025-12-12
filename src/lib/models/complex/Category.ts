@@ -1,4 +1,4 @@
-import type {Moid} from 'svelte-mos'
+import {DeletePermission, type Moid} from 'svelte-mos'
 import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 
 export class Category extends Mo {
@@ -26,6 +26,7 @@ export class Category extends Mo {
       hasId: false,
       name: 'categories',
       gridFieldnames: ['name'],
+      deletePermission: DeletePermission.no
     })
   ).setName()
   static {

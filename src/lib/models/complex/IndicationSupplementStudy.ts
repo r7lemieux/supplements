@@ -38,7 +38,7 @@ export class IndicationSupplementStudy extends Mo {
   ).setName()
   static {
     IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement')
-    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', 'studies')
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', {moname: 'studies'})
     IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
 
     const moDef = IndicationSupplementStudy.moMeta.moDef

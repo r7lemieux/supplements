@@ -1,5 +1,6 @@
 import {ErrorDef, ErrorName, getMoMeta, type MoMetaInterface, Rezult} from 'svelte-mos'
 import {json} from '@sveltejs/kit'
+import {DeletePermission} from 'svelte-mos'
 
 export const extractRequestParams = async (params: any, idRequired = true): Promise<{
   moMeta: MoMetaInterface,
@@ -96,6 +97,8 @@ export const processRequestPatch = async (params: any, request: Request) => {
 
 export async function processRequestDelete(params: any) {
   const {moMeta, id} = await extractRequestParams(params)
+  if (moMeta.moDef.deletePermission === DeletePermission.no)
+    throw new Rezult(ErrorName.db_delete_not_allowed)
   await moMeta.dataSource.deleteMo(id)
 }
 
