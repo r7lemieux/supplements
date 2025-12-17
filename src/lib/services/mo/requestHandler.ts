@@ -1,4 +1,12 @@
-import {ErrorDef, ErrorName, getMoMeta, type MoMetaInterface, Rezult} from 'svelte-mos'
+import {
+  DeleteCascade,
+  ErrorDef,
+  ErrorName,
+  getMoMeta,
+  type MoFieldDefinition,
+  type MoMetaInterface,
+  Rezult
+} from 'svelte-mos'
 import {json} from '@sveltejs/kit'
 import {DeletePermission} from 'svelte-mos'
 
@@ -97,9 +105,11 @@ export const processRequestPatch = async (params: any, request: Request) => {
 
 export async function processRequestDelete(params: any) {
   const {moMeta, id} = await extractRequestParams(params)
-  if (moMeta.moDef.deletePermission === DeletePermission.no)
-    throw new Rezult(ErrorName.db_delete_not_allowed)
-  await moMeta.dataSource.deleteMo(id)
+  if (moMeta.moDef.deletePermission === DeletePermission.no) {
+    throw new Rezult(ErrorName.instance_delete_not_allowed)
+  }
+
+  return moMeta.dataSource.deleteMo(id)
 }
 
 export const buildRestRezult = (ex: any, method: string, moname: string | null, id: number | string | null) => {

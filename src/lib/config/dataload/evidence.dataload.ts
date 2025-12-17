@@ -90,6 +90,7 @@ export const loadEvidenceData = async () => {
                 dose0.amount = Number.parseInt(doseRaw.amount || '0')
                 dose0.unit = lookupUnit(doseRaw.unit || 'unknown')
                 dose0.durationInDays = Number.parseInt(doseRaw.duration || '0')
+                dose0.buildDisplayName()
                 const dose = await Dose.moMeta.dataSource.addMo(dose0)
                 indicationSupplementStudy0.doses.push(dose)
               }

@@ -50,8 +50,8 @@ export const PATCH: RequestHandler = async ({params, request}) => {
 
 export const DELETE: RequestHandler = async ({params}) => {
   try {
-    const mo = await processRequestDelete(params)
-    return json(mo, {status: 200}) // Return the created item with 201 status
+    const result = await processRequestDelete(params)
+    return json(result, {status: 200}) // Return the created item with 201 status
   } catch (ex) {
     return handleError(ex, params, 'DELETE')
   }

@@ -16,9 +16,11 @@ export class Dose extends Mo {
     this.indication = indication
     this.supplement = supplement
     this.study = study
+    this.displayName = supplement?.displayName
   }
-  init = () => {
-    this.displayName = this.displayName || `${this.durationInDays}x${this.dailyFrequency}x${this.amount}${this.unit}`
+
+  buildDisplayName = () => {
+    this.displayName = `${this.supplement.displayName} ${this.durationInDays}x${this.dailyFrequency}x${this.amount}${this.unit}`
     return this
   }
   // hydrate = (props: Partial<Mo>) => {

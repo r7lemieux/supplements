@@ -23,6 +23,6 @@ export async function handle({ event, resolve }) {
     //console.log(`==> hooks.server.ts:22 event.url `, event.url)
     return new Response('')
   } else {
-    return await resolve(event);
+    return resolve(event);
   }
 }

@@ -1,4 +1,4 @@
-import type {Moid} from 'svelte-mos'
+import {DeleteCascade, MoFieldDefinition, type Moid} from 'svelte-mos'
 import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 import { OutcomeDirection, type OutcomeDirectionEnum } from './enums.ts'
 
@@ -39,8 +39,8 @@ export class IndicationSupplementStudy extends Mo {
   static {
     IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement')
     IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', {moname: 'studies'})
-    IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
-
+    const doseFieldDef: MoFieldDefinition = IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
+    doseFieldDef.deleteCascade = DeleteCascade.cascade
     const moDef = IndicationSupplementStudy.moMeta.moDef
     moDef.moClass = IndicationSupplementStudy
     moDef.createFieldDefs()
