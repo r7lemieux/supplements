@@ -1,7 +1,7 @@
-import {getMoMeta, Mo} from 'svelte-mos'
+import {getMoMeta, initMoTransport, Mo} from 'svelte-mos'
 import type {Transport} from '@sveltejs/kit'
 import {registerMoMetas} from './lib/services/mo/moManagement.js'
-
+initMoTransport()
 export const transport: Transport = {
 
   Mo: {
