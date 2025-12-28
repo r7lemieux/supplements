@@ -3,18 +3,21 @@ import {
   ErrorDef,
   ErrorName,
   getMoMeta,
-  type MoFieldDefinition,
   type MoMetaInterface,
   Rezult
 } from 'svelte-mos'
 import {json} from '@sveltejs/kit'
 import {DeletePermission} from 'svelte-mos'
+import {page} from '$app/state'
 
 export const extractRequestParams = async (params: any, idRequired = true): Promise<{
   moMeta: MoMetaInterface,
   id: string | number
 }> => {
-  const moname = params.moname
+  let moname = params.moname
+  if (!moname) {
+    moname = page.url.pathname.split('/')[2]
+  }
   if (!moname) throw new Rezult(ErrorName.missing_param, {paramsName: 'moname'})
   let id = params.moid
   const moMeta = getMoMeta(moname)
@@ -55,7 +58,25 @@ const extractFieldsFromRequestForm = async (request: Request): Promise<{}> => {
   return fields
 }
 
-export const processRequestRetrieve = async (params: any) => {
+export const processRequestRetrieveAll = async (params: any, request: Request) => {
+  const {moMeta} = await extractRequestParams(params, false)
+  return moMeta.dataSource.getMos()
+    .then(mos => mos.map(mo => mo.toObj()))
+}
+
+export const processRequestRetrieveAllMoids = async (params: any, request: Request) => {
+  const {moMeta} = await extractRequestParams(params, false)
+  return moMeta.dataSource.getMoids()
+    .then(mos => {
+      const objs = mos.map(mo => {
+        const obj = mo.toObj()
+        return obj
+      })
+    return objs
+    })
+}
+
+export const processRequestRetrieve = async (params: any, request: Request) => {
   const {moMeta, id} = await extractRequestParams(params)
   return moMeta.dataSource.getMo(id)
     .then(mo => mo.toObj())
@@ -65,7 +86,7 @@ export const processRequestCreate = async (params: any, request: Request) => {
   const {moMeta} = await extractRequestParams(params, false)
   const fields = await extractFieldsFromRequest(request)
   const newMo = moMeta.moDef.newMo(moMeta)
-  newMo.hydrate(fields)
+  await newMo.hydrateUntrusted(fields)
   return moMeta.dataSource.addMo(newMo)
     .then(newMo => {
       console.log(`==>requestHandler.ts:34 newMo`, newMo)
@@ -77,7 +98,7 @@ export const processRequestUpsert = async (params: any, request: Request) => {
   const {moMeta} = await extractRequestParams(params)
   const fields = await extractFieldsFromRequest(request)
   const newMo = moMeta.moDef.newMo(moMeta)
-  newMo.hydrate(fields)
+  await newMo.hydrateUntrusted(fields)
   return moMeta.dataSource.saveMo(newMo)
     .then(mo => mo.toObj())
 }
@@ -88,7 +109,7 @@ export const processRequestReplace = async (params: any, request: Request) => {
   const mo = await moMeta.dataSource.getMo(id)
   if (!mo) throw new Rezult(ErrorName.db_notFound, {moname: moMeta.name, id})
   const newMo = moMeta.moDef.newMo(moMeta)
-  newMo.hydrate(fields)
+  await newMo.hydrateUntrusted(fields)
   return moMeta.dataSource.saveMo(newMo)
     .then(mo => mo.toObj())
 }
@@ -98,7 +119,7 @@ export const processRequestPatch = async (params: any, request: Request) => {
   const fields = await extractFieldsFromRequest(request)
   const mo = await moMeta.dataSource.getMo(id)
   if (!mo) throw new Rezult(ErrorName.db_notFound, {moname: moMeta.name, id})
-  mo.hydrate(fields)
+  await mo.hydrateUntrusted(fields)
   return moMeta.dataSource.saveMo(mo)
     .then(mo => mo.toObj())
 }

@@ -10,7 +10,6 @@
   // const mos = $derived(data.mos)
   // const moMeta = $derived(data.moMeta)
   // const moname = $derived(params.moname || '')
-  const getMos = () => mos
   // console.log(`==>+page.svelte:11 moname`, moname)
   // console.log(`==>+page.svelte:7 mos.length`, mos.length)
   // console.log(`==>+page.svelte:7 mos[0].moMeta`, !!mos[0])

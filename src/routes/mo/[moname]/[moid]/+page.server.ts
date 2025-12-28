@@ -26,7 +26,7 @@ export async function load({params}: any) {
 
 export const actions: Actions = {
   retrieve: async (event: RequestEvent) => {
-    return await processRequestRetrieve(event.params)
+    return await processRequestRetrieve(event.params, event.request)
   },
   create: async (event: RequestEvent) => {
     return await processRequestCreate(event.params, event.request)

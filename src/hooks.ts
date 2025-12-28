@@ -1,6 +1,7 @@
-import {getMoMeta, initMoTransport, Mo} from 'svelte-mos'
+import {getMoMeta, initMoTransport, Mo, transp} from 'svelte-mos'
 import type {Transport} from '@sveltejs/kit'
 import {registerMoMetas} from './lib/services/mo/moManagement.js'
+import {browser} from '$app/environment'
 initMoTransport()
 export const transport: Transport = {
 
@@ -45,7 +46,8 @@ const encodeMo = (value: any) => {
 const decodeMo = (obj: any) => {
     const moname = obj._moname
     const moMeta = getMoMeta(moname)
-    const mo = moMeta.objToMoid(obj)
+    const trusted = browser
+    const mo = transp.objectToMoidSync(obj, {trusted})
     mo.moMeta = moMeta
     return mo
 }

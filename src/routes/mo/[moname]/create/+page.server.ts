@@ -25,7 +25,7 @@ export const actions = {
       obj[key] = value
     }
     const mo: MoInterface= moMeta.newMo()
-    mo.hydrate(obj as Partial<MoInterface>)
+    mo.hydrateUntrusted(obj as Partial<MoInterface>)
     await moMeta.dataSource.addMo(mo)
     redirect (303, './' + mo.id)
   }

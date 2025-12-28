@@ -9,10 +9,10 @@ import {
   processRequestUpsert
 } from '$lib/services/mo/requestHandler.ts'
 
-export const GET: RequestHandler = async ({params}) => {
+export const GET: RequestHandler = async ({params, request}) => {
   try {
     console.log(`==>+server.ts:GET params`, params)
-    const mo = await processRequestRetrieve(params)
+    const mo = await processRequestRetrieve(params, request)
     return json(mo, {status: 201}) // Return the created item with 201 status
   } catch (ex) {
     return handleError(ex, params, 'GET')
