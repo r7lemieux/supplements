@@ -36,10 +36,10 @@ export class Study extends Mo {
     })
   ).setName()
   static {
-    Study.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
     const moDef = Study.moMeta.moDef
     moDef.moClass = Study
     moDef.createFieldDefs()
+    moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
   }
 }
 

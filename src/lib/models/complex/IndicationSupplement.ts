@@ -1,6 +1,7 @@
-import { CommonFieldDefs, MoFieldDefinition, type Moid } from 'svelte-mos'
+import {BaseFieldDefs, CommonFieldDefs, MoFieldDefinition, type Moid} from 'svelte-mos'
 import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 import { EvidenceTier, type EvidenceTierEnum, SourceType, type SourceTypeEnum } from './enums.ts'
+import {EnumFieldDefinition} from '../../../../../../lib/svelte-mos/src/lib/models/fields/EnumFieldDefinition.ts'
 
 export class IndicationSupplement extends Mo {
   indication: MoidInterface
@@ -40,11 +41,15 @@ export class IndicationSupplement extends Mo {
     // indicationFieldDef.moName = 'indications'
     // indicationFieldDef.name = 'indication'
     // IndicationSupplement.moMeta.moDef.fieldDefs.set('indication', indicationFieldDef)
-    IndicationSupplement.moMeta.moDef.addMoFieldDefFromName('indication')
-    IndicationSupplement.moMeta.moDef.addMoFieldDefFromName('supplement')
-    IndicationSupplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
     const moDef = IndicationSupplement.moMeta.moDef
     moDef.moClass = IndicationSupplement
     moDef.createFieldDefs()
+    moDef.addMoFieldDefFromName('indication')
+    moDef.addMoFieldDefFromName('supplement')
+    moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
+    const evidenceTierFd = new EnumFieldDefinition({min: 1, max: 1, name: 'evidenceTier', validValues: EvidenceTier})
+    const sourceEntryTypeFd = new EnumFieldDefinition({min: 1, max: 1, name: 'sourceEntryType', validValues: SourceType})
+    moDef. addFieldDef(evidenceTierFd)
+    moDef.addFieldDef(sourceEntryTypeFd)
   }
 }
