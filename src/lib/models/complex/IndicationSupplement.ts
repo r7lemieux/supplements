@@ -44,9 +44,9 @@ export class IndicationSupplement extends Mo {
     const moDef = IndicationSupplement.moMeta.moDef
     moDef.moClass = IndicationSupplement
     moDef.createFieldDefs()
-    moDef.addMoFieldDefFromName('indication')
-    moDef.addMoFieldDefFromName('supplement')
-    moDef.addMoArrayFieldDefFromName('indicationSupplementStudies')
+    moDef.addMoFieldDefFromName('indication', {twoWays: true})
+    moDef.addMoFieldDefFromName('supplement', {twoWays: true})
+    moDef.addMoArrayFieldDefFromName('indicationSupplementStudies', {twoWays: true})
     const evidenceTierFd = new EnumFieldDefinition({min: 1, max: 1, name: 'evidenceTier', validValues: EvidenceTier})
     const sourceEntryTypeFd = new EnumFieldDefinition({min: 1, max: 1, name: 'sourceEntryType', validValues: SourceType})
     moDef. addFieldDef(evidenceTierFd)

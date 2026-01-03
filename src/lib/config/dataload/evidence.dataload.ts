@@ -100,17 +100,17 @@ export const loadEvidenceData = async () => {
             study.indicationSupplementStudies.push(new Moid(IndicationSupplementStudy.moMeta, indicationSupplementStudy.id, indicationSupplement.getDisplayName()))
           }
         }
-        await IndicationSupplement.moMeta.dataSource.saveMo(indicationSupplement)
+        await IndicationSupplement.moMeta.dataSource.saveMo(indicationSupplement, {datafill: true})
         indication.indicationSupplements.push(indicationSupplement)
       }
     }
-    await Indication.moMeta.dataSource.saveMo(indication)
+    await Indication.moMeta.dataSource.saveMo(indication, {datafill: true})
   }
-  for (let mo of Object.values(categoriesByName)) await Category.moMeta.dataSource.saveMo(mo)
+  for (let mo of Object.values(categoriesByName)) await Category.moMeta.dataSource.saveMo(mo, {datafill: true})
   // console.log(`==> evidence.dataload.ts:103 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
-  for (let mo of Object.values(supplementsByName)) await Supplement.moMeta.dataSource.saveMo(mo)
+  for (let mo of Object.values(supplementsByName)) await Supplement.moMeta.dataSource.saveMo(mo, {datafill: true})
   // console.log(`==> evidence.dataload.ts:105 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
-  for (let mo of Object.values(studiesByPmid)) await Study.moMeta.dataSource.saveMo(mo)
+  for (let mo of Object.values(studiesByPmid)) await Study.moMeta.dataSource.saveMo(mo, {datafill: true})
 
 }
 // const category0 = new ConditionCategory()
@@ -135,7 +135,7 @@ export const loadEvidenceData = async () => {
 //     condition.supplements.push(new Moid(supplementsMoMeta, condition.getId(), condition.getDisplayName()))
 //   }
 // }
-// await categoriesMoMeta.dataSource.saveMo(category)
+// await categoriesMoMeta.dataSource.saveMo(category, {datafill: true})
 // for (let condition of conditions) await conditionsMoMeta.dataSource.addMo(condition)
-// for (let supplement of Object.values(supplementsByName)) await supplementsMoMeta.dataSource.saveMo(supplement)
+// for (let supplement of Object.values(supplementsByName)) await supplementsMoMeta.dataSource.saveMo(supplement, {datafill: true})
 

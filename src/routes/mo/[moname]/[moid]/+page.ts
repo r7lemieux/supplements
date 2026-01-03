@@ -19,6 +19,5 @@ export async function load({ params, data }: any) {
 		const err = error(404, message)
 		throw err
 	}
-	console.log(`==>+page.ts:22 mo`, mo.displayName)
 	return {mo, moname}
 }

@@ -30,7 +30,7 @@ export class Category extends Mo {
     })
   ).setName()
   static {
-    Category.moMeta.moDef.addMoArrayFieldDefFromName('indications')
+    Category.moMeta.moDef.addMoArrayFieldDefFromName('indications', {twoWays: true})
     const moDef = Category.moMeta.moDef
     moDef.moClass = Category
     moDef.createFieldDefs()

@@ -43,7 +43,7 @@ export class Supplement extends Mo {
     // indicationSupplementFieldDef.moName = 'indicationSupplements'
     // indicationSupplementFieldDef.name = 'indicationSupplements'
     // Supplement.moMeta.moDef.fieldDefs.set('indicationSupplements', indicationSupplementFieldDef)
-    Supplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements')
+    Supplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements', {twoWays: true})
     const moDef = Supplement.moMeta.moDef
     moDef.moClass = Supplement
     moDef.createFieldDefs()

@@ -31,8 +31,8 @@ export class Indication extends Mo {
     })
   ).setName()
   static {
-    Indication.moMeta.moDef.addMoFieldDefFromName('category')
-    Indication.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements')
+    Indication.moMeta.moDef.addMoFieldDefFromName('category', {twoWays: true})
+    Indication.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements', {twoWays: true, reverseFieldName: 'indicationSupplement'})
 
     const moDef = Indication.moMeta.moDef
     moDef.moClass = Indication

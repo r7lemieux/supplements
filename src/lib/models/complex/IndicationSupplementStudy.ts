@@ -37,8 +37,8 @@ export class IndicationSupplementStudy extends Mo {
     })
   ).setName()
   static {
-    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement')
-    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', {moname: 'studies'})
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('indicationSupplement', {twoWays: true})
+    IndicationSupplementStudy.moMeta.moDef.addMoFieldDefFromName('study', {moname: 'studies', twoWays: true})
     const doseFieldDef: MoFieldDefinition = IndicationSupplementStudy.moMeta.moDef.addMoArrayFieldDefFromName('doses')
     doseFieldDef.deleteCascade = DeleteCascade.cascade
     const moDef = IndicationSupplementStudy.moMeta.moDef

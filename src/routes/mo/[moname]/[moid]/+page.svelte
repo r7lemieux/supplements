@@ -3,7 +3,6 @@
   import type {PageProps} from './$types'
   
   let {data}: PageProps = $props()
-  console.log(`==>+page.ts:22 data.mo`, data?.mo?.displayName)
 
 </script>
 
