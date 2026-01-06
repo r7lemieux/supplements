@@ -1,7 +1,7 @@
 import {BaseFieldDefs, CommonFieldDefs, MoFieldDefinition, type Moid} from 'svelte-mos'
 import {Mo, MoDefinition, type MoidInterface, MoMeta, type MoMetaInterface} from 'svelte-mos'
 import { EvidenceTier, type EvidenceTierEnum, SourceType, type SourceTypeEnum } from './enums.ts'
-import {EnumFieldDefinition} from '../../../../../../lib/svelte-mos/src/lib/models/fields/EnumFieldDefinition.ts'
+import {EnumFieldDefinition} from 'svelte-mos'
 
 export class IndicationSupplement extends Mo {
   indication: MoidInterface

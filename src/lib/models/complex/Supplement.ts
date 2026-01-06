@@ -32,7 +32,7 @@ export class Supplement extends Mo {
 
   static moMeta: MoMetaInterface = new MoMeta(MoDefinition.fromProps({
       hasId: true,
-      name: 'supplements',
+      name: 'supplement',
       gridFieldnames: ['name'],
     })
   ).setName()
