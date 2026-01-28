@@ -8,12 +8,12 @@
   let { data } = $props()
   const { moMeta, mos, moname } = $derived(data)
   // const mos = $derived(data.mos)
-  // const moMeta = $derived(data.moMeta)
+  // const moMeta = $derived(data._moMeta)
   // const moname = $derived(params.moname || '')
   // console.log(`==>+page.svelte:11 moname`, moname)
   // console.log(`==>+page.svelte:7 mos.length`, mos.length)
-  // console.log(`==>+page.svelte:7 mos[0].moMeta`, !!mos[0])
-  // console.log(`==>+page.svelte:7 mos[0].moMeta`, !!mos[0].moMeta)
+  // console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0])
+  // console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0]._moMeta)
   const title = $derived(toDisplayString(moname))
   const topButtons = true
 </script>

@@ -1,8 +1,11 @@
-import {getMoMeta, initMoTransport, Mo, transp} from 'svelte-mos'
-import type {Transport} from '@sveltejs/kit'
+import {getMoMeta, initMoTransport, initRelationMetas, Mo, transp} from 'svelte-mos'
+import type {ClientInit, Transport} from '@sveltejs/kit'
 import {registerMoMetas} from './lib/services/mo/moManagement.js'
 import {browser} from '$app/environment'
+import {initApp} from './lib/services/system/init.ts'
 initMoTransport()
+
+initApp()
 export const transport: Transport = {
 
   Mo: {
@@ -11,10 +14,10 @@ export const transport: Transport = {
       registerMoMetas()
 
       // console.log(`==> hooks.ts:12 value `, typeof value, value instanceof Mo, (typeof value === 'object')?value.constructor.name: '');
-      if (value?.moMeta) return encodeMo(value)
+      if (value?._moMeta) return encodeMo(value)
       // if (value instanceof Array) {
       //   if (!value.length) return []
-      //   if (value[0].moMeta) {
+      //   if (value[0]._moMeta) {
       //     console.log(`==> hooks.ts:18 typeof value `, typeof value, value);
       //     return value.map(encodeMo)
       //   }
@@ -38,9 +41,9 @@ export const transport: Transport = {
 
 const encodeMo = (value: any) => {
   const mo: Mo = value as Mo
-  const obj: any = mo.moMeta.moDef.moToObj(mo)
-  delete obj.moMeta
-  obj._moname = mo.moMeta.name
+  const obj: any = mo._moMeta.moDef.moToObj(mo)
+  delete obj._moMeta
+  obj._moname = mo._moMeta.name
   return obj //JSON.stringify(obj)
 }
 const decodeMo = (obj: any) => {
@@ -48,8 +51,7 @@ const decodeMo = (obj: any) => {
     const moMeta = getMoMeta(moname)
     const trusted = browser
     const mo = transp.objectToMoidSync(obj, {trusted})
-    mo.moMeta = moMeta
+    mo._moMeta = moMeta
     return mo
 }
 
-export const appState = {initialized : false}

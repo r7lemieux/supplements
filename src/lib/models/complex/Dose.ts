@@ -4,18 +4,18 @@ import { Unit, type UnitEnum } from './enums.ts'
 export class Dose extends Mo {
   indication: MoidInterface
   supplement: MoidInterface
-  study: MoidInterface
+  indicationSupplementStudy: MoidInterface
   amount: number = 0
   unit: UnitEnum = Unit.g
   dailyFrequency: number = 1
   durationInDays: number = 7
   formulation: string = 'unknown' // FormulationEnum = Formulation.jelly
   
-  constructor(indication: MoidInterface, supplement: MoidInterface, study: MoidInterface) {
+  constructor(indication: MoidInterface, supplement: MoidInterface, indicationSupplementStudy: MoidInterface) {
     super(Dose.moMeta)
     this.indication = indication
     this.supplement = supplement
-    this.study = study
+    this.indicationSupplementStudy = indicationSupplementStudy
     this.displayName = supplement?.displayName
   }
 
@@ -41,9 +41,9 @@ export class Dose extends Mo {
     })
   ).setName()
   static {
-    Dose.moMeta.moDef.addMoFieldDefFromName('indication', {twoWays: true})
-    Dose.moMeta.moDef.addMoFieldDefFromName('supplement', {twoWays: true})
-    Dose.moMeta.moDef.addMoFieldDefFromName('study', {twoWays: true})
+    Dose.moMeta.moDef.addMoFieldDefFromName('indication')
+    Dose.moMeta.moDef.addMoFieldDefFromName('supplement')
+    Dose.moMeta.moDef.addMoFieldDefFromName('indicationSupplementStudy')
     const moDef = Dose.moMeta.moDef
     moDef.moClass = Dose
     moDef.createFieldDefs()

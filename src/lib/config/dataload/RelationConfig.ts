@@ -7,25 +7,23 @@ import {Supplement} from '../../models/complex/Supplement.ts'
 import {Study} from '../../models/complex/Study.ts'
 import {Dose} from '../../models/complex/Dose.ts'
 
-const initRelations = () => {
+export const createRelations = () => {
     addRelation(
         Category.moMeta,
         Indication.moMeta,
         {
             min2: 1,
             max2: 1,
-            deleteCascade2: DeleteCascade.cascade
+            deleteCascade1: DeleteCascade.cascade
         }
         )
-
-
     addRelation(
         Indication.moMeta,
         IndicationSupplement.moMeta,
         {
             min2: 1,
             max2: 1,
-            deleteCascade2: DeleteCascade.cascade
+            deleteCascade1: DeleteCascade.cascade
         }
     )
     addRelation(
@@ -34,7 +32,7 @@ const initRelations = () => {
         {
             min2: 1,
             max2: 1,
-            deleteCascade2: DeleteCascade.cascade
+            deleteCascade1: DeleteCascade.cascade
         }
     )
     addRelation(
@@ -43,20 +41,27 @@ const initRelations = () => {
         {
             min2: 1,
             max2: 1,
-            deleteCascade2: DeleteCascade.cascade
+            deleteCascade1: DeleteCascade.cascade
         }
     )
     addRelation(
         IndicationSupplementStudy.moMeta,
         Study.moMeta,
         {
+            min1: 1,
+            max1: 1,
             min2: 1,
-            max2: 1,
-            deleteCascade2: DeleteCascade.cascade
+            max2: -1,
+            deleteCascade1: DeleteCascade.cascade
         }
     )
     addRelation(
         IndicationSupplementStudy.moMeta,
         Dose.moMeta,
+        {
+            min2: 1,
+            max2: 1,
+            deleteCascade1: DeleteCascade.cascade
+        }
     )
 }

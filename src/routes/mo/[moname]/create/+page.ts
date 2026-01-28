@@ -7,6 +7,6 @@ export const ssr = true;
 // /** @type {import('./$types').PageLoad} */
 // export function load({data, params}: any) {
 //   const moname = params.moname;
-//   const moMeta = data.moMeta // getMoMeta(moname)
+//   const moMeta = data._moMeta // getMoMeta(moname)
 //   return {moMeta}
 // }

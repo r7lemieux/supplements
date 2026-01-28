@@ -32,7 +32,7 @@ export class Supplement extends Mo {
 
   static moMeta: MoMetaInterface = new MoMeta(MoDefinition.fromProps({
       hasId: true,
-      name: 'supplement',
+      name: 'supplements',
       gridFieldnames: ['name'],
     })
   ).setName()
@@ -43,7 +43,7 @@ export class Supplement extends Mo {
     // indicationSupplementFieldDef.moName = 'indicationSupplements'
     // indicationSupplementFieldDef.name = 'indicationSupplements'
     // Supplement.moMeta.moDef.fieldDefs.set('indicationSupplements', indicationSupplementFieldDef)
-    Supplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements', {twoWays: true})
+    Supplement.moMeta.moDef.addMoArrayFieldDefFromName('indicationSupplements')
     const moDef = Supplement.moMeta.moDef
     moDef.moClass = Supplement
     moDef.createFieldDefs()

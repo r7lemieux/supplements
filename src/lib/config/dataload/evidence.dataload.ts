@@ -96,7 +96,7 @@ export const loadEvidenceData = async () => {
               }
             }
             const indicationSupplementStudy = await IndicationSupplementStudy.moMeta.dataSource.addMo(indicationSupplementStudy0) as IndicationSupplementStudy
-            indicationSupplement.indicationSupplementStudies.push(new Moid(Study.moMeta, indicationSupplementStudy.id, study.title))
+              indicationSupplement.indicationSupplementStudies.push(new Moid(IndicationSupplementStudy.moMeta, indicationSupplementStudy.id, study.title))
             study.indicationSupplementStudies.push(new Moid(IndicationSupplementStudy.moMeta, indicationSupplementStudy.id, indicationSupplement.getDisplayName()))
           }
         }
@@ -107,9 +107,9 @@ export const loadEvidenceData = async () => {
     await Indication.moMeta.dataSource.saveMo(indication, {datafill: true})
   }
   for (let mo of Object.values(categoriesByName)) await Category.moMeta.dataSource.saveMo(mo, {datafill: true})
-  // console.log(`==> evidence.dataload.ts:103 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
+  // console.log(`==> evidence.dataload.ts:103 Supplement._moMeta.dataSource.records `, (Supplement._moMeta.dataSource as HeapDataSource<any>).records);
   for (let mo of Object.values(supplementsByName)) await Supplement.moMeta.dataSource.saveMo(mo, {datafill: true})
-  // console.log(`==> evidence.dataload.ts:105 Supplement.moMeta.dataSource.records `, (Supplement.moMeta.dataSource as HeapDataSource<any>).records);
+  // console.log(`==> evidence.dataload.ts:105 Supplement._moMeta.dataSource.records `, (Supplement._moMeta.dataSource as HeapDataSource<any>).records);
   for (let mo of Object.values(studiesByPmid)) await Study.moMeta.dataSource.saveMo(mo, {datafill: true})
 
 }
