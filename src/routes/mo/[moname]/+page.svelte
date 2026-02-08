@@ -21,6 +21,7 @@
 <svelte:head>
 	<title>MoDefs</title>
 	<meta name="description" content="metas" />
+	<title>{title}</title>
 </svelte:head>
 <div>
 	{#if moMeta}

@@ -7,11 +7,11 @@
   import {SmMos} from 'svelte-mos'
   
   let { data }  = $props()
-  const { moMeta, mos, moname } = data
-  console.log(`==>+page.svelte:7 mos.length`, mos.length)
-  console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0])
-  console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0]._moMeta)
-  const title = moMeta.name
+  const { moMeta, mos, moname } = $derived(data)
+  // console.log(`==>+page.svelte:7 mos.length`, mos.length)
+  // console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0])
+  // console.log(`==>+page.svelte:7 mos[0]._moMeta`, !!mos[0]._moMeta)
+  const title = $derived(moMeta.name)
   const topButtons = true
 </script>
 

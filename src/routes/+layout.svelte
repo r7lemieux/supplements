@@ -11,6 +11,9 @@
 	</main>
   <Footer/>
 </div>
+<svelte:head>
+	<title>Supplements</title>
+</svelte:head>
 
 <style>
   

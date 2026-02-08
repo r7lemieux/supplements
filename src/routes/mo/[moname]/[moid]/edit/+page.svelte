@@ -3,12 +3,15 @@
 	import {} from 'svelte-mos'
   import type { PageProps } from './$types'
   let { data }: PageProps = $props();
-  const moProm: MoInterface = data?.mo as MoInterface
+  const moProm: MoInterface = $derived(data?.mo as MoInterface)
+  const title = $derived(data.mo.displayString)
+
 </script>
 
 <svelte:head>
 	<title>MoDefs</title>
 	<meta name="description" content="metas" />
+    <title>{title}</title>
 </svelte:head>
 
 <div>

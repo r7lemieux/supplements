@@ -1,32 +1,31 @@
 <script lang="ts">
-  import '../../../app.css'
-  import type { Snippet } from 'svelte'
-  import { page } from '$app/state'
+    import '../../../app.css'
+    import type {Snippet} from 'svelte'
+    import {page} from '$app/state'
 
-  let {
-    path,
-    text,
-    children, // =`<svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"> <path fill={iconColor} d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Z"/></svg>`
-    iconColor = '#BBB',
-    small = false
-  }: { path: string, children: Snippet, text?: string, iconColor?: string, small?: boolean } = $props()
-  if (!text) {
-    text = path.split('/').join(' ')
-  }
-  let selected = $derived(page.url.pathname === path)
-  // console.log(`==> MenuItem.svelte:17 path `, page.url.pathname, path)
-  let clicked = false
-  const onClick = () => {
-    clicked = true
-    setTimeout(() => clicked = false, 1000)
-  }
+    let {
+        path,
+        text,
+        children, // =`<svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="512" height="512"> <path fill={iconColor} d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Z"/></svg>`
+        iconColor = '#BBB',
+        small = false
+    }: { path: string, children: Snippet, text?: string, iconColor?: string, small?: boolean } = $props()
+    text = (() => text || path.split('/').join(' '))()
+
+    let selected = $derived(page.url.pathname === path)
+    // console.log(`==> MenuItem.svelte:17 path `, page.url.pathname, path)
+    let clicked = false
+    const onClick = () => {
+        clicked = true
+        setTimeout(() => clicked = false, 1000)
+    }
 </script>
 <a href={path} class="item ${selected?'selected':'notSelected'}" onclick={onClick}>
   <span class="icon {small?'small':'large'} {selected?'selected':''}"
         style="{selected?'--menu-icon-color: var(--menu-selected-color)':''};">
     {@render children()}
   </span>
-  <span class="text {small?'small':'large'} {selected?'selected':'notSelected'}">{text}</span>
+    <span class="text {small?'small':'large'} {selected?'selected':'notSelected'}">{text}</span>
 </a>
 <style>
 
@@ -74,27 +73,27 @@
             display: inline-block;
         }
     }
+
     .item:hover .text.notSelected {
-            @media (max-width: 800px) {
+        @media (max-width: 800px) {
 
-                visibility: visible;
-                display: table-cell;
-                position: relative;
-                color: var(--menu-item-color);
-                top: -0.2rem;
-                z-index: -3;
-                height: 4rem;
-                transition: top 100ms cubic-bezier(0, 0, 0.9, 1);
-                /*transition: height 200ms cubic-bezier(0, 0.1, 0.9, 1);*/
-
-                &.small {
-                    position: absolute;
-                    height: 1.7rem;
-                    top: 2rem;
-                    padding: 0.6rem 0.3rem 0.3rem 0.3rem;
-                }
+            visibility: visible;
+            display: table-cell;
+            position: relative;
+            color: var(--menu-item-color);
+            top: -0.2rem;
+            z-index: -3;
+            height: 4rem;
+            transition: top 100ms cubic-bezier(0, 0, 0.9, 1);
+            /*transition: height 200ms cubic-bezier(0, 0.1, 0.9, 1);*/
+            &.small {
+                position: absolute;
+                height: 1.7rem;
+                top: 2rem;
+                padding: 0.6rem 0.3rem 0.3rem 0.3rem;
             }
         }
+    }
 
 
     .item .text {
